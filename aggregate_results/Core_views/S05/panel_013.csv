@@ -1,0 +1,4 @@
+﻿Algorithm,Fit,Selected parameters
+D18-L2,Final,C = 0.1
+Random forest,Final,max_depth = 8; min_samples_leaf = 20; max_features = 0.7
+XGBoost,Final,max_depth = 2; min_child_weight = 10; n_estimators = 500

@@ -1,0 +1,7 @@
+﻿T0 specimen,Events,Patients,Known,Positive,Unknown,Positivity,Rank
+Respiratory,"8,759","6,172","8,586",501,173,5.84%,2
+Blood,"3,215","2,696","3,100",81,115,2.61%,3
+Urine,"6,611","5,027","6,303",71,308,1.13%,5
+Other,"4,463","3,491","4,309",87,154,2.02%,4
+Multiple,569,531,528,65,41,12.31%,1
+Missing,0,0,0,0,0,NA,6

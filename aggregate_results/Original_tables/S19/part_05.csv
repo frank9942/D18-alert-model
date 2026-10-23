@@ -1,0 +1,10 @@
+﻿Budget,Model,Alerts,Positive,Known non-positive,Unknown,Added patients (95% CI),First added (95% CI),Alerts / added patient
+1%,D18,151,41,105,5,23.0 (14.0 to 34.0),32.0 (22.0 to 44.0),6.57
+1%,No laboratory inputs,151,46,102,3,28.0 (19.0 to 40.0),38.0 (28.0 to 50.0),5.39
+1%,Result availability only,151,43,102,6,27.0 (17.0 to 37.0),34.0 (24.0 to 44.0),5.59
+2%,D18,301,81,212,8,53.0 (41.0 to 65.0),70.0 (54.0 to 83.0),5.68
+2%,No laboratory inputs,301,82,212,7,50.0 (38.0 to 64.0),68.0 (54.0 to 81.0),6.02
+2%,Result availability only,301,85,209,7,56.0 (43.0 to 69.0),71.0 (58.0 to 86.0),5.38
+5%,D18,752,141,589,22,88.0 (72.0 to 105.0),120.0 (101.0 to 139.0),8.55
+5%,No laboratory inputs,752,136,596,20,81.0 (65.0 to 99.0),112.0 (93.0 to 133.0),9.28
+5%,Result availability only,752,141,592,19,84.0 (69.0 to 103.0),117.0 (99.0 to 137.0),8.95

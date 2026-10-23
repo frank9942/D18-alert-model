@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T06:43:01.373630+00:00",
+  "summary": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "t0_requests": 30047,
+      "co_earliest_multiple_requests": 3729,
+      "later_requests_excluded": 9226,
+      "missing_category": 0,
+      "patient_T0_match": true
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "t0_requests": 23352,
+      "co_earliest_multiple_requests": 2214,
+      "later_requests_excluded": 7976,
+      "missing_category": 0,
+      "patient_T0_match": true
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "t0_requests": 17766,
+      "co_earliest_multiple_requests": 1482,
+      "later_requests_excluded": 6466,
+      "missing_category": 0,
+      "patient_T0_match": true
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "t0_requests": 339069,
+      "co_earliest_multiple_requests": 24156,
+      "later_requests_excluded": 291156,
+      "missing_category": 0,
+      "patient_T0_match": true
+    }
+  ],
+  "hospital_queries": 0,
+  "cache_read_only_unchanged": true,
+  "derived_hashes": {
+    "private\\t0_request_specimen_trace.parquet": "eda1a974ef8a627beb9872662d3b47e262b6de46ae11cba8b451a761fad2d842",
+    "private\\t0_specimens_development_nested.parquet": "27a93318375bf9ca1c453a6b34194336370616f616962e280692ce2c876368fd",
+    "private\\t0_specimens_hospital_2025.parquet": "d7998b112dcd6c4de4ec86e4e471d6fbee1f872be0a55606d03c433d944341ae",
+    "private\\t0_specimens_hospital_2026.parquet": "b134ecec8cc9d5023f28da34338315a1dd994e2fcad9df7974323e5637580de2",
+    "private\\t0_specimens_MIMIC_primary_adapted.parquet": "567110cf9b69bed7891b28366eba9c98c6b047b19e401d6e89dc0e70a0074c96"
+  }
+}

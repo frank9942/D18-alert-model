@@ -1,0 +1,23 @@
+﻿Population,T0 category,Events,Positive,Known non-positive,Unknown,Unknown proportion
+All events,RESP,"6,995",518,"6,342",135,1.93%
+All events,BLOOD,"2,650",68,"2,486",96,3.62%
+All events,URINE,"6,009",53,"5,608",348,5.79%
+All events,OTHER,"4,317",84,"4,122",111,2.57%
+All events,MULTIPLE,338,44,264,30,8.88%
+H90-unflagged,RESP,"6,651",345,"6,177",129,1.94%
+H90-unflagged,BLOOD,"2,548",43,"2,416",89,3.49%
+H90-unflagged,URINE,"5,900",36,"5,520",344,5.83%
+H90-unflagged,OTHER,"4,144",57,"3,984",103,2.49%
+H90-unflagged,MULTIPLE,309,30,251,28,9.06%
+D18 alerts,RESP,361,102,246,13,3.60%
+D18 alerts,MULTIPLE,31,9,20,2,6.45%
+ICU+LOS alerts,RESP,202,59,138,5,2.48%
+ICU+LOS alerts,BLOOD,59,4,51,4,6.78%
+ICU+LOS alerts,URINE,47,3,44,0,0.00%
+ICU+LOS alerts,OTHER,69,5,63,1,1.45%
+ICU+LOS alerts,MULTIPLE,15,3,12,0,0.00%
+ICU-priority alerts,RESP,200.0,26.1,167.8,6.1,3.07%
+ICU-priority alerts,BLOOD,73.2,2.7,62.1,8.4,11.45%
+ICU-priority alerts,URINE,25.1,0.8,23.4,0.9,3.76%
+ICU-priority alerts,OTHER,73.0,4.0,67.4,1.5,2.10%
+ICU-priority alerts,MULTIPLE,20.7,2.7,15.1,2.8,13.71%

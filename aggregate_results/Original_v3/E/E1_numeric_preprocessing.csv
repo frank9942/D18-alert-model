@@ -1,0 +1,3 @@
+﻿encoded_feature,training_median,scale_mean,scale_std,note
+age,64.0,61.69482169455884,15.189653771622325,original numeric input
+length_of_stay,0.9791030092592593,4.268182569685801,11.469721384721236,original numeric input

@@ -1,0 +1,6 @@
+﻿Model,CITL,Joint intercept,Slope,Observed / expected
+D18,−0.3528,−0.2816,1.0399,0.7654
+No laboratory inputs,−0.3183,−0.2110,1.0582,0.7823
+Result availability only,−0.3160,−0.2352,1.0442,0.7856
+No microbiology history,−0.4440,−0.3794,1.0386,0.7065
+No ICU / LOS,−0.3568,−0.2839,1.0409,0.7632

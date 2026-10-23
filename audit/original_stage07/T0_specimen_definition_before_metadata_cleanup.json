@@ -1,0 +1,363 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "length_of_stay",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d",
+    "t0_specimen"
+  ],
+  "configuration": {
+    "version": "crgn_baseline_v1_prefit_20260929",
+    "state": "FROZEN_PRE_FIT_READY_WITH_LIMITATIONS",
+    "target": "Detection of CRE or CRPA or CRAB in fixed-24h inpatient diagnostic culture event",
+    "label_version": "crgn_species_confirmation_v3",
+    "prediction_time": "first culture request T0",
+    "created_at": "2026-09-29T16:37:00.962178+08:00",
+    "features": [
+      "age",
+      "sex",
+      "length_of_stay",
+      "icu_status",
+      "wbc_category",
+      "albumin_category",
+      "creatinine_category",
+      "crp_category",
+      "pct_category",
+      "carbapenem_exposure_90d",
+      "cephalosporin_exposure_90d",
+      "invasive_ventilation_90d",
+      "noninvasive_ventilation_90d",
+      "central_venous_catheter_90d",
+      "urinary_catheter_90d",
+      "prior_target_reported_90d",
+      "prior_crgn_reported_90d",
+      "t0_specimen"
+    ],
+    "numeric_features": [
+      "age",
+      "length_of_stay"
+    ],
+    "categorical_domains": {
+      "sex": [
+        "男",
+        "女",
+        "未知",
+        "MISSING"
+      ],
+      "icu_status": [
+        "0",
+        "1",
+        "MISSING"
+      ],
+      "wbc_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "albumin_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "creatinine_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "crp_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "pct_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "carbapenem_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "cephalosporin_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "invasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "noninvasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "central_venous_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "urinary_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_target_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_crgn_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "t0_specimen": [
+        "RESP",
+        "BLOOD",
+        "URINE",
+        "OTHER",
+        "MULTIPLE",
+        "MISSING"
+      ]
+    },
+    "numeric_category_canonicalization": "0.0/1.0 to 0/1 only for ICU and eight proxy fields; blank -> MISSING",
+    "never_predictors": [
+      "event_id",
+      "patient_id",
+      "t0",
+      "split",
+      "y",
+      "g"
+    ],
+    "target_columns": {
+      "y": "resistant target detection",
+      "g": "target organism group detection including susceptible"
+    },
+    "unknown_labels": "excluded_from_training_and_primary_scoring_never_impute_negative",
+    "training": {
+      "split": "train",
+      "events": 27464,
+      "patients": 17992,
+      "target_detected": 4916,
+      "positive": 1447,
+      "positive_patients": 655
+    },
+    "development_evaluation": {
+      "split": "validation",
+      "events": 22230,
+      "patients": 15246,
+      "target_detected": 3886,
+      "positive": 750,
+      "positive_patients": 420
+    },
+    "numeric_preprocessing": "fit-fold median with missing indicators, then fit-fold standardization",
+    "categorical_preprocessing": "fixed-domain one-hot including MISSING; no semantic zero filling",
+    "plans": [
+      {
+        "id": "D9",
+        "features": [
+          "age",
+          "sex",
+          "length_of_stay",
+          "icu_status",
+          "wbc_category",
+          "albumin_category",
+          "creatinine_category",
+          "crp_category",
+          "pct_category"
+        ],
+        "learners": [
+          "direct_y"
+        ],
+        "role": "reference"
+      },
+      {
+        "id": "D17",
+        "features": [
+          "age",
+          "sex",
+          "length_of_stay",
+          "icu_status",
+          "wbc_category",
+          "albumin_category",
+          "creatinine_category",
+          "crp_category",
+          "pct_category",
+          "carbapenem_exposure_90d",
+          "cephalosporin_exposure_90d",
+          "invasive_ventilation_90d",
+          "noninvasive_ventilation_90d",
+          "central_venous_catheter_90d",
+          "urinary_catheter_90d",
+          "prior_kp_reported_90d",
+          "prior_crkp_reported_90d"
+        ],
+        "learners": [
+          "direct_y"
+        ],
+        "role": "primary"
+      },
+      {
+        "id": "T17",
+        "features": [
+          "age",
+          "sex",
+          "length_of_stay",
+          "icu_status",
+          "wbc_category",
+          "albumin_category",
+          "creatinine_category",
+          "crp_category",
+          "pct_category",
+          "carbapenem_exposure_90d",
+          "cephalosporin_exposure_90d",
+          "invasive_ventilation_90d",
+          "noninvasive_ventilation_90d",
+          "central_venous_catheter_90d",
+          "urinary_catheter_90d",
+          "prior_kp_reported_90d",
+          "prior_crkp_reported_90d"
+        ],
+        "learners": [
+          "g",
+          "y_given_g"
+        ],
+        "role": "secondary_same_T0_structure_comparison",
+        "stage2_fit_filter": "training g=1 only",
+        "inference": "p(g=1|X)*p(y=1|g=1,X) for EVERY evaluation row"
+      }
+    ],
+    "learner": {
+      "type": "L2_logistic_regression",
+      "solver": "liblinear",
+      "fit_intercept": true,
+      "C_grid": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "select": "minimum mean held-fold log_loss per learner",
+      "tie_tolerance": 1e-12,
+      "tie_break": "smaller_C",
+      "max_iter": 5000,
+      "tol": 1e-06,
+      "class_weight": null,
+      "resampling": null,
+      "random_state": 20260929
+    },
+    "folds": {
+      "file": "13_training_patient_five_folds.csv",
+      "n_splits": 5,
+      "seed": 20260929,
+      "grouping": "patient_id",
+      "patient_stratum": "maximum g+y across known training events",
+      "reused_for_hyperparameter_selection_and_OOF": true,
+      "nested_CV": false
+    },
+    "metrics": [
+      "AP",
+      "AUROC",
+      "Brier",
+      "log_loss",
+      "calibration_intercept",
+      "calibration_slope"
+    ],
+    "fixed_comparisons": [
+      "D17_minus_D9",
+      "T17_minus_D17"
+    ],
+    "constant_reference": "training event prevalence",
+    "thresholds": {
+      "fit_on": "training OOF only",
+      "sensitivity_targets": [
+        0.8,
+        0.9
+      ],
+      "select": "highest threshold attaining target; include all equal scores",
+      "unchanged_in_development_evaluation": true
+    },
+    "workload_description": {
+      "fractions": [
+        0.05,
+        0.1,
+        0.2
+      ],
+      "boundary": "score at ceil(q*N), include all boundary ties; report actual fraction",
+      "deployment_threshold": false
+    },
+    "bootstrap": {
+      "unit": "patient_id",
+      "paired": true,
+      "repeats": 1000,
+      "seed": 20260929,
+      "interval": "95 percent percentile",
+      "invalid_replicates": "record, do not silently replace",
+      "minimum_valid": 950,
+      "full_development_uncertainty_included": false
+    },
+    "calibration_diagnostics": {
+      "probability_clip": [
+        1e-06,
+        0.999999
+      ],
+      "max_quantile_bins": 10,
+      "merge_duplicate_edges": true,
+      "modifies_predictions": false
+    },
+    "calibration_fit": false,
+    "sensitivities": [
+      "first_candidate_before_outcome_filter_evaluation_only",
+      "ICU_at_T0",
+      "index_specimens_overlap_allowed",
+      "component_positive_capture_at_global_thresholds"
+    ],
+    "subgroup_metric_min_positive": 20,
+    "subgroup_metric_min_negative": 20,
+    "first_candidate_validation": {
+      "known_events": 14911,
+      "positive": 139
+    },
+    "history_left_truncation": {
+      "train": 5955,
+      "validation": 0
+    },
+    "input_sha256": {
+      "04_modelling_wide_table.csv": "9ca6b11cad8531e00b0cea8ba3028f0b51c0f6df63f999bbe3b628fc55e5cfb6",
+      "03_variable_dictionary.csv": "03197d480f80976e942bbb0ab50c7a52ba26ba945b1e7360133b382bd0b1da47",
+      "13_training_patient_five_folds.csv": "c484e8b4d3b6ceb1c6b7f9d4d73db13e3a56dce8a0afbc7e8d7b9ca56fc92c7d",
+      "15_first_candidate_event_sensitivity_index.csv": "a26993f22b567cf7ddce2b689b8b07bae9edb5ac2e3c577de53d2d25d79356b5",
+      "verification.json": "fec670e5ff4e05c005dae24ae40ea75ea949bb45651d65950c40e4b68ebbe970",
+      "independent_verification.json": "377bf94a1218e6c806a3b95b8ac6b13849e0cb21816afa8f51a0eaebe2ffb162",
+      "02_first_round_baseline_protocol.md": "902c5f580151c0235da694a5a2c12083b7d643ae413915f1bcaa9e5d04ca70d6"
+    },
+    "label_completion_sha256": "f88f4ff9586a1c1d3746dcb5948bc2b42ca23ab06f0366deb6751bcaed130b87",
+    "future_run_directory": "<PROJECT_ROOT>\\second_model_two_stage_comparison_20260927\\crgn_baseline_v1",
+    "test_policy": "LOCKED_PREVIOUSLY_USED_TEST; no 2026 T0 test access",
+    "independent_validation_claim": false,
+    "model_fits": 0,
+    "SQL_count": 0,
+    "limitations": [
+      "unknown outcomes excluded with potentially nonrandom ascertainment",
+      "high lab missingness; missing proxy is not absence",
+      "current snapshot not immutable historical content",
+      "2025 repeatedly used for development; old 2026 test previously accessed",
+      "species distinction user-confirmed; instrument/method details pending for Methods"
+    ]
+  },
+  "intercept": -0.34610177992029917,
+  "note": "All imputers, scales and category encoders are serialized in joblib; LOS transformation serialized in joblib; T0 category defined in prepare.py; H90_unflagged intended only for unflagged events"
+}

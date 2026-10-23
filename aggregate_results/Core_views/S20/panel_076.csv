@@ -1,0 +1,13 @@
+﻿Cohort,Scenario at 2%,Cumulative Δ vs ICU priority,Cumulative Δ vs ICU+LOS,First Δ vs ICU priority,First Δ vs ICU+LOS
+Development,Observed,49.67 (36.34 to 65.28),36.00 (22.00 to 54.00),67.73 (52.66 to 84.71),41.00 (23.00 to 62.00)
+Development,All unknown non-positive,49.67 (36.34 to 65.28),36.00 (22.00 to 54.00),67.73 (52.66 to 84.71),41.00 (23.00 to 62.00)
+Development,All unknown positive,43.06 (29.55 to 59.83),33.00 (17.98 to 51.02),57.50 (41.40 to 76.96),35.00 (17.00 to 57.00)
+Hospital 2025,Observed,39.49 (26.84 to 51.98),16.00 (1.00 to 30.00),60.48 (45.68 to 75.93),29.00 (12.00 to 44.00)
+Hospital 2025,All unknown non-positive,39.49 (26.84 to 51.98),16.00 (1.00 to 30.00),60.48 (45.68 to 75.93),29.00 (12.00 to 44.00)
+Hospital 2025,All unknown positive,31.39 (17.78 to 44.50),20.00 (4.00 to 35.00),43.42 (29.54 to 58.58),26.00 (8.00 to 41.00)
+Hospital 2026,Observed,35.31 (23.50 to 46.95),31.00 (18.00 to 44.00),46.16 (30.60 to 58.79),35.00 (19.00 to 49.00)
+Hospital 2026,All unknown non-positive,35.31 (23.50 to 46.95),31.00 (18.00 to 44.00),46.16 (30.60 to 58.79),35.00 (19.00 to 49.00)
+Hospital 2026,All unknown positive,24.81 (12.02 to 36.43),23.00 (8.00 to 37.00),28.18 (12.75 to 40.05),23.00 (6.00 to 37.00)
+MIMIC-IV,Observed,48.24 (34.21 to 63.30),30.00 (14.00 to 46.00),68.07 (52.34 to 86.67),36.00 (17.00 to 55.00)
+MIMIC-IV,All unknown non-positive,48.24 (34.21 to 63.30),30.00 (14.00 to 46.00),68.07 (52.34 to 86.67),36.00 (17.00 to 55.00)
+MIMIC-IV,All unknown positive,41.99 (−11.06 to 99.93),689.00 (623.00 to 751.00),−367.33 (−413.68 to −325.42),274.00 (228.00 to 317.00)

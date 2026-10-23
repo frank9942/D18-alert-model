@@ -1,0 +1,12 @@
+﻿T0 category,Actual positive specimen,Pathogen,Events,Patients
+Blood,Respiratory,CRPA,3,3
+Blood,Urine,CRE,3,3
+Multiple,Respiratory,CRAB,1,1
+Multiple,Respiratory,CRPA,10,10
+Multiple,Urine,CRPA,1,1
+Respiratory,Respiratory,CRAB,1,1
+Respiratory,Respiratory,CRE,6,6
+Respiratory,Respiratory,CRPA,45,41
+Urine,Respiratory,CRPA,5,5
+Urine,Urine,CRE,1,1
+Urine,Urine,CRPA,1,1

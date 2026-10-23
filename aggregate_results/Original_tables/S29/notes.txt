@@ -1,0 +1,10 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S29 Development coverage and alert burden at every budget
+
+Event-level alert composition. All H90 alerts are retained; extra allocations include unknown-outcome events. ICU priority is expected coverage under random selection within location strata and may be fractional.
+
+
+
+Patient-level coverage and burden. Additional cumulative coverage and first known-positive capture use different H90 exclusion rules and must not be interchanged.
+

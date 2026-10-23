@@ -1,0 +1,37 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S18 Outcome-window sensitivity with fixed D18 scores
+
+All intervals are pointwise 95% patient-cluster intervals. The co-earliest specimen predictor, scores and H90 flags remain fixed. H90-positive patient baselines and first positive events change with the outcome definition. Alert outcome columns describe events. Δ denotes D18 minus the stated comparator. Budgets are percentages of H90-unflagged events.
+
+Development
+
+ 
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 
+
+ 

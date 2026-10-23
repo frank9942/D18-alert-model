@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:28:56.271053+00:00",
+  "elapsed_seconds": 141.35900000005495,
+  "cohorts": [
+    "development_nested",
+    "hospital_2025",
+    "hospital_2026",
+    "MIMIC_primary_adapted"
+  ],
+  "budgets": [
+    1,
+    2,
+    5
+  ],
+  "replicates": 1000,
+  "source_observed_bootstrap_reproduced": true,
+  "models_and_parent_labels_unmodified": true,
+  "no_probability_imputation": true
+}

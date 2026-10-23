@@ -1,0 +1,9 @@
+﻿Cohort,Stratum,Events,Patients,Positive events,Unknown,D18 added at 2%,Δ vs ICU+LOS at 1%,at 2%,at 5%
+Development,After first 90 calendar days,"19,962","12,217","1,181",540,66.0 (52.0 to 81.0),19.0 (9.0 to 32.0),31.0 (17.0 to 46.0),33.0 (16.0 to 50.0)
+Development,First 90 calendar days,"5,388","3,664",307,309,17.0 (9.0 to 25.0),1.0 (−4.0 to 7.0),8.0 (0.0 to 17.0),16.0 (6.0 to 30.0)
+Hospital 2025,Contact span ≥90 days,"6,917","4,692",183,230,17.0 (9.0 to 24.0),3.0 (−2.0 to 8.0),3.0 (−4.0 to 8.0),7.0 (0.0 to 13.0)
+Hospital 2025,Contact span <90 days,"13,392","8,615",584,490,45.0 (33.0 to 58.0),7.0 (−2.0 to 16.0),15.0 (3.0 to 29.0),33.0 (16.0 to 46.0)
+Hospital 2026,Contact span ≥90 days,"5,540","3,781",151,182,13.0 (7.0 to 20.0),3.0 (−2.0 to 8.0),3.0 (−3.0 to 9.0),2.0 (−4.0 to 9.0)
+Hospital 2026,Contact span <90 days,"10,249","6,357",498,396,35.0 (25.0 to 49.0),5.0 (−1.0 to 18.0),24.0 (13.0 to 36.0),22.0 (11.0 to 40.0)
+MIMIC-IV,Contact span ≥90 days,"168,673","41,427",826,"43,083",50.0 (39.0 to 64.0),23.0 (12.0 to 36.0),30.0 (17.0 to 45.0),38.0 (23.0 to 55.0)
+MIMIC-IV,Contact span <90 days,"142,304","61,233",355,"35,136",24.0 (15.0 to 34.0),4.0 (−2.0 to 13.0),7.0 (−3.0 to 17.0),11.0 (0.0 to 20.0)

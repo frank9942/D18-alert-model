@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S26 Supplementary model and workflow identities
+
+The focal D18 model was not refitted or recalibrated in the D18-specific and grouped-ablation analyses. Derived fits are supplementary comparisons, not replacement models. Each has five saved outer models and one final model. Names below describe the analysis; exact filenames and score hashes are retained in the analysis archive. This table contains artifact identifiers, not patient identifiers.
+
+ 
+
+Fixed development thresholds
+
+ 
+
+Thresholds were derived from 23,617 H90-unflagged development events. Boundary hash tie-breaking follows the frozen workflow code. The 2% D18 score threshold is 0.25359903645222276. These are workload-derived cutoffs, not validated absolute-risk decision thresholds. These supplementary workflow analyses followed the primary evaluations (Method S9; Table S16).

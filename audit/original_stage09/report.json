@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "time": "2026-10-15T09:27:43.146424+00:00",
+  "figures": 6,
+  "full_budget_tables": true,
+  "all_six_items": true,
+  "whole_manuscript_not_overwritten": true,
+  "visual_review": "All six PNGs inspected; workflow labels and near-zero interval text corrected and re-inspected",
+  "main_D18_unchanged": true
+}

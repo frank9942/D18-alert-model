@@ -1,0 +1,15 @@
+﻿year,population,development_seen,participated_final_fit,prior_2025_only,patients
+2025,original,False,False,False,12994
+2025,returning,True,False,False,19
+2025,returning,True,True,False,1361
+2025,expanded,False,False,False,12994
+2025,expanded,True,False,False,19
+2025,expanded,True,True,False,1361
+2026,original,False,False,False,9990
+2026,returning,False,False,True,860
+2026,returning,True,False,False,13
+2026,returning,True,True,False,774
+2026,expanded,False,False,False,9990
+2026,expanded,False,False,True,860
+2026,expanded,True,False,False,13
+2026,expanded,True,True,False,774

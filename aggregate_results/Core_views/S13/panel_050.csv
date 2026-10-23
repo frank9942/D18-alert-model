@@ -1,0 +1,10 @@
+﻿Cohort,Pathogen,Respiratory,Blood,Urine,Other,Missing
+Hospital 2025,CRE,16 / 13,0 / 0,1 / 1,0 / 0,0 / 0
+Hospital 2025,CRPA,11 / 9,0 / 0,1 / 1,0 / 0,0 / 0
+Hospital 2025,CRAB,50 / 43,0 / 0,0 / 0,0 / 0,0 / 0
+Hospital 2026,CRE,14 / 13,0 / 0,0 / 0,0 / 0,0 / 0
+Hospital 2026,CRPA,15 / 14,0 / 0,0 / 0,0 / 0,0 / 0
+Hospital 2026,CRAB,32 / 31,0 / 0,0 / 0,0 / 0,0 / 0
+MIMIC-IV,CRE,6 / 6,0 / 0,4 / 4,0 / 0,0 / 0
+MIMIC-IV,CRPA,63 / 53,0 / 0,2 / 2,0 / 0,0 / 0
+MIMIC-IV,CRAB,2 / 2,0 / 0,0 / 0,0 / 0,0 / 0

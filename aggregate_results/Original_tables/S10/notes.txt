@@ -1,0 +1,21 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S10 First known positive capture
+
+Development
+
+ 
+
+Hospital 2025
+
+ 
+
+Hospital 2026
+
+ 
+
+MIMIC-IV
+
+ 
+
+The earliest known-positive event must itself be alerted. Later H90 coverage does not erase an earlier capture. This is not time to appropriate treatment or first true-positive detection.

@@ -1,0 +1,10 @@
+﻿Population,Strategy,Alerts,Positive,Non-positive,Unknown,Added patients [95% CI],First added [95% CI]
+Original,D18,301,81,212,8,"53 [40, 65]","70 [54, 84]"
+Original,ICU+LOS,301,41,243,17,"22 [13, 31]","35 [23, 45]"
+Original,R1/R2,301,64,224,13,"37 [25, 48]","53 [39, 66]"
+Returning,D18,58,11,45,2,"3 [0, 8]","10 [3, 16]"
+Returning,ICU+LOS,58,5,50,3,"2 [0, 5]","4 [1, 9]"
+Returning,R1/R2,58,11,43,4,"5 [1, 11]","9 [3, 18]"
+Expanded,D18,359,89,258,12,"54 [41, 68]","76 [60, 93]"
+Expanded,ICU+LOS,359,47,290,22,"24 [14, 33]","41 [29, 53]"
+Expanded,R1/R2,359,76,263,20,"40 [28, 53]","63 [49, 78]"

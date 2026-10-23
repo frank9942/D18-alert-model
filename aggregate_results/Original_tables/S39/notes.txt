@@ -1,0 +1,42 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S39 Pathogen by actual positive specimen with overlapping cell counts
+
+
+
+Each joint cell below shows events / patients, deduplicated within the pathogen–actual-specimen cell. Cells overlap and must not be summed to estimate distinct patients. Evidence for additional patients comes only from selected positive events, after exclusion of all H90-positive-covered patients. Actual positive specimens can differ from the T0 predictor.
+
+Hospital 2025 — All positive
+
+
+
+Hospital 2025 — H90-covered
+
+
+
+Hospital 2025 — D18 additional at 2%
+
+
+
+Hospital 2026 — All positive
+
+
+
+Hospital 2026 — H90-covered
+
+
+
+Hospital 2026 — D18 additional at 2%
+
+
+
+MIMIC-IV — All positive
+
+
+
+MIMIC-IV — H90-covered
+
+
+
+MIMIC-IV — D18 additional at 2%
+

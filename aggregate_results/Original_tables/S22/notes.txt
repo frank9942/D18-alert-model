@@ -1,0 +1,37 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S22 Pathogen composition and overlapping coverage
+
+CRE, carbapenem-resistant Enterobacterales; CRPA, carbapenem-resistant P. aeruginosa; CRAB, carbapenem-resistant A. baumannii. Mutually exclusive categories use the union of target evidence in selected positive events; multiple groups can originate from different events. The overlapping pathogen table cannot be summed across pathogens.
+
+Development
+
+ 
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 
+
+ 

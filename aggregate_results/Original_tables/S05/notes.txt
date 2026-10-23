@@ -1,0 +1,11 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S5 Predictor missingness and category distributions
+
+Categories for predictors 1 to 17
+
+T0 specimen predictor
+
+ 
+
+Counts include all candidate events. MISSING has zero observations in the frozen T0 category audit but remains an encoded level. These categories use co-earliest requests only and must not be substituted for the whole-event distributions in main Table 1.

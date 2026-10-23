@@ -1,0 +1,13 @@
+﻿Study-entry quantity,Count
+Culture-request identifiers from the LIS catalogue,"128,959"
+Requests reconstructed from source-system snapshots,"128,320"
+Reconstructed requests missing from study entry,0
+Entry requests absent from reconstruction,639
+Requests absent from reconstruction without original date and admission key,623
+"Dated requests absent from reconstruction, not fully explained",16
+Excluded requests,"10,768"
+Requests forming culture events,"118,191"
+Culture events before final event exclusions,"78,728"
+Events before admission excluded,2
+Later-period events excluded by patient assignment,"6,647"
+Frozen events before age restriction,"72,079"

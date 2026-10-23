@@ -1,0 +1,28 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S42 Performance after training restricted to H90-unflagged events
+
+All estimates use H90-unflagged known-outcome events. Development predictions are nested out of fold; evaluation predictions use frozen final fits. Each interval is pointwise with 1000 valid patient-cluster draws and fixed scores. No model recalibration was performed.
+
+Development
+
+
+
+
+
+Hospital 2025
+
+
+
+
+
+Hospital 2026
+
+
+
+
+
+MIMIC-IV
+
+
+

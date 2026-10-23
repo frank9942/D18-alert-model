@@ -1,0 +1,17 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S6 D18 discrimination and probability diagnostics
+
+All known
+
+ 
+
+ 
+
+H90-unflagged known
+
+ 
+
+ 
+
+Parentheses in both tables give pointwise fixed-score patient-cluster 95% intervals. Mean prediction remains a descriptive point estimate. CITL fixes slope at 1; the joint intercept is estimated together with slope. Brier skill uses local prevalence as the reference. All calibration replicates were valid; diagnostic refitting did not update D18 probabilities.

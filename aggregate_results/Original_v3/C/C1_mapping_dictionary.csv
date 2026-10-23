@@ -1,0 +1,11 @@
+﻿topic,hospital_rule,MIMIC_original,this_sensitivity,source_fields,difference_type,remaining_limit
+formal_report,院内以父报告 Status 3/4、身份和版本一致性取证；审核时间为历史可用时间代理。,MIMIC没有同构终审字段；使用微生物记录和 storetime，charttime为T0代理。,不更改；来源字段无法一一对应。,"status_raw, auth_date/time; MIMIC charttime,storetime",来源结构差异,不能声称完全相同的正式报告可见性
+explicit_no_growth,范围明确的正式细菌无生长报告可为非阳性。,明确NO GROWTH/NO SIGNIFICANT GROWTH或阴性名称，其他证据齐全时为非阳性。,不更改。,"test_code_id,result_raw,text_raw; org_name,comments",既有定义大致对应,仅说明未检出研究目标，不等同排除感染
+normal_flora,已确认范围的正常咽喉菌群等正式报告可按未检出目标菌处理；不是所有正常菌群文字均适用。,原规则flora_or_mixed_incomplete_target_workup保留未知。,仅已知呼吸道标本、仅正常呼吸道/口咽菌群文字且通过排除条件的单位，作假设非阳性；整事件仍按证据合并。,"actual specimen dictionary + org_name,comments,quantity,blocked,tested_drugs",本次有限的定义对齐假设,作者只同意作为敏感性假设，不能称已确认阴性
+mixed_contaminated,混合菌群、污染或无法完成目标菌鉴定的报告，不自动作完整非阳性证据。,混合菌群、污染等未知分支保留。,不更改；命中MIXED或CONTAMIN即排除正常菌群假设。,"comments,org_name; scoped hospital report text",证据不足,不能仅凭污染文字排除并存目标菌
+missing_pending_low_quantity,无报告、未审核、未完成鉴定、药敏不充分等按现行规则仍未知。,空结果、低菌量、简化检查、待定、目标菌无可用药敏等仍未知。,不更改；这些记录不得由正常菌群假设一并改为非阳性。,"comments,quantity,org_name,interpretation",共同不确定性原则,空字段不是阴性
+publication_cancellation,IsNotReport、Reported、CancelFlag不再作门槛；Status 3/4等仍保留。,取消/拒收/待定的明确结果文字仍作为不能形成有效结局的证据。,不更改。,"IsNotReport,Reported,CancelFlag versus org_name/comments CANCELLED",字段含义不等同,忽略院内CancelFlag不代表忽略MIMIC明确取消结果
+target_taxonomy,CRE为已核定肠杆菌目范围；CRPA、CRAB要求相应目标种；保留确证的逐例正式耐药结论。,已冻结映射含EDWARDSIELLA TARDA、PLESIOMONAS SHIGELLOIDES；ACINETOBACTER BAUMANNII COMPLEX单独未知，不直接等同CRAB。,沿用原冻结菌群映射。,"organism code/name; org_name,target_group",分类精度及来源差异,本轮未放宽CRAB至整个复合群
+carbapenem_set,程序CRE候选集合为亚胺培南、美罗培南、厄他培南、多利培南；微生物室整理意见称本院实际常规仅前两种。CRPA/CRAB前两种；PPM及不明确目级记录排除仅亚胺培南证据。,CRE按IMIPENEM/MEROPENEM/ERTAPENEM/DORIPENEM；CRPA/CRAB按前两种；PPM及ENTEROBACTERIACEAE有亚胺培南限制。,药物集合保持原规则；不把本轮称为完全药物对齐。,antibiotic_id 258/293/200/181; ab_name,实际检测范围差异,未运行仅共同两药的端点敏感性；本轮不能消除此差异
+AST_duplicates_MIC,现行函数比较同药SIR、MIC和方法；不同版本冲突进入复核/未知。,同药解释冲突不贡献R/S；若另有不冲突合格R，原规则仍可判阳性；不重新按MIC判读。,不更改药敏映射；列出边界以免把菌群假设误写成全流程统一。,"sensitivity_id,mic_raw,method_raw; interpretation,dilution_text,ast_conflict",可观察字段和算法细节差异,不等价之处仍保留
+history,院内历史必须符合严格pre-T0与90天窗口并排除本事件全部申请。,冻结MIMIC H90和目标菌史沿用原映射。,本轮固定H90、分数、候选事件和提示选择；只换结局。,"history_pairs.available,t0; prior_crgn_reported_90d",分析范围限定,未进行历史重映射或模型重新评分

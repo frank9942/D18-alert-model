@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "selected": [
+    {
+      "outer": 0,
+      "C": 0.1,
+      "sha256": "3b0a4fbfec78fbc250170fd193e6a271acefd80ed452e49b081e31b7c1a35683"
+    },
+    {
+      "outer": 1,
+      "C": 0.1,
+      "sha256": "8bd18d453499fafc969d21088f6077f8bc308a5d465fa916bf9e4a14cf3ec4ea"
+    },
+    {
+      "outer": 2,
+      "C": 0.1,
+      "sha256": "0f6d156904714f50160b3638de820455c0ba0a95102e0872a22fa07fd619bf98"
+    },
+    {
+      "outer": 3,
+      "C": 0.1,
+      "sha256": "ac33359827396f3ac77e020eb070e110d7330299f3b354b4e3d54a9cf6a39ac7"
+    },
+    {
+      "outer": 4,
+      "C": 0.1,
+      "sha256": "d905dca7cddadfc7cace6de008ac00dd7ca265619cc8ae327e5a12af8f2d2387"
+    },
+    {
+      "outer": "final",
+      "C": 0.1,
+      "sha256": "6cb45c253b15d6db28f37a70576b45e8d49a6284340d3ceb30ce573aa5245350"
+    }
+  ],
+  "fits": 106,
+  "events": 25350,
+  "known_events": 24501,
+  "nested": true,
+  "evaluation_used": false,
+  "completed_utc": "2026-10-15T09:42:38.984960+00:00",
+  "seconds": 8.905999999959022,
+  "hashes": {
+    "models\\D18_no_micro_history.joblib": "6cb45c253b15d6db28f37a70576b45e8d49a6284340d3ceb30ce573aa5245350",
+    "models\\D18_no_micro_history_definition.json": "bfa20f6a853990e0a192c21b9c913db96b81c14130045d4dde0f16d4d577ba92",
+    "models\\D18_no_micro_history_outer0.joblib": "3b0a4fbfec78fbc250170fd193e6a271acefd80ed452e49b081e31b7c1a35683",
+    "models\\D18_no_micro_history_outer1.joblib": "8bd18d453499fafc969d21088f6077f8bc308a5d465fa916bf9e4a14cf3ec4ea",
+    "models\\D18_no_micro_history_outer2.joblib": "0f6d156904714f50160b3638de820455c0ba0a95102e0872a22fa07fd619bf98",
+    "models\\D18_no_micro_history_outer3.joblib": "ac33359827396f3ac77e020eb070e110d7330299f3b354b4e3d54a9cf6a39ac7",
+    "models\\D18_no_micro_history_outer4.joblib": "d905dca7cddadfc7cace6de008ac00dd7ca265619cc8ae327e5a12af8f2d2387",
+    "private\\oof_D18_no_micro_history.csv": "822492ad9c8010a93204fd64c5af3e72cb9cd6f4101f36fdc08fac55c5730412"
+  }
+}

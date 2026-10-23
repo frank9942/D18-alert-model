@@ -1,0 +1,14 @@
+﻿Section,Item,Topic,Where reported or remaining limitation
+Methods,8b,Qualifications of outcome assessors,Supplementary Methods S1: formal laboratory evidence and source-system review. Case-level assessor details require author verification.
+Methods,8c,Blinding of outcome assessment,Outcomes derived by formal report rules; no claim of blinded clinical adjudication.
+Methods,9a,Choice and pre-selection of predictors,"Methods: Model development and Analysis sequence; Supplementary Methods S2, S3 and S8. Predictors and L2 algorithm were finalised after development review and before first validation access."
+Methods,9b,Definition and timing of predictors,Methods: Predictors and data quality; Supplementary Methods S2 and Table S2.
+Methods,9c,Subjective predictor assessment,Routine recorded predictors; no subjective score assigned at the bedside. Source dictionaries and time proxies are described in Table S2.
+Methods,10,Sample size,Methods: Model development. All eligible fixed-period records; no formal a priori sample-size calculation.
+Methods,11,Missing data,"Methods: Outcome, Predictors and Model development; Supplementary Tables S4 and S20."
+Methods,12a,Use of data for development and evaluation,"Development-only parameter fitting and algorithm comparison; independent temporal validation and adapted MIMIC-IV transportability assessment of the frozen D18. Supplementary Methods S2, S3 and S8 describe the development, selection and validation sequence."
+Methods,12b,Handling of predictors,Supplementary Methods S2 and S3 and Tables S2 and S3.
+Methods,12c,"Model type, building steps, tuning, internal validation",Methods: Model development; Supplementary Methods S3 and Tables S3 and S5–S7. Patient-grouped nested tuning and explicit L2 selection rationale.
+Methods,12d,Heterogeneity across clusters,Cohort-specific results in main Tables 2–3 and Supplementary Tables S8–S21; no centre-level random-effects model.
+Methods,12e,Performance measures and model comparisons,"Methods and Supplementary Methods S4–S8 describe patient-cluster intervals, original 1000 versus later 5000 replicates, all budgets, exploratory comparisons and conditional sharp bounds. No unique confirmatory contrast is retrospectively asserted."
+Methods,12f,Model updating,D18 remained unchanged after validation results were examined. Supplementary ablations and the early-period restriction use separate development fits; no validation-cohort refitting or recalibration.

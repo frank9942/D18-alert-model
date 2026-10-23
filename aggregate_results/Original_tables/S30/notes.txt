@@ -1,0 +1,6 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S30 Paired development differences in coverage and alert composition
+
+The first-named algorithm minus the second-named algorithm; pointwise 95% patient-cluster intervals. Differences are paired within each bootstrap sample, not differences between marginal confidence limits.
+

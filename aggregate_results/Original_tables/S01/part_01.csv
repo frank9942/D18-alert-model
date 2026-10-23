@@ -1,0 +1,5 @@
+﻿Cohort,Events before age restriction,Patients before age restriction,Events removed by age filter,Included events,Included patients,Included positive events,Included unknown events
+Development,"29,855","18,899","4,505","25,350","15,280","1,488",849
+Hospital 2025,"23,950","15,966","3,641","20,309","12,994",767,720
+Hospital 2026,"18,274","11,967","2,485","15,789","9,990",649,578
+Hospital total,"72,079","46,832","10,631","61,448","38,264","2,904","2,147"

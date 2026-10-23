@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S41 Restricted-training configuration and full coefficient specification
+
+This supplementary model retains T0 specimen category and removes only the resistance-history input that is constant among H90-unflagged events. It is distinct from the formal 18-input D18 and is not a replacement. Final fitting used 22,826 events from 14,915 patients, with 805 positive events. Training transformations, coefficient labels and domains below permit reconstruction; the saved model includes preprocessing.
+
+
+
+
+
+
+
+All encoded levels are retained. Sex labels male, female and unknown correspond to the original category labels 男, 女 and 未知; MISSING is distinct. The numeric transform is (value − training mean)/training SD after median imputation. No numeric indicator was generated. The final model SHA-256 is bf9017f8aa0430763aab33ff859992a4c258ba585f80c37bda81f3c30d1089ae. Full domains, fold counts and original coefficient labels are in Supplementary Data 1.

@@ -1,0 +1,13 @@
+﻿Budget,Endpoint,Mapping,Observed difference,Lower bound,Upper bound,Width
+1%,Cumulative additional,O,26,−306,763,"1,069"
+1%,Cumulative additional,F,26,−239,614,853
+1%,First capture,O,36,−340,797,"1,137"
+1%,First capture,F,36,−269,647,916
+2%,Cumulative additional,O,30,−566,"1,304","1,870"
+2%,Cumulative additional,F,30,−458,"1,041","1,499"
+2%,First capture,O,36,−627,"1,338","1,965"
+2%,First capture,F,36,−514,"1,074","1,588"
+5%,Cumulative additional,O,55,"−1,240","2,468","3,708"
+5%,Cumulative additional,F,55,−936,"1,981","2,917"
+5%,First capture,O,65,"−1,305","2,523","3,828"
+5%,First capture,F,65,−999,"2,032","3,031"

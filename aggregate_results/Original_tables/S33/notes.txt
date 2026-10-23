@@ -1,0 +1,44 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S33 Transparent-rule coverage and paired differences at all budgets
+
+Each cell with an interval reports a point estimate and pointwise 95% patient-cluster limits. Patient coverage is additional cumulative coverage beyond H90; first capture is a separate endpoint. These supplementary intervals use separate draws from the original primary analysis. Unrounded aggregate values and additional derived metrics are in Supplementary Data 1.
+
+Development: event-level alert composition.
+
+
+
+Development: patient coverage and alert burden.
+
+
+
+
+
+Hospital 2025: event-level alert composition.
+
+
+
+Hospital 2025: patient coverage and alert burden.
+
+
+
+
+
+Hospital 2026: event-level alert composition.
+
+
+
+Hospital 2026: patient coverage and alert burden.
+
+
+
+
+
+MIMIC-IV: event-level alert composition.
+
+
+
+MIMIC-IV: patient coverage and alert burden.
+
+
+

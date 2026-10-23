@@ -1,0 +1,13 @@
+﻿Budget,Strategy,Extra alerts,Positive,Known non-positive,Unknown
+1%,D18,151,41,105,5
+1%,ICU+LOS,151,16,121,14
+1%,Specimen+ICU+LOS,151,16,119,16
+1%,Specimen only,151,14,125,12
+2%,D18,301,81,212,8
+2%,ICU+LOS,301,41,243,17
+2%,Specimen+ICU+LOS,301,38,241,22
+2%,Specimen only,301,20,262,19
+5%,D18,752,141,589,22
+5%,ICU+LOS,752,104,612,36
+5%,Specimen+ICU+LOS,752,120,597,35
+5%,Specimen only,752,42,685,25

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "synthetic_rows": 60,
+  "no_patient_rows_in_examples": true,
+  "model_hash": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "training_validation_input_stays_outside_package": true
+}

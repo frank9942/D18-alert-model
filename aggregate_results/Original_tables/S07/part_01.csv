@@ -1,0 +1,5 @@
+﻿Cohort,H90 alerts,Positive alerts,Non-positive alerts,Unknown alerts,Positive patients covered,Positive-patient coverage,Alerts / covered positive patient
+Development,"1,733",683,992,58,283,43.01%,6.12
+Hospital 2025,757,256,474,27,134,31.60%,5.65
+Hospital 2026,751,224,493,34,115,31.34%,6.53
+MIMIC-IV,"2,221",360,"1,394",467,162,26.56%,13.71

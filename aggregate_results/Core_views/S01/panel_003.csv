@@ -1,0 +1,5 @@
+﻿Cohort,Events,Co-earliest requests,Later requests excluded,Category mismatches,Unmapped events
+Development,"25,350","30,047","9,226",0,0
+Hospital 2025,"20,309","23,352","7,976",0,0
+Hospital 2026,"15,789","17,766","6,466",0,0
+MIMIC-IV,"310,977","339,069","291,156",0,0

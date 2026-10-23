@@ -1,0 +1,249 @@
+﻿Original table,Physical part,Path,Data rows,Columns,Original title
+Original S1,1,Original_tables/S01/part_01.csv,4,8,Table S1 Cohort derivation and entry reconciliation
+Original S1,2,Original_tables/S01/part_02.csv,12,2,Table S1 Cohort derivation and entry reconciliation
+Original S2,1,Original_tables/S02/part_01.csv,10,5,Table S2 Predictor definitions
+Original S3,1,Original_tables/S03/part_01.csv,26,4,Table S3 Full D18 model specification
+Original S3,2,Original_tables/S03/part_02.csv,2,4,Table S3 Full D18 model specification
+Original S4,1,Original_tables/S04/part_01.csv,6,6,Table S4 D18 penalty tuning
+Original S5,1,Original_tables/S05/part_01.csv,17,5,Table S5 Predictor missingness and category distributions
+Original S5,2,Original_tables/S05/part_02.csv,43,6,Table S5 Predictor missingness and category distributions
+Original S5,3,Original_tables/S05/part_03.csv,6,5,Table S5 Predictor missingness and category distributions
+Original S6,1,Original_tables/S06/part_01.csv,4,7,Table S6 D18 discrimination and probability diagnostics
+Original S6,2,Original_tables/S06/part_02.csv,4,7,Table S6 D18 discrimination and probability diagnostics
+Original S6,3,Original_tables/S06/part_03.csv,4,7,Table S6 D18 discrimination and probability diagnostics
+Original S6,4,Original_tables/S06/part_04.csv,4,7,Table S6 D18 discrimination and probability diagnostics
+Original S7,1,Original_tables/S07/part_01.csv,4,8,Table S7 H90 baseline coverage
+Original S8,1,Original_tables/S08/part_01.csv,9,9,Table S8 D18 and simple rules at all alert budgets
+Original S8,2,Original_tables/S08/part_02.csv,9,9,Table S8 D18 and simple rules at all alert budgets
+Original S8,3,Original_tables/S08/part_03.csv,9,9,Table S8 D18 and simple rules at all alert budgets
+Original S8,4,Original_tables/S08/part_04.csv,9,9,Table S8 D18 and simple rules at all alert budgets
+Original S9,1,Original_tables/S09/part_01.csv,12,4,Table S9 Paired cumulative differences from comparators
+Original S10,1,Original_tables/S10/part_01.csv,3,6,Table S10 First known positive capture
+Original S10,2,Original_tables/S10/part_02.csv,3,6,Table S10 First known positive capture
+Original S10,3,Original_tables/S10/part_03.csv,3,6,Table S10 First known positive capture
+Original S10,4,Original_tables/S10/part_04.csv,3,6,Table S10 First known positive capture
+Original S11,1,Original_tables/S11/part_01.csv,9,5,Table S11 Unknown outcome scenarios for cumulative coverage
+Original S11,2,Original_tables/S11/part_02.csv,9,5,Table S11 Unknown outcome scenarios for cumulative coverage
+Original S11,3,Original_tables/S11/part_03.csv,9,5,Table S11 Unknown outcome scenarios for cumulative coverage
+Original S11,4,Original_tables/S11/part_04.csv,9,5,Table S11 Unknown outcome scenarios for cumulative coverage
+Original S12,1,Original_tables/S12/part_01.csv,9,5,Table S12 Unknown outcome scenarios for first capture
+Original S12,2,Original_tables/S12/part_02.csv,9,5,Table S12 Unknown outcome scenarios for first capture
+Original S12,3,Original_tables/S12/part_03.csv,9,5,Table S12 Unknown outcome scenarios for first capture
+Original S12,4,Original_tables/S12/part_04.csv,9,5,Table S12 Unknown outcome scenarios for first capture
+Original S13,1,Original_tables/S13/part_01.csv,6,6,Table S13 Sharp identification bounds for unknown outcomes
+Original S13,2,Original_tables/S13/part_02.csv,6,6,Table S13 Sharp identification bounds for unknown outcomes
+Original S13,3,Original_tables/S13/part_03.csv,6,6,Table S13 Sharp identification bounds for unknown outcomes
+Original S13,4,Original_tables/S13/part_04.csv,6,6,Table S13 Sharp identification bounds for unknown outcomes
+Original S14,1,Original_tables/S14/part_01.csv,24,7,Table S14 Specimen categories and unknown outcomes at the 2 percent budget
+Original S14,2,Original_tables/S14/part_02.csv,22,7,Table S14 Specimen categories and unknown outcomes at the 2 percent budget
+Original S14,3,Original_tables/S14/part_03.csv,24,7,Table S14 Specimen categories and unknown outcomes at the 2 percent budget
+Original S14,4,Original_tables/S14/part_04.csv,25,7,Table S14 Specimen categories and unknown outcomes at the 2 percent budget
+Original S15,1,Original_tables/S15/part_01.csv,1,7,Table S15 D18 discrimination and alert coverage summaries
+Original S15,2,Original_tables/S15/part_02.csv,3,5,Table S15 D18 discrimination and alert coverage summaries
+Original S15,3,Original_tables/S15/part_03.csv,1,7,Table S15 D18 discrimination and alert coverage summaries
+Original S15,4,Original_tables/S15/part_04.csv,3,5,Table S15 D18 discrimination and alert coverage summaries
+Original S15,5,Original_tables/S15/part_05.csv,1,7,Table S15 D18 discrimination and alert coverage summaries
+Original S15,6,Original_tables/S15/part_06.csv,3,5,Table S15 D18 discrimination and alert coverage summaries
+Original S15,7,Original_tables/S15/part_07.csv,1,7,Table S15 D18 discrimination and alert coverage summaries
+Original S15,8,Original_tables/S15/part_08.csv,3,5,Table S15 D18 discrimination and alert coverage summaries
+Original S16,1,Original_tables/S16/part_01.csv,11,3,Table S16 Analysis sequence and artifact identities
+Original S16,2,Original_tables/S16/part_02.csv,4,2,Table S16 Analysis sequence and artifact identities
+Original S17,1,Original_tables/S17/part_01.csv,4,6,Table S17 Reconstruction of the T0 specimen predictor
+Original S18,1,Original_tables/S18/part_01.csv,3,7,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,2,Original_tables/S18/part_02.csv,9,9,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,3,Original_tables/S18/part_03.csv,9,5,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,4,Original_tables/S18/part_04.csv,3,7,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,5,Original_tables/S18/part_05.csv,9,9,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,6,Original_tables/S18/part_06.csv,9,5,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,7,Original_tables/S18/part_07.csv,3,7,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,8,Original_tables/S18/part_08.csv,9,9,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,9,Original_tables/S18/part_09.csv,9,5,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,10,Original_tables/S18/part_10.csv,3,7,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,11,Original_tables/S18/part_11.csv,9,9,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S18,12,Original_tables/S18/part_12.csv,9,5,Table S18 Outcome-window sensitivity with fixed D18 scores
+Original S19,1,Original_tables/S19/part_01.csv,9,9,Table S19 Laboratory ablation at all ranking budgets
+Original S19,2,Original_tables/S19/part_02.csv,6,5,Table S19 Laboratory ablation at all ranking budgets
+Original S19,3,Original_tables/S19/part_03.csv,9,9,Table S19 Laboratory ablation at all ranking budgets
+Original S19,4,Original_tables/S19/part_04.csv,6,5,Table S19 Laboratory ablation at all ranking budgets
+Original S19,5,Original_tables/S19/part_05.csv,9,9,Table S19 Laboratory ablation at all ranking budgets
+Original S19,6,Original_tables/S19/part_06.csv,6,5,Table S19 Laboratory ablation at all ranking budgets
+Original S19,7,Original_tables/S19/part_07.csv,9,9,Table S19 Laboratory ablation at all ranking budgets
+Original S19,8,Original_tables/S19/part_08.csv,6,5,Table S19 Laboratory ablation at all ranking budgets
+Original S20,1,Original_tables/S20/part_01.csv,9,9,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,2,Original_tables/S20/part_02.csv,6,5,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,3,Original_tables/S20/part_03.csv,9,9,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,4,Original_tables/S20/part_04.csv,6,5,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,5,Original_tables/S20/part_05.csv,9,9,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,6,Original_tables/S20/part_06.csv,6,5,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,7,Original_tables/S20/part_07.csv,9,9,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S20,8,Original_tables/S20/part_08.csv,6,5,Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+Original S21,1,Original_tables/S21/part_01.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,2,Original_tables/S21/part_02.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,3,Original_tables/S21/part_03.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,4,Original_tables/S21/part_04.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,5,Original_tables/S21/part_05.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,6,Original_tables/S21/part_06.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,7,Original_tables/S21/part_07.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,8,Original_tables/S21/part_08.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,9,Original_tables/S21/part_09.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,10,Original_tables/S21/part_10.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,11,Original_tables/S21/part_11.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,12,Original_tables/S21/part_12.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,13,Original_tables/S21/part_13.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,14,Original_tables/S21/part_14.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,15,Original_tables/S21/part_15.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,16,Original_tables/S21/part_16.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,17,Original_tables/S21/part_17.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,18,Original_tables/S21/part_18.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,19,Original_tables/S21/part_19.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,20,Original_tables/S21/part_20.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,21,Original_tables/S21/part_21.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,22,Original_tables/S21/part_22.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,23,Original_tables/S21/part_23.csv,4,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S21,24,Original_tables/S21/part_24.csv,5,5,Table S21 Discrimination and probability loss in the four predictor ablations
+Original S22,1,Original_tables/S22/part_01.csv,5,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,2,Original_tables/S22/part_02.csv,9,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,3,Original_tables/S22/part_03.csv,5,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,4,Original_tables/S22/part_04.csv,9,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,5,Original_tables/S22/part_05.csv,5,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,6,Original_tables/S22/part_06.csv,9,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,7,Original_tables/S22/part_07.csv,5,7,Table S22 Pathogen composition and overlapping coverage
+Original S22,8,Original_tables/S22/part_08.csv,9,7,Table S22 Pathogen composition and overlapping coverage
+Original S23,1,Original_tables/S23/part_01.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,2,Original_tables/S23/part_02.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,3,Original_tables/S23/part_03.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,4,Original_tables/S23/part_04.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,5,Original_tables/S23/part_05.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,6,Original_tables/S23/part_06.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,7,Original_tables/S23/part_07.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,8,Original_tables/S23/part_08.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,9,Original_tables/S23/part_09.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,10,Original_tables/S23/part_10.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,11,Original_tables/S23/part_11.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,12,Original_tables/S23/part_12.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,13,Original_tables/S23/part_13.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,14,Original_tables/S23/part_14.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,15,Original_tables/S23/part_15.csv,12,9,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S23,16,Original_tables/S23/part_16.csv,9,5,Table S23 Development-derived thresholds and repeat-alert suppression
+Original S24,1,Original_tables/S24/part_01.csv,2,7,Table S24 Coverage within observable-history strata
+Original S24,2,Original_tables/S24/part_02.csv,6,8,Table S24 Coverage within observable-history strata
+Original S24,3,Original_tables/S24/part_03.csv,6,6,Table S24 Coverage within observable-history strata
+Original S24,4,Original_tables/S24/part_04.csv,2,7,Table S24 Coverage within observable-history strata
+Original S24,5,Original_tables/S24/part_05.csv,6,8,Table S24 Coverage within observable-history strata
+Original S24,6,Original_tables/S24/part_06.csv,6,6,Table S24 Coverage within observable-history strata
+Original S24,7,Original_tables/S24/part_07.csv,2,7,Table S24 Coverage within observable-history strata
+Original S24,8,Original_tables/S24/part_08.csv,6,8,Table S24 Coverage within observable-history strata
+Original S24,9,Original_tables/S24/part_09.csv,6,6,Table S24 Coverage within observable-history strata
+Original S24,10,Original_tables/S24/part_10.csv,2,7,Table S24 Coverage within observable-history strata
+Original S24,11,Original_tables/S24/part_11.csv,6,8,Table S24 Coverage within observable-history strata
+Original S24,12,Original_tables/S24/part_12.csv,6,6,Table S24 Coverage within observable-history strata
+Original S25,1,Original_tables/S25/part_01.csv,6,8,Table S25 Refitting after excluding the first 90 development days
+Original S25,2,Original_tables/S25/part_02.csv,3,4,Table S25 Refitting after excluding the first 90 development days
+Original S25,3,Original_tables/S25/part_03.csv,4,6,Table S25 Refitting after excluding the first 90 development days
+Original S25,4,Original_tables/S25/part_04.csv,6,8,Table S25 Refitting after excluding the first 90 development days
+Original S25,5,Original_tables/S25/part_05.csv,3,4,Table S25 Refitting after excluding the first 90 development days
+Original S25,6,Original_tables/S25/part_06.csv,4,6,Table S25 Refitting after excluding the first 90 development days
+Original S25,7,Original_tables/S25/part_07.csv,6,8,Table S25 Refitting after excluding the first 90 development days
+Original S25,8,Original_tables/S25/part_08.csv,3,4,Table S25 Refitting after excluding the first 90 development days
+Original S25,9,Original_tables/S25/part_09.csv,4,6,Table S25 Refitting after excluding the first 90 development days
+Original S25,10,Original_tables/S25/part_10.csv,6,8,Table S25 Refitting after excluding the first 90 development days
+Original S25,11,Original_tables/S25/part_11.csv,3,4,Table S25 Refitting after excluding the first 90 development days
+Original S25,12,Original_tables/S25/part_12.csv,4,6,Table S25 Refitting after excluding the first 90 development days
+Original S26,1,Original_tables/S26/part_01.csv,7,2,Table S26 Supplementary model and workflow identities
+Original S26,2,Original_tables/S26/part_02.csv,6,5,Table S26 Supplementary model and workflow identities
+Original S27,1,Original_tables/S27/part_01.csv,3,4,Table S27 Development algorithm comparison configurations
+Original S27,2,Original_tables/S27/part_02.csv,18,3,Table S27 Development algorithm comparison configurations
+Original S28,1,Original_tables/S28/part_01.csv,3,7,Table S28 Development discrimination and calibration by algorithm
+Original S28,2,Original_tables/S28/part_02.csv,3,7,Table S28 Development discrimination and calibration by algorithm
+Original S29,1,Original_tables/S29/part_01.csv,15,6,Table S29 Development coverage and alert burden at every budget
+Original S29,2,Original_tables/S29/part_02.csv,15,5,Table S29 Development coverage and alert burden at every budget
+Original S30,1,Original_tables/S30/part_01.csv,9,7,Table S30 Paired development differences in coverage and alert composition
+Original S31,1,Original_tables/S31/part_01.csv,3,5,Table S31 Paired development differences in prediction performance
+Original S31,2,Original_tables/S31/part_02.csv,3,5,Table S31 Paired development differences in prediction performance
+Original S32,1,Original_tables/S32/part_01.csv,6,8,Table S32 Development-derived specimen priorities
+Original S32,2,Original_tables/S32/part_02.csv,6,6,Table S32 Development-derived specimen priorities
+Original S33,1,Original_tables/S33/part_01.csv,12,6,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,2,Original_tables/S33/part_02.csv,12,5,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,3,Original_tables/S33/part_03.csv,9,4,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,4,Original_tables/S33/part_04.csv,12,6,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,5,Original_tables/S33/part_05.csv,12,5,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,6,Original_tables/S33/part_06.csv,9,4,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,7,Original_tables/S33/part_07.csv,12,6,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,8,Original_tables/S33/part_08.csv,12,5,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,9,Original_tables/S33/part_09.csv,9,4,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,10,Original_tables/S33/part_10.csv,12,6,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,11,Original_tables/S33/part_11.csv,12,5,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S33,12,Original_tables/S33/part_12.csv,9,4,Table S33 Transparent-rule coverage and paired differences at all budgets
+Original S34,1,Original_tables/S34/part_01.csv,6,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,2,Original_tables/S34/part_02.csv,24,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,3,Original_tables/S34/part_03.csv,6,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,4,Original_tables/S34/part_04.csv,24,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,5,Original_tables/S34/part_05.csv,6,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,6,Original_tables/S34/part_06.csv,24,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,7,Original_tables/S34/part_07.csv,6,7,Table S34 T0 specimen strata and globally selected alerts
+Original S34,8,Original_tables/S34/part_08.csv,24,7,Table S34 T0 specimen strata and globally selected alerts
+Original S35,1,Original_tables/S35/part_01.csv,6,6,Table S35 Returning-patient candidates and original-cohort history audit
+Original S35,2,Original_tables/S35/part_02.csv,2,7,Table S35 Returning-patient candidates and original-cohort history audit
+Original S36,1,Original_tables/S36/part_01.csv,10,3,Table S36 Scope of the MIMIC-IV mapping sensitivity
+Original S37,1,Original_tables/S37/part_01.csv,7,5,Table S37 Respiratory-flora label transitions and performance
+Original S37,2,Original_tables/S37/part_02.csv,2,6,Table S37 Respiratory-flora label transitions and performance
+Original S37,3,Original_tables/S37/part_03.csv,2,4,Table S37 Respiratory-flora label transitions and performance
+Original S37,4,Original_tables/S37/part_04.csv,2,6,Table S37 Respiratory-flora label transitions and performance
+Original S37,5,Original_tables/S37/part_05.csv,2,4,Table S37 Respiratory-flora label transitions and performance
+Original S38,1,Original_tables/S38/part_01.csv,6,7,Table S38 Alert composition and invariant coverage under the flora hypothesis
+Original S38,2,Original_tables/S38/part_02.csv,6,7,Table S38 Alert composition and invariant coverage under the flora hypothesis
+Original S38,3,Original_tables/S38/part_03.csv,9,4,Table S38 Alert composition and invariant coverage under the flora hypothesis
+Original S39,1,Original_tables/S39/part_01.csv,9,5,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,2,Original_tables/S39/part_02.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,3,Original_tables/S39/part_03.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,4,Original_tables/S39/part_04.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,5,Original_tables/S39/part_05.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,6,Original_tables/S39/part_06.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,7,Original_tables/S39/part_07.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,8,Original_tables/S39/part_08.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,9,Original_tables/S39/part_09.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S39,10,Original_tables/S39/part_10.csv,3,6,Table S39 Pathogen by actual positive specimen with overlapping cell counts
+Original S40,1,Original_tables/S40/part_01.csv,8,5,Table S40 T0 category versus actual positive specimen in additional coverage
+Original S40,2,Original_tables/S40/part_02.csv,4,5,Table S40 T0 category versus actual positive specimen in additional coverage
+Original S40,3,Original_tables/S40/part_03.csv,11,5,Table S40 T0 category versus actual positive specimen in additional coverage
+Original S41,1,Original_tables/S41/part_01.csv,6,5,Table S41 Restricted-training configuration and full coefficient specification
+Original S41,2,Original_tables/S41/part_02.csv,2,4,Table S41 Restricted-training configuration and full coefficient specification
+Original S41,3,Original_tables/S41/part_03.csv,25,4,Table S41 Restricted-training configuration and full coefficient specification
+Original S42,1,Original_tables/S42/part_01.csv,2,6,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,2,Original_tables/S42/part_02.csv,2,4,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,3,Original_tables/S42/part_03.csv,2,6,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,4,Original_tables/S42/part_04.csv,2,4,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,5,Original_tables/S42/part_05.csv,2,6,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,6,Original_tables/S42/part_06.csv,2,4,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,7,Original_tables/S42/part_07.csv,2,6,Table S42 Performance after training restricted to H90-unflagged events
+Original S42,8,Original_tables/S42/part_08.csv,2,4,Table S42 Performance after training restricted to H90-unflagged events
+Original S43,1,Original_tables/S43/part_01.csv,9,6,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,2,Original_tables/S43/part_02.csv,9,5,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,3,Original_tables/S43/part_03.csv,3,3,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,4,Original_tables/S43/part_04.csv,9,6,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,5,Original_tables/S43/part_05.csv,9,5,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,6,Original_tables/S43/part_06.csv,3,3,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,7,Original_tables/S43/part_07.csv,9,6,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,8,Original_tables/S43/part_08.csv,9,5,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,9,Original_tables/S43/part_09.csv,3,3,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,10,Original_tables/S43/part_10.csv,9,6,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,11,Original_tables/S43/part_11.csv,9,5,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S43,12,Original_tables/S43/part_12.csv,3,3,Table S43 Restricted-training coverage and paired differences at all budgets
+Original S44,1,Original_tables/S44/part_01.csv,2,4,Table S44 Fixed specimen-rule definitions and selection overlap
+Original S45,1,Original_tables/S45/part_01.csv,3,7,Table S45 Stronger-rule coverage and workload
+Original S45,2,Original_tables/S45/part_02.csv,3,7,Table S45 Stronger-rule coverage and workload
+Original S45,3,Original_tables/S45/part_03.csv,3,7,Table S45 Stronger-rule coverage and workload
+Original S45,4,Original_tables/S45/part_04.csv,3,7,Table S45 Stronger-rule coverage and workload
+Original S45,5,Original_tables/S45/part_05.csv,16,8,Table S45 Stronger-rule coverage and workload
+Original S46,1,Original_tables/S46/part_01.csv,6,9,Table S46 Returning-patient flow and history
+Original S46,2,Original_tables/S46/part_02.csv,6,6,Table S46 Returning-patient flow and history
+Original S47,1,Original_tables/S47/part_01.csv,6,7,Table S47 D18 performance in the returning-patient extension
+Original S47,2,Original_tables/S47/part_02.csv,6,7,Table S47 D18 performance in the returning-patient extension
+Original S48,1,Original_tables/S48/part_01.csv,9,8,Table S48 Returning-patient strategy evaluation
+Original S48,2,Original_tables/S48/part_02.csv,9,6,Table S48 Returning-patient strategy evaluation
+Original S48,3,Original_tables/S48/part_03.csv,9,8,Table S48 Returning-patient strategy evaluation
+Original S48,4,Original_tables/S48/part_04.csv,9,6,Table S48 Returning-patient strategy evaluation
+Original S49,1,Original_tables/S49/part_01.csv,12,7,Table S49 Conditional sharp identification bounds in MIMIC-IV
+Original S49,2,Original_tables/S49/part_02.csv,12,7,Table S49 Conditional sharp identification bounds in MIMIC-IV
+Original S50,1,Original_tables/S50/part_01.csv,8,5,Table S50 Uniform label-completion scenarios at 2% in MIMIC-IV
+Original S51,1,Original_tables/S51/part_01.csv,6,5,Table S51 Development-derived thresholds and repeat-alert suppression

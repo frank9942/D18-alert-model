@@ -1,0 +1,3 @@
+﻿cohort,scenario,events,patients,positive_events,positive_patients,unknown_events,H90_covered_positive_patients,first_H90
+hospital_2026,observed,15789,9990,649,367,578,115,0
+hospital_2026,all_unknown_positive,15789,9990,1227,863,0,130,0

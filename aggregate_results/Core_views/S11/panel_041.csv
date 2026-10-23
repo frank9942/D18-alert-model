@@ -1,0 +1,10 @@
+﻿Budget,Original strategy,Additional patients (95% CI),Combined patients
+1%,D18,51.0 (38.0 to 64.0),213.0
+1%,ICU priority,9.5 (8.0 to 10.8),171.5
+1%,ICU+LOS,25.0 (16.0 to 36.0),187.0
+2%,D18,67.0 (52.0 to 83.0),229.0
+2%,ICU priority,18.8 (15.9 to 21.5),180.8
+2%,ICU+LOS,37.0 (26.0 to 50.0),199.0
+5%,D18,122.0 (101.0 to 145.0),284.0
+5%,ICU priority,45.7 (39.1 to 52.1),207.7
+5%,ICU+LOS,67.0 (52.0 to 84.0),229.0

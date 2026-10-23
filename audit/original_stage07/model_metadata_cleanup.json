@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:11:38.225030+00:00",
+  "reason": "Remove historical parent-template cohort counts and label-version fields from current model definitions; retain copies and use only the applicable feature/learner schema. No model fit or prediction changes.",
+  "changes": [
+    {
+      "variant": "LOS_log1p",
+      "previous_definition_sha256": "831de8767b0eb7e425c378fbc3b264aad2bda643acea286c11834550dc700d4c",
+      "current_definition_sha256": "aafc7fd4732cc1b00f387428cf39cbd3546a534a37f9c2a20b979bf01dc738a6",
+      "weights_and_predictions_changed": false
+    },
+    {
+      "variant": "H90_unflagged",
+      "previous_definition_sha256": "72b030a918e01eca71e46eaeb27a90f183d503010222de1a6b40a537b1dc312b",
+      "current_definition_sha256": "8cdb3970e19142269752228fe44a8543257225e1baa9db5d3e0d44a0682079ff",
+      "weights_and_predictions_changed": false
+    },
+    {
+      "variant": "T0_specimen",
+      "previous_definition_sha256": "35f051a3fd2fd5e187bc01fccba94be879296d0f91a4ce140f98e65d305c34df",
+      "current_definition_sha256": "774cee9b250bebbf013c7d32bc16652509204ff7cfacd94e1f8f5c508d84d5c8",
+      "weights_and_predictions_changed": false
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿Stratum,Events,Patients,Positive events,Unknown events,H90 alerts,H90-covered patients
+Contact span ≥90 days,"168,673","41,427",826,"43,083","1,800",123
+Contact span <90 days,"142,304","61,233",355,"35,136",421,47

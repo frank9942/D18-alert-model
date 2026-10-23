@@ -1,0 +1,25 @@
+﻿T0 specimen,Strategy,Eligible events,Selected alerts,Positive,Non-positive,Unknown
+Respiratory,D18,"8,759",417,120,282,15
+Respiratory,ICU+LOS,"8,759",225,69,144,12
+Respiratory,Specimen+ICU+LOS,"8,759",0,0,0,0
+Respiratory,Specimen only,"8,759",0,0,0,0
+Blood,D18,"3,215",2,1,1,0
+Blood,ICU+LOS,"3,215",73,9,63,1
+Blood,Specimen+ICU+LOS,"3,215",0,0,0,0
+Blood,Specimen only,"3,215",0,0,0,0
+Urine,D18,"6,611",2,1,1,0
+Urine,ICU+LOS,"6,611",54,5,48,1
+Urine,Specimen+ICU+LOS,"6,611",0,0,0,0
+Urine,Specimen only,"6,611",0,0,0,0
+Other,D18,"4,463",0,0,0,0
+Other,ICU+LOS,"4,463",96,7,83,6
+Other,Specimen+ICU+LOS,"4,463",0,0,0,0
+Other,Specimen only,"4,463",0,0,0,0
+Multiple,D18,569,52,26,23,3
+Multiple,ICU+LOS,569,25,10,11,4
+Multiple,Specimen+ICU+LOS,569,473,64,374,35
+Multiple,Specimen only,569,473,54,391,28
+Missing,D18,0,0,0,0,0
+Missing,ICU+LOS,0,0,0,0,0
+Missing,Specimen+ICU+LOS,0,0,0,0,0
+Missing,Specimen only,0,0,0,0,0

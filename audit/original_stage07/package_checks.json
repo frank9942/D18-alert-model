@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:11:46.489714+00:00",
+  "local_links_checked": 111,
+  "models_saved": 18,
+  "bootstrap_per_cohort_per_family": 1000,
+  "all_scripts_syntax_valid": true,
+  "all_three_figures_visually_reviewed": true,
+  "model_definition_and_coefficient_files": true,
+  "full_manuscript_not_replaced": true
+}

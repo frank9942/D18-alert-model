@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T06:56:04.577250+00:00",
+  "model_score_replay_events": 1117275,
+  "max_absolute_score_error": 0.0,
+  "final_models_retrained_exactly": [
+    {
+      "variant": "LOS_log1p",
+      "exact_coefficient_and_intercept_refit": true,
+      "fit_events": 24501,
+      "features": [
+        "age",
+        "sex",
+        "length_of_stay",
+        "icu_status",
+        "wbc_category",
+        "albumin_category",
+        "creatinine_category",
+        "crp_category",
+        "pct_category",
+        "carbapenem_exposure_90d",
+        "cephalosporin_exposure_90d",
+        "invasive_ventilation_90d",
+        "noninvasive_ventilation_90d",
+        "central_venous_catheter_90d",
+        "urinary_catheter_90d",
+        "prior_target_reported_90d",
+        "prior_crgn_reported_90d"
+      ]
+    },
+    {
+      "variant": "H90_unflagged",
+      "exact_coefficient_and_intercept_refit": true,
+      "fit_events": 22826,
+      "features": [
+        "age",
+        "sex",
+        "length_of_stay",
+        "icu_status",
+        "wbc_category",
+        "albumin_category",
+        "creatinine_category",
+        "crp_category",
+        "pct_category",
+        "carbapenem_exposure_90d",
+        "cephalosporin_exposure_90d",
+        "invasive_ventilation_90d",
+        "noninvasive_ventilation_90d",
+        "central_venous_catheter_90d",
+        "urinary_catheter_90d",
+        "prior_target_reported_90d"
+      ]
+    },
+    {
+      "variant": "T0_specimen",
+      "exact_coefficient_and_intercept_refit": true,
+      "fit_events": 24501,
+      "features": [
+        "age",
+        "sex",
+        "length_of_stay",
+        "icu_status",
+        "wbc_category",
+        "albumin_category",
+        "creatinine_category",
+        "crp_category",
+        "pct_category",
+        "carbapenem_exposure_90d",
+        "cephalosporin_exposure_90d",
+        "invasive_ventilation_90d",
+        "noninvasive_ventilation_90d",
+        "central_venous_catheter_90d",
+        "urinary_catheter_90d",
+        "prior_target_reported_90d",
+        "prior_crgn_reported_90d",
+        "t0_specimen"
+      ]
+    }
+  ],
+  "cv_choices_verified": [
+    {
+      "variant": "LOS_log1p",
+      "selected_C": 0.1,
+      "folds_patient_disjoint": true,
+      "unknown_excluded_from_fit": true
+    },
+    {
+      "variant": "H90_unflagged",
+      "selected_C": 0.1,
+      "folds_patient_disjoint": true,
+      "unknown_excluded_from_fit": true
+    },
+    {
+      "variant": "T0_specimen",
+      "selected_C": 0.1,
+      "folds_patient_disjoint": true,
+      "unknown_excluded_from_fit": true
+    }
+  ],
+  "development_cv_choice_checks": 18,
+  "independent_point_checks": 1056,
+  "original_baseline_numeric_checks": 216,
+  "workflow_sequential_oracle_count_checks": 768,
+  "cohorts": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "patients": 15280
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "patients": 12994
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "patients": 9990
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "patients": 89648
+    }
+  ],
+  "original_model_sha256": "be4efa7c0045582939b667cbe55c1b8bd1120af848ae458c9ad547afd6ef6c0f"
+}

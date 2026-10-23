@@ -1,0 +1,24 @@
+﻿Cohort,T0 category,Actual positive specimen,Pathogen,Events,Patients
+Hospital 2025,Multiple,Respiratory,CRAB,3,3
+Hospital 2025,Multiple,Respiratory,CRE,1,1
+Hospital 2025,Multiple,Respiratory,CRPA,1,1
+Hospital 2025,Multiple,Urine,CRE,1,1
+Hospital 2025,Multiple,Urine,CRPA,1,1
+Hospital 2025,Respiratory,Respiratory,CRAB,47,41
+Hospital 2025,Respiratory,Respiratory,CRE,15,12
+Hospital 2025,Respiratory,Respiratory,CRPA,10,8
+Hospital 2026,Multiple,Respiratory,CRAB,1,1
+Hospital 2026,Respiratory,Respiratory,CRAB,31,30
+Hospital 2026,Respiratory,Respiratory,CRE,14,13
+Hospital 2026,Respiratory,Respiratory,CRPA,15,14
+MIMIC-IV,Blood,Respiratory,CRPA,3,3
+MIMIC-IV,Blood,Urine,CRE,3,3
+MIMIC-IV,Multiple,Respiratory,CRAB,1,1
+MIMIC-IV,Multiple,Respiratory,CRPA,10,10
+MIMIC-IV,Multiple,Urine,CRPA,1,1
+MIMIC-IV,Respiratory,Respiratory,CRAB,1,1
+MIMIC-IV,Respiratory,Respiratory,CRE,6,6
+MIMIC-IV,Respiratory,Respiratory,CRPA,45,41
+MIMIC-IV,Urine,Respiratory,CRPA,5,5
+MIMIC-IV,Urine,Urine,CRE,1,1
+MIMIC-IV,Urine,Urine,CRPA,1,1

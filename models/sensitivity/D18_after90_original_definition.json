@@ -1,0 +1,163 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "length_of_stay",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d",
+    "t0_specimen"
+  ],
+  "configuration": {
+    "features": [
+      "age",
+      "sex",
+      "length_of_stay",
+      "icu_status",
+      "wbc_category",
+      "albumin_category",
+      "creatinine_category",
+      "crp_category",
+      "pct_category",
+      "carbapenem_exposure_90d",
+      "cephalosporin_exposure_90d",
+      "invasive_ventilation_90d",
+      "noninvasive_ventilation_90d",
+      "central_venous_catheter_90d",
+      "urinary_catheter_90d",
+      "prior_target_reported_90d",
+      "prior_crgn_reported_90d",
+      "t0_specimen"
+    ],
+    "numeric_features": [
+      "age",
+      "length_of_stay"
+    ],
+    "categorical_domains": {
+      "sex": [
+        "男",
+        "女",
+        "未知",
+        "MISSING"
+      ],
+      "icu_status": [
+        "0",
+        "1",
+        "MISSING"
+      ],
+      "wbc_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "albumin_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "creatinine_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "crp_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "pct_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "carbapenem_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "cephalosporin_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "invasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "noninvasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "central_venous_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "urinary_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_target_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_crgn_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "t0_specimen": [
+        "RESP",
+        "BLOOD",
+        "URINE",
+        "OTHER",
+        "MULTIPLE",
+        "MISSING"
+      ]
+    },
+    "learner": {
+      "type": "L2_logistic_regression",
+      "solver": "liblinear",
+      "fit_intercept": true,
+      "C_grid": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "select": "minimum mean held-fold log_loss per learner",
+      "tie_tolerance": 1e-12,
+      "tie_break": "smaller_C",
+      "max_iter": 5000,
+      "tol": 1e-06,
+      "class_weight": null,
+      "resampling": null,
+      "random_state": 20260929
+    },
+    "never_predictors": [
+      "event_id",
+      "patient_id",
+      "t0",
+      "split",
+      "y",
+      "g"
+    ],
+    "current_cohort": "Frozen adult cohort; actual counts and fitted population in audit/before_fit_<variant>.json",
+    "label_source": "Frozen adult matrix outcome y, inherited v7; no outcome changes in this round",
+    "configuration_source": "Historical feature-domain/learner template only; old template cohort counts and label-version fields intentionally omitted"
+  },
+  "intercept": -0.34560737187479207,
+  "note": "D18 derived model; T0 specimen retained; lab-availability transformation defined in common.py; after90 cutoff 2024-02-29. Serialized preprocessing."
+}

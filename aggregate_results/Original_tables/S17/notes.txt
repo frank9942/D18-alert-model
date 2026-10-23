@@ -1,0 +1,7 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S17 Reconstruction of the T0 specimen predictor
+
+ 
+
+All subject and T0 matches passed. Mapping did not use outcome labels and required no new database queries. The audit independently reconstructed categories from the frozen trace, request times and mapping dictionary; the raw extraction was frozen and hash protected. It cannot audit historical edits to specimen fields. MIMIC-IV charttime remains a proxy for order time.

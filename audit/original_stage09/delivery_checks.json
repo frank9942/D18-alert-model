@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:27:43.273734+00:00",
+  "local_links_checked": 267,
+  "broken_links": 0,
+  "figures_png": 6,
+  "figures_pdf": 6,
+  "derived_model_files": 18,
+  "score_files": 12,
+  "syntax_checked": true,
+  "old_delivery_files_unchanged": 418,
+  "report_visual_review": "six figures inspected",
+  "main_model_hash": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "paper_supplement_copy": {
+    "path": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\manuscript\\supplementary_results_D18_six_analyses_20261015.txt",
+    "sha256": "4bbdd7f3a0cc1b23d3860ca6dbcc110dda46b89c1d3cd8d29801b4f408c50109"
+  },
+  "root_navigation_sha256": "86c521c7c79c66bf5cf1bccf52ef43592a1582992f576c59655a79bd185e9186",
+  "root_state_sha256": "fe75b8c38a02b0da67ce5334761b9e6186fcc7a40284e8811bef3c47e49bdda2"
+}

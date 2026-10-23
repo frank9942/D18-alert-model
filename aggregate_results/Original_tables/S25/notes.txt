@@ -1,0 +1,37 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S25 Refitting after excluding the first 90 development days
+
+Events before 29 February 2024 were excluded from training, while legitimate pre-T0 history remained available. The refit used 19,422 known outcomes among 19,962 retained events. Development comparisons are restricted to those common retained events for both models and are not the full-development results in other tables. Later cohorts are unchanged. Intervals are pointwise fixed-score paired patient-cluster 95% intervals; they exclude uncertainty from refitting. The final penalty remained C = 0.1. No claim of equivalence follows from an interval including zero.
+
+Development
+
+ 
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,8 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S46 Returning-patient flow and history
+
+Final scored/evaluated counts differ from initial candidate counts by one 2026 T0-mismatched event, excluded without scoring. Original and returning patients are disjoint within each year, but returners include development participants. Patient overlap and source-completeness CSVs supply further detail.
+
+
+

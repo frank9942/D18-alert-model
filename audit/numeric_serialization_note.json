@@ -1,0 +1,7 @@
+{
+  "original_token_training_input_sha256": "485aea12f70ff1067d62db8c49445eed8ab8e7e04272953496b32973021520c0",
+  "float_roundtrip_training_input_sha256": "c70cc376a2559475b9da5be24007a73dc78c4f39f47f8cf140e1dae42eed4b71",
+  "first_roundtrip_refit_final_max_coefficient_error": 1.2561256444942881e-05,
+  "original_tokens_refit_final_and_five_outer_max_coefficient_error": 0.0,
+  "action": "use attach_specimens.py preserving numeric tokens; frozen models unchanged; both local diagnostic runs retained outside distributable package"
+}

@@ -1,0 +1,6 @@
+﻿Mapping,"Log loss
+95% CI","CITL
+95% CI","Calibration slope
+95% CI"
+Original,0.02386 (0.02241 to 0.02537),−0.928 (−1.024 to −0.835),0.965 (0.899 to 1.028)
+Flora hypothesis,0.0237 (0.02231 to 0.02516),−1.018 (−1.114 to −0.924),0.922 (0.856 to 0.986)

@@ -1,0 +1,7 @@
+﻿Population,Strategy,Alerts,Added patients [95% CI],First added [95% CI]
+Returning,D18,58,"3 [0, 8]","10 [3, 16]"
+Returning,ICU+LOS,58,"2 [0, 5]","4 [1, 9]"
+Returning,R1/R2,58,"5 [1, 11]","9 [3, 18]"
+Expanded,D18,359,"54 [41, 68]","76 [60, 93]"
+Expanded,ICU+LOS,359,"24 [14, 33]","41 [29, 53]"
+Expanded,R1/R2,359,"40 [28, 53]","63 [49, 78]"

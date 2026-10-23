@@ -1,0 +1,11 @@
+﻿Topic,Existing mapping or difference,This analysis
+Formal report status,Hospital final status 3/4 with identity/version checks; MIMIC lacks an equivalent final-status field.,Unchanged; storetime and charttime retain their source-specific meanings.
+Explicit no growth,Both sources accept sufficiently supported no-growth/non-target evidence.,"Unchanged; this is target-organism non-detection, not exclusion of infection."
+Normal respiratory flora,Hospital can accept confirmed normal-flora reports; the original MIMIC flora branch remains unknown.,"Hypothetical non-positive only for actual respiratory specimens passing every specified text, organism and susceptibility gate."
+Mixed/contaminated growth,Such wording cannot by itself exclude a concurrent target organism.,Unchanged; MIXED or CONTAMIN wording blocks the flora assumption.
+Missing/pending/incomplete or low quantity,Absent or insufficient evidence remains unknown.,"Unchanged; pending, cancelled, abbreviated, incomplete-identification and low-quantity hints block the assumption."
+Cancellation fields,Hospital CancelFlag is not an independent gate; an explicit MIMIC cancellation result has a different meaning.,Unchanged; the field definitions are not treated as equivalent.
+Target taxonomy,Frozen source-specific organism mapping; strict A. baumannii rather than the whole complex.,Unchanged; the external Enterobacterales mapping is retained.
+Carbapenem set,Hospital routine testing used imipenem/meropenem; MIMIC CRE evidence can also use ertapenem/doripenem.,Unchanged; no common-two-drug sensitivity was performed.
+Susceptibility conflicts and MIC,Source-specific conflict and evidence handling differ; reported interpretation categories are retained.,Unchanged; no full susceptibility harmonisation or MIC reinterpretation.
+History and predictions,"Original H90, predictor history, candidates, scores and selections.",All fixed; only the outcome-label hypothesis changes.

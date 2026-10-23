@@ -1,0 +1,76 @@
+﻿source,raw_name,raw_name_english,group
+hospital,乳汁,breast milk,OTHER
+hospital,伤口分泌物,wound secretion,OTHER
+hospital,全血,whole blood,BLOOD
+hospital,关节腔积液,joint fluid,OTHER
+hospital,其他,other,OTHER
+hospital,其它,other (variant spelling),OTHER
+hospital,分泌物,secretion,OTHER
+hospital,前列腺液,prostatic fluid,OTHER
+hospital,咽拭子,throat swab,RESP
+hospital,导管头,catheter tip,OTHER
+hospital,尿导管头,urinary catheter tip,OTHER
+hospital,尿液,urine,URINE
+hospital,尿道分泌物,urethral secretion,OTHER
+hospital,引流液,drainage fluid,OTHER
+hospital,痰,sputum,RESP
+hospital,痰液,sputum (variant spelling),RESP
+hospital,穿刺液,aspirated fluid,OTHER
+hospital,精液,semen,OTHER
+hospital,组织,tissue,OTHER
+hospital,肺泡灌洗液,bronchoalveolar lavage fluid,RESP
+hospital,胆汁,bile,OTHER
+hospital,胸水,pleural fluid,OTHER
+hospital,胸腹水,pleural or ascitic fluid,OTHER
+hospital,脑脊液,cerebrospinal fluid,OTHER
+hospital,腹水,ascitic fluid,OTHER
+hospital,腹透液,peritoneal dialysis fluid,OTHER
+hospital,血透管,haemodialysis catheter,OTHER
+hospital,阴道分泌物,vaginal secretion,OTHER
+hospital,静脉导管头,intravenous catheter tip,OTHER
+hospital,骨髓,bone marrow,OTHER
+mimic,ABSCESS,ABSCESS,OTHER
+mimic,ASPIRATE,ASPIRATE,OTHER
+mimic,BILE,BILE,OTHER
+mimic,BIOPSY,BIOPSY,OTHER
+mimic,BLOOD,BLOOD,BLOOD
+mimic,BLOOD BAG FLUID,BLOOD BAG FLUID,OTHER
+mimic,BLOOD CULTURE,BLOOD CULTURE,BLOOD
+mimic,BLOOD CULTURE ( MYCO/F LYTIC BOTTLE),BLOOD CULTURE ( MYCO/F LYTIC BOTTLE),BLOOD
+mimic,BLOOD CULTURE - NEONATE,BLOOD CULTURE - NEONATE,BLOOD
+mimic,BONE MARROW,BONE MARROW,OTHER
+mimic,BRONCHIAL BRUSH,BRONCHIAL BRUSH,RESP
+mimic,BRONCHIAL BRUSH - PROTECTED,BRONCHIAL BRUSH - PROTECTED,RESP
+mimic,BRONCHIAL WASHINGS,BRONCHIAL WASHINGS,RESP
+mimic,BRONCHOALVEOLAR LAVAGE,BRONCHOALVEOLAR LAVAGE,RESP
+mimic,CATHETER TIP-IV,CATHETER TIP-IV,OTHER
+mimic,CORNEAL EYE SCRAPINGS,CORNEAL EYE SCRAPINGS,OTHER
+mimic,CSF;SPINAL FLUID,CSF;SPINAL FLUID,OTHER
+mimic,DIALYSIS FLUID,DIALYSIS FLUID,OTHER
+mimic,EAR,EAR,OTHER
+mimic,EYE,EYE,OTHER
+mimic,FLUID RECEIVED IN BLOOD CULTURE BOTTLES,FLUID RECEIVED IN BLOOD CULTURE BOTTLES,OTHER
+mimic,FLUID WOUND,FLUID WOUND,OTHER
+mimic,"FLUID,OTHER","FLUID,OTHER",OTHER
+mimic,FOOT CULTURE,FOOT CULTURE,OTHER
+mimic,FOREIGN BODY,FOREIGN BODY,OTHER
+mimic,JOINT FLUID,JOINT FLUID,OTHER
+mimic,Mini-BAL,Mini-BAL,RESP
+mimic,NAIL SCRAPINGS,NAIL SCRAPINGS,OTHER
+mimic,PERITONEAL FLUID,PERITONEAL FLUID,OTHER
+mimic,PLEURAL FLUID,PLEURAL FLUID,OTHER
+mimic,PROSTHETIC JOINT FLUID,PROSTHETIC JOINT FLUID,OTHER
+mimic,SEROLOGY/BLOOD,SEROLOGY/BLOOD,BLOOD
+mimic,SKIN SCRAPINGS,SKIN SCRAPINGS,OTHER
+mimic,SPUTUM,SPUTUM,RESP
+mimic,STOOL,STOOL,OTHER
+mimic,SWAB,SWAB,OTHER
+mimic,Swab,Swab,OTHER
+mimic,THROAT CULTURE,THROAT CULTURE,RESP
+mimic,THROAT FOR STREP,THROAT FOR STREP,RESP
+mimic,TISSUE,TISSUE,OTHER
+mimic,TRACHEAL ASPIRATE,TRACHEAL ASPIRATE,RESP
+mimic,URINE,URINE,URINE
+mimic,"URINE,KIDNEY","URINE,KIDNEY",URINE
+mimic,"URINE,PROSTATIC MASSAGE","URINE,PROSTATIC MASSAGE",URINE
+mimic,"URINE,SUPRAPUBIC ASPIRATE","URINE,SUPRAPUBIC ASPIRATE",URINE

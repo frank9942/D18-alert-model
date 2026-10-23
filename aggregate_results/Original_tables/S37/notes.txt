@@ -1,0 +1,18 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S37 Respiratory-flora label transitions and performance
+
+
+
+All other transition cells are zero. Actual respiratory specimens determine eligibility for the assumption; T0 strata describe the original predictor and can differ from the actual specimen supplying outcome evidence.
+
+All known outcomes
+
+
+
+
+
+H90-unflagged known outcomes
+
+
+

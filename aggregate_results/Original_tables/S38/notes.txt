@@ -1,0 +1,14 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S38 Alert composition and invariant coverage under the flora hypothesis
+
+The original score, H90 flag and selection of each candidate are fixed. Positive evidence is unchanged; cumulative coverage, first known-positive capture and their paired differences are therefore unchanged under this assumption. Non-positive counts in hypothesis rows include the assumed labels and must not be described as confirmed negatives.
+
+Original labels
+
+
+
+Respiratory-flora hypothesis
+
+
+

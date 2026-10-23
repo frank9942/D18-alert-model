@@ -1,0 +1,3 @@
+﻿Rule,First priority,Second priority,Then / ties
+R1,ICU at T0,RESP or MULTIPLE at T0 (equal),Decreasing pre-T0 LOS; fixed hash
+R2,RESP or MULTIPLE at T0 (equal),ICU at T0,Decreasing pre-T0 LOS; fixed hash

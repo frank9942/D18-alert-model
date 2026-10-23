@@ -1,0 +1,7 @@
+﻿Budget,Model,Alerts,Positive,Known non-positive,Unknown,Added patients (95% CI),First added (95% CI)
+1%,D18,151,41,105,5,23.0 (14.0 to 34.0),32.0 (22.0 to 44.0)
+1%,Early-period exclusion,151,41,105,5,22.0 (14.0 to 31.0),33.0 (22.0 to 43.0)
+2%,D18,301,81,212,8,53.0 (41.0 to 65.0),70.0 (54.0 to 83.0)
+2%,Early-period exclusion,301,80,213,8,51.0 (39.0 to 64.0),69.0 (54.0 to 83.0)
+5%,D18,752,141,589,22,88.0 (72.0 to 105.0),120.0 (101.0 to 139.0)
+5%,Early-period exclusion,752,136,596,20,84.0 (68.0 to 102.0),114.0 (96.0 to 134.0)

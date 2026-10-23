@@ -1,0 +1,22 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S45 Stronger-rule coverage and workload
+
+All strategies retain H90. Coverage is additional distinct positive patients, excluding H90-positive-covered patients in the same scope. Intervals are pointwise 95% from the A2 5000-replicate run. The full event composition, first-capture results, paired metrics and specimen allocation at every budget are in Supplementary Data 1.
+
+Development
+
+
+
+Hospital 2025
+
+
+
+Hospital 2026
+
+
+
+MIMIC-IV
+
+
+

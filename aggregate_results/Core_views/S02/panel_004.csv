@@ -1,0 +1,13 @@
+﻿No.,Predictor and model coding,Time window,Hospital derivation,MIMIC-IV mapping
+1,Age; continuous (years),At T0,"Completed years at T0 from linked date of birth; eligibility ≥18 years, verified before fitting. No age imputation for eligibility.","anchor_age + year of T0 − anchor_year
+(patients); ages above 89 years are top-coded in the source"
+2,"Sex; male, female, unknown or missing",At T0,Consistently recorded sex in qualifying records; never inferred,"patients.gender
+(M, F) mapped to the hospital categories"
+3,"Length of stay before T0; continuous
+(days)",Admission to T0,(T0 − start of the current admission) / 86400 s; the final length of stay is not used,"(T0 − admittime) / 86400 s
+(admissions)"
+4,"ICU location at T0; 0, 1 or missing",At T0,"Transfer chain of the same admission before T0, read against a verified ICU and ward dictionary; inconsistent chains coded missing","1 if an icustays record of the same admission spans T0
+(intime ≤ T0 < outtime), otherwise 0"
+5–9,"White cell count, albumin, creatinine, C-reactive protein, procalcitonin; low, normal, high or missing","Measured in [T0 − 48 h, T0) and result available before T0","Latest qualifying result of the patient across encounters; test codes, specimen types and unit aliases from a frozen mapping; each result classified against the reference range printed on its own report
+(no hospital-wide fixed thresholds); an inequality result classified only when its whole possible range falls in one category; conflicting latest results coded missing without falling back to older results","labevents itemids: white cell count 51300, 51301, 51755, 51756
+(K/uL); albumin 50862, 52022, 53085, 53138 (g/dL); creatinine 50912, 52024, 52546 (mg/dL); C-reactive protein 50889 (mg/L); charttime in the window and storetime ≤ T0; classified against ref_range_lower and ref_range_upper of the same row; censored (< or >) or conflicting latest values coded missing; procalcitonin has no source item and was coded missing"

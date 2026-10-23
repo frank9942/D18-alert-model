@@ -1,0 +1,186 @@
+{
+  "candidate_name": "D18_H3_Adult_T0spec_candidate_v1",
+  "status": "CURRENT_MANUSCRIPT_REPORTING_MODEL_EXPLORATORY_NOT_DEPLOYED",
+  "model_sha256": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\models\\T0_specimen.joblib",
+  "selection_disclosure": "Candidate designation follows viewed S7 performance; no claim of prospective or untouched validation.",
+  "features": [
+    "age",
+    "sex",
+    "length_of_stay",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d",
+    "t0_specimen"
+  ],
+  "configuration": {
+    "features": [
+      "age",
+      "sex",
+      "length_of_stay",
+      "icu_status",
+      "wbc_category",
+      "albumin_category",
+      "creatinine_category",
+      "crp_category",
+      "pct_category",
+      "carbapenem_exposure_90d",
+      "cephalosporin_exposure_90d",
+      "invasive_ventilation_90d",
+      "noninvasive_ventilation_90d",
+      "central_venous_catheter_90d",
+      "urinary_catheter_90d",
+      "prior_target_reported_90d",
+      "prior_crgn_reported_90d",
+      "t0_specimen"
+    ],
+    "numeric_features": [
+      "age",
+      "length_of_stay"
+    ],
+    "categorical_domains": {
+      "sex": [
+        "男",
+        "女",
+        "未知",
+        "MISSING"
+      ],
+      "icu_status": [
+        "0",
+        "1",
+        "MISSING"
+      ],
+      "wbc_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "albumin_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "creatinine_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "crp_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "pct_category": [
+        "low",
+        "normal",
+        "high",
+        "MISSING"
+      ],
+      "carbapenem_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "cephalosporin_exposure_90d": [
+        "1",
+        "MISSING"
+      ],
+      "invasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "noninvasive_ventilation_90d": [
+        "1",
+        "MISSING"
+      ],
+      "central_venous_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "urinary_catheter_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_target_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "prior_crgn_reported_90d": [
+        "1",
+        "MISSING"
+      ],
+      "t0_specimen": [
+        "RESP",
+        "BLOOD",
+        "URINE",
+        "OTHER",
+        "MULTIPLE",
+        "MISSING"
+      ]
+    },
+    "learner": {
+      "type": "L2_logistic_regression",
+      "solver": "liblinear",
+      "fit_intercept": true,
+      "C_grid": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "select": "minimum mean held-fold log_loss per learner",
+      "tie_tolerance": 1e-12,
+      "tie_break": "smaller_C",
+      "max_iter": 5000,
+      "tol": 1e-06,
+      "class_weight": null,
+      "resampling": null,
+      "random_state": 20260929
+    },
+    "never_predictors": [
+      "event_id",
+      "patient_id",
+      "t0",
+      "split",
+      "y",
+      "g"
+    ],
+    "current_cohort": "Frozen adult cohort; actual counts and fitted population in audit/before_fit_<variant>.json",
+    "label_source": "Frozen adult matrix outcome y, inherited v7; no outcome changes in this round",
+    "configuration_source": "Historical feature-domain/learner template only; old template cohort counts and label-version fields intentionally omitted"
+  },
+  "intercept": -0.34610177992029917,
+  "specimen_domain": [
+    "RESP",
+    "BLOOD",
+    "URINE",
+    "OTHER",
+    "MULTIPLE",
+    "MISSING"
+  ],
+  "specimen_rule": "All co-earliest requests at T0 only; >=2 broad types MULTIPLE; any unmapped MISSING; charttime proxy in MIMIC",
+  "model_definition_source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\models\\T0_specimen_definition.json",
+  "C": 0.1,
+  "score_provenance": "Development uses nested patient out-of-fold scores from five outer models; later cohorts use the single final frozen model. This step does not refit or recalibrate.",
+  "original_status": "FROZEN_EXPLORATORY_CANDIDATE_NOT_PRIMARY_OR_DEPLOYED",
+  "package_version": "D18_code_model_package_20261015_v1",
+  "model_file": "models/main/D18.joblib",
+  "role_change": "User elected D18 for manuscript after exploratory comparisons; original model binary and original definition preserved",
+  "first_layer": "H90 rule is unchanged; score complements H90",
+  "development_scores": "Patient nested OOF from five outer models, never final-model in-sample predictions",
+  "runtime_schema_source": "configuration is exact D18 source domain and learner schema"
+}

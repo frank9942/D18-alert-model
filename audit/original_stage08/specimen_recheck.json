@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:26:48.885731+00:00",
+  "checks": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "requests_at_T0": 30047,
+      "later_requests_excluded": 9226,
+      "category_recomputed_mismatches": 0,
+      "subject_and_T0_match": true,
+      "unmapped_events": 0
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "requests_at_T0": 23352,
+      "later_requests_excluded": 7976,
+      "category_recomputed_mismatches": 0,
+      "subject_and_T0_match": true,
+      "unmapped_events": 0
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "requests_at_T0": 17766,
+      "later_requests_excluded": 6466,
+      "category_recomputed_mismatches": 0,
+      "subject_and_T0_match": true,
+      "unmapped_events": 0
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "requests_at_T0": 339069,
+      "later_requests_excluded": 291156,
+      "category_recomputed_mismatches": 0,
+      "subject_and_T0_match": true,
+      "unmapped_events": 0
+    }
+  ],
+  "label_used_in_mapping": false,
+  "new_database_queries": 0,
+  "scope": "Independent reconstruction from frozen S7 trace, prior request timestamps and mapping dictionary; raw source extraction inherited and hash protected",
+  "limits": [
+    "No historical field revision log",
+    "MIMIC charttime proxy for order time"
+  ]
+}

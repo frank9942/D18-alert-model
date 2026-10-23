@@ -1,0 +1,10 @@
+﻿Cohort,Evidence population,Positive events,Patients,Positive specimens
+Hospital 2025,All positive,767,424,877
+Hospital 2025,H90-covered,256,134,297
+Hospital 2025,D18 additional at 2%,72,61,74
+Hospital 2026,All positive,649,367,728
+Hospital 2026,H90-covered,224,115,249
+Hospital 2026,D18 additional at 2%,56,53,56
+MIMIC-IV,All positive,"1,181",610,"1,262"
+MIMIC-IV,H90-covered,360,162,386
+MIMIC-IV,D18 additional at 2%,77,67,77

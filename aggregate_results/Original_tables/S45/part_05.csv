@@ -1,0 +1,17 @@
+﻿Cohort,Strategy,Alerts,Positive,Non-positive,Unknown,Added patients,Alerts / added patient
+Development,D18,473,148,307,18,78,6.06
+Development,ICU+LOS,473,100,349,24,42,11.26
+Development,Earlier specimen combination,473,64,374,35,29,16.31
+Development,R1/R2,473,139,312,22,66,7.17
+Hospital 2025,D18,392,111,266,15,61,6.43
+Hospital 2025,ICU+LOS,392,74,308,10,45,8.71
+Hospital 2025,Earlier specimen combination,392,60,302,30,36,10.89
+Hospital 2025,R1/R2,392,102,280,10,56,7.00
+Hospital 2026,D18,301,81,212,8,53,5.68
+Hospital 2026,ICU+LOS,301,41,243,17,22,13.68
+Hospital 2026,Earlier specimen combination,301,38,241,22,18,16.72
+Hospital 2026,R1/R2,301,64,224,13,37,8.14
+MIMIC-IV,D18,"6,176",121,"3,501","2,554",67,92.18
+MIMIC-IV,ICU+LOS,"6,176",75,"4,536","1,565",37,166.92
+MIMIC-IV,Earlier specimen combination,"6,176",35,"4,196","1,945",24,257.33
+MIMIC-IV,R1/R2,"6,176",85,"3,442","2,649",45,137.24

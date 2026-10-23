@@ -1,0 +1,7 @@
+﻿Stratum,Budget,H90 first,D18 first added (95% CI),Combined first,First Δ vs ICU+LOS (95% CI)
+Contact span ≥90 days,1%,10,16.0 (9.0 to 23.0),26,6.0 (−1.0 to 12.0)
+Contact span ≥90 days,2%,10,26.0 (16.0 to 35.0),36,9.0 (0.0 to 16.0)
+Contact span ≥90 days,5%,10,42.0 (30.0 to 54.0),52,9.0 (1.0 to 16.0)
+Contact span <90 days,1%,0,34.0 (25.0 to 44.0),34,9.0 (0.0 to 20.0)
+Contact span <90 days,2%,0,63.0 (50.0 to 79.0),63,20.0 (6.0 to 36.0)
+Contact span <90 days,5%,0,131.0 (111.0 to 149.0),131,40.0 (19.0 to 57.0)

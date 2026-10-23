@@ -1,0 +1,186 @@
+﻿cohort,population,pathogen,raw_specimen,actual_specimen_group,events,patients,positive_specimens
+hospital_2025,all_positive,CRAB,全血,BLOOD,10,8,16
+hospital_2025,all_positive,CRAB,分泌物,OTHER,12,12,16
+hospital_2025,all_positive,CRAB,尿液,URINE,13,13,13
+hospital_2025,all_positive,CRAB,痰液,RESP,396,243,433
+hospital_2025,all_positive,CRAB,穿刺液,OTHER,6,6,6
+hospital_2025,all_positive,CRAB,肺泡灌洗液,RESP,15,13,21
+hospital_2025,all_positive,CRAB,胆汁,OTHER,1,1,1
+hospital_2025,all_positive,CRAB,脑脊液,OTHER,8,4,10
+hospital_2025,all_positive,CRAB,腹透液,OTHER,2,2,2
+hospital_2025,all_positive,CRAB,静脉导管头,OTHER,6,6,6
+hospital_2025,all_positive,CRE,全血,BLOOD,10,9,21
+hospital_2025,all_positive,CRE,分泌物,OTHER,5,4,5
+hospital_2025,all_positive,CRE,咽拭子,RESP,2,2,2
+hospital_2025,all_positive,CRE,尿导管头,OTHER,5,5,5
+hospital_2025,all_positive,CRE,尿液,URINE,31,24,31
+hospital_2025,all_positive,CRE,痰液,RESP,149,96,156
+hospital_2025,all_positive,CRE,穿刺液,OTHER,6,5,7
+hospital_2025,all_positive,CRE,肺泡灌洗液,RESP,2,2,2
+hospital_2025,all_positive,CRE,胆汁,OTHER,4,4,4
+hospital_2025,all_positive,CRE,胸水,OTHER,2,2,2
+hospital_2025,all_positive,CRE,静脉导管头,OTHER,3,3,3
+hospital_2025,all_positive,CRPA,全血,BLOOD,3,2,4
+hospital_2025,all_positive,CRPA,分泌物,OTHER,4,4,4
+hospital_2025,all_positive,CRPA,尿液,URINE,13,11,13
+hospital_2025,all_positive,CRPA,痰液,RESP,141,80,147
+hospital_2025,all_positive,CRPA,穿刺液,OTHER,3,3,3
+hospital_2025,all_positive,CRPA,肺泡灌洗液,RESP,5,5,5
+hospital_2025,all_positive,CRPA,静脉导管头,OTHER,1,1,1
+hospital_2025,H90_covered,CRAB,全血,BLOOD,7,6,11
+hospital_2025,H90_covered,CRAB,分泌物,OTHER,6,6,9
+hospital_2025,H90_covered,CRAB,尿液,URINE,2,2,2
+hospital_2025,H90_covered,CRAB,痰液,RESP,114,73,122
+hospital_2025,H90_covered,CRAB,穿刺液,OTHER,2,2,2
+hospital_2025,H90_covered,CRAB,肺泡灌洗液,RESP,5,4,8
+hospital_2025,H90_covered,CRAB,脑脊液,OTHER,6,3,7
+hospital_2025,H90_covered,CRAB,腹透液,OTHER,1,1,1
+hospital_2025,H90_covered,CRAB,静脉导管头,OTHER,1,1,1
+hospital_2025,H90_covered,CRE,全血,BLOOD,3,2,8
+hospital_2025,H90_covered,CRE,分泌物,OTHER,1,1,1
+hospital_2025,H90_covered,CRE,咽拭子,RESP,2,2,2
+hospital_2025,H90_covered,CRE,尿导管头,OTHER,2,2,2
+hospital_2025,H90_covered,CRE,尿液,URINE,10,8,10
+hospital_2025,H90_covered,CRE,痰液,RESP,53,35,54
+hospital_2025,H90_covered,CRE,穿刺液,OTHER,2,1,3
+hospital_2025,H90_covered,CRE,静脉导管头,OTHER,2,2,2
+hospital_2025,H90_covered,CRPA,全血,BLOOD,3,2,4
+hospital_2025,H90_covered,CRPA,分泌物,OTHER,1,1,1
+hospital_2025,H90_covered,CRPA,尿液,URINE,3,2,3
+hospital_2025,H90_covered,CRPA,痰液,RESP,64,35,65
+hospital_2025,H90_covered,CRPA,肺泡灌洗液,RESP,3,3,3
+hospital_2025,H90_covered,CRPA,静脉导管头,OTHER,1,1,1
+hospital_2025,D18_new_2pct,CRAB,痰液,RESP,50,43,52
+hospital_2025,D18_new_2pct,CRE,尿液,URINE,1,1,1
+hospital_2025,D18_new_2pct,CRE,痰液,RESP,16,13,16
+hospital_2025,D18_new_2pct,CRPA,尿液,URINE,1,1,1
+hospital_2025,D18_new_2pct,CRPA,痰液,RESP,11,9,11
+hospital_2026,all_positive,CRAB,全血,BLOOD,4,4,7
+hospital_2026,all_positive,CRAB,分泌物,OTHER,24,14,24
+hospital_2026,all_positive,CRAB,尿导管头,OTHER,2,2,2
+hospital_2026,all_positive,CRAB,尿液,URINE,14,11,14
+hospital_2026,all_positive,CRAB,痰液,RESP,292,181,313
+hospital_2026,all_positive,CRAB,穿刺液,OTHER,1,1,1
+hospital_2026,all_positive,CRAB,肺泡灌洗液,RESP,9,9,9
+hospital_2026,all_positive,CRAB,胆汁,OTHER,2,1,2
+hospital_2026,all_positive,CRAB,脑脊液,OTHER,1,1,1
+hospital_2026,all_positive,CRAB,腹水,OTHER,1,1,1
+hospital_2026,all_positive,CRAB,静脉导管头,OTHER,4,4,4
+hospital_2026,all_positive,CRE,全血,BLOOD,13,10,30
+hospital_2026,all_positive,CRE,分泌物,OTHER,1,1,1
+hospital_2026,all_positive,CRE,尿导管头,OTHER,3,2,3
+hospital_2026,all_positive,CRE,尿液,URINE,37,28,39
+hospital_2026,all_positive,CRE,痰液,RESP,109,75,112
+hospital_2026,all_positive,CRE,穿刺液,OTHER,4,3,4
+hospital_2026,all_positive,CRE,肺泡灌洗液,RESP,1,1,1
+hospital_2026,all_positive,CRE,胆汁,OTHER,4,4,4
+hospital_2026,all_positive,CRE,腹水,OTHER,3,3,3
+hospital_2026,all_positive,CRE,静脉导管头,OTHER,2,2,3
+hospital_2026,all_positive,CRPA,分泌物,OTHER,3,2,3
+hospital_2026,all_positive,CRPA,尿液,URINE,3,3,3
+hospital_2026,all_positive,CRPA,痰液,RESP,161,89,164
+hospital_2026,all_positive,CRPA,肺泡灌洗液,RESP,7,7,7
+hospital_2026,all_positive,CRPA,胆汁,OTHER,3,2,3
+hospital_2026,all_positive,CRPA,胸水,OTHER,1,1,1
+hospital_2026,all_positive,CRPA,腹水,OTHER,1,1,1
+hospital_2026,all_positive,CRPA,静脉导管头,OTHER,3,3,3
+hospital_2026,H90_covered,CRAB,全血,BLOOD,1,1,3
+hospital_2026,H90_covered,CRAB,分泌物,OTHER,12,7,12
+hospital_2026,H90_covered,CRAB,尿液,URINE,4,3,4
+hospital_2026,H90_covered,CRAB,痰液,RESP,88,53,93
+hospital_2026,H90_covered,CRAB,肺泡灌洗液,RESP,3,3,3
+hospital_2026,H90_covered,CRAB,胆汁,OTHER,1,1,1
+hospital_2026,H90_covered,CRE,全血,BLOOD,4,3,5
+hospital_2026,H90_covered,CRE,分泌物,OTHER,1,1,1
+hospital_2026,H90_covered,CRE,尿导管头,OTHER,1,1,1
+hospital_2026,H90_covered,CRE,尿液,URINE,13,8,15
+hospital_2026,H90_covered,CRE,痰液,RESP,34,21,35
+hospital_2026,H90_covered,CRE,穿刺液,OTHER,3,2,3
+hospital_2026,H90_covered,CRE,腹水,OTHER,1,1,1
+hospital_2026,H90_covered,CRPA,分泌物,OTHER,2,2,2
+hospital_2026,H90_covered,CRPA,痰液,RESP,79,41,80
+hospital_2026,H90_covered,CRPA,肺泡灌洗液,RESP,2,2,2
+hospital_2026,H90_covered,CRPA,胆汁,OTHER,1,1,1
+hospital_2026,H90_covered,CRPA,腹水,OTHER,1,1,1
+hospital_2026,H90_covered,CRPA,静脉导管头,OTHER,1,1,1
+hospital_2026,D18_new_2pct,CRAB,痰液,RESP,30,30,30
+hospital_2026,D18_new_2pct,CRAB,肺泡灌洗液,RESP,2,2,2
+hospital_2026,D18_new_2pct,CRE,痰液,RESP,14,13,14
+hospital_2026,D18_new_2pct,CRPA,痰液,RESP,15,14,15
+MIMIC_primary_adapted,all_positive,CRAB,BRONCHIAL WASHINGS,RESP,2,2,2
+MIMIC_primary_adapted,all_positive,CRAB,Mini-BAL,RESP,1,1,1
+MIMIC_primary_adapted,all_positive,CRAB,SPUTUM,RESP,12,6,12
+MIMIC_primary_adapted,all_positive,CRAB,SWAB,OTHER,4,3,5
+MIMIC_primary_adapted,all_positive,CRAB,TISSUE,OTHER,6,5,7
+MIMIC_primary_adapted,all_positive,CRAB,URINE,URINE,5,5,5
+MIMIC_primary_adapted,all_positive,CRE,ABSCESS,OTHER,10,8,10
+MIMIC_primary_adapted,all_positive,CRE,BILE,OTHER,6,6,6
+MIMIC_primary_adapted,all_positive,CRE,BLOOD CULTURE,BLOOD,28,23,29
+MIMIC_primary_adapted,all_positive,CRE,BRONCHOALVEOLAR LAVAGE,RESP,4,4,4
+MIMIC_primary_adapted,all_positive,CRE,CATHETER TIP-IV,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRE,"FLUID,OTHER",OTHER,4,4,4
+MIMIC_primary_adapted,all_positive,CRE,FOOT CULTURE,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRE,JOINT FLUID,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRE,Mini-BAL,RESP,2,2,2
+MIMIC_primary_adapted,all_positive,CRE,PERITONEAL FLUID,OTHER,10,9,11
+MIMIC_primary_adapted,all_positive,CRE,SPUTUM,RESP,29,25,29
+MIMIC_primary_adapted,all_positive,CRE,SWAB,OTHER,12,10,14
+MIMIC_primary_adapted,all_positive,CRE,TISSUE,OTHER,5,4,6
+MIMIC_primary_adapted,all_positive,CRE,URINE,URINE,44,36,44
+MIMIC_primary_adapted,all_positive,CRPA,ABSCESS,OTHER,23,17,26
+MIMIC_primary_adapted,all_positive,CRPA,ASPIRATE,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRPA,BILE,OTHER,45,25,46
+MIMIC_primary_adapted,all_positive,CRPA,BLOOD CULTURE,BLOOD,51,36,52
+MIMIC_primary_adapted,all_positive,CRPA,BRONCHIAL WASHINGS,RESP,44,32,47
+MIMIC_primary_adapted,all_positive,CRPA,BRONCHOALVEOLAR LAVAGE,RESP,75,50,75
+MIMIC_primary_adapted,all_positive,CRPA,CATHETER TIP-IV,OTHER,3,3,3
+MIMIC_primary_adapted,all_positive,CRPA,FLUID RECEIVED IN BLOOD CULTURE BOTTLES,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRPA,FLUID WOUND,OTHER,1,1,1
+MIMIC_primary_adapted,all_positive,CRPA,"FLUID,OTHER",OTHER,14,11,15
+MIMIC_primary_adapted,all_positive,CRPA,FOOT CULTURE,OTHER,3,3,3
+MIMIC_primary_adapted,all_positive,CRPA,FOREIGN BODY,OTHER,3,1,3
+MIMIC_primary_adapted,all_positive,CRPA,Mini-BAL,RESP,25,23,25
+MIMIC_primary_adapted,all_positive,CRPA,PERITONEAL FLUID,OTHER,11,10,11
+MIMIC_primary_adapted,all_positive,CRPA,PLEURAL FLUID,OTHER,4,4,4
+MIMIC_primary_adapted,all_positive,CRPA,SPUTUM,RESP,430,236,432
+MIMIC_primary_adapted,all_positive,CRPA,SWAB,OTHER,116,85,127
+MIMIC_primary_adapted,all_positive,CRPA,TISSUE,OTHER,50,45,50
+MIMIC_primary_adapted,all_positive,CRPA,URINE,URINE,147,110,147
+MIMIC_primary_adapted,all_positive,CRPA,"URINE,KIDNEY",URINE,4,3,4
+MIMIC_primary_adapted,all_positive,CRPA,"URINE,SUPRAPUBIC ASPIRATE",URINE,1,1,1
+MIMIC_primary_adapted,H90_covered,CRAB,BRONCHIAL WASHINGS,RESP,1,1,1
+MIMIC_primary_adapted,H90_covered,CRAB,Mini-BAL,RESP,1,1,1
+MIMIC_primary_adapted,H90_covered,CRAB,SPUTUM,RESP,7,2,7
+MIMIC_primary_adapted,H90_covered,CRAB,SWAB,OTHER,2,1,2
+MIMIC_primary_adapted,H90_covered,CRAB,TISSUE,OTHER,1,1,2
+MIMIC_primary_adapted,H90_covered,CRE,BLOOD CULTURE,BLOOD,2,2,2
+MIMIC_primary_adapted,H90_covered,CRE,BRONCHOALVEOLAR LAVAGE,RESP,1,1,1
+MIMIC_primary_adapted,H90_covered,CRE,PERITONEAL FLUID,OTHER,3,3,4
+MIMIC_primary_adapted,H90_covered,CRE,SPUTUM,RESP,4,4,4
+MIMIC_primary_adapted,H90_covered,CRE,TISSUE,OTHER,2,1,3
+MIMIC_primary_adapted,H90_covered,CRE,URINE,URINE,3,3,3
+MIMIC_primary_adapted,H90_covered,CRPA,ABSCESS,OTHER,7,5,8
+MIMIC_primary_adapted,H90_covered,CRPA,ASPIRATE,OTHER,1,1,1
+MIMIC_primary_adapted,H90_covered,CRPA,BILE,OTHER,17,8,17
+MIMIC_primary_adapted,H90_covered,CRPA,BLOOD CULTURE,BLOOD,9,9,9
+MIMIC_primary_adapted,H90_covered,CRPA,BRONCHIAL WASHINGS,RESP,19,12,20
+MIMIC_primary_adapted,H90_covered,CRPA,BRONCHOALVEOLAR LAVAGE,RESP,36,24,36
+MIMIC_primary_adapted,H90_covered,CRPA,CATHETER TIP-IV,OTHER,1,1,1
+MIMIC_primary_adapted,H90_covered,CRPA,FLUID WOUND,OTHER,1,1,1
+MIMIC_primary_adapted,H90_covered,CRPA,"FLUID,OTHER",OTHER,6,5,6
+MIMIC_primary_adapted,H90_covered,CRPA,FOREIGN BODY,OTHER,1,1,1
+MIMIC_primary_adapted,H90_covered,CRPA,Mini-BAL,RESP,9,9,9
+MIMIC_primary_adapted,H90_covered,CRPA,PERITONEAL FLUID,OTHER,4,4,4
+MIMIC_primary_adapted,H90_covered,CRPA,SPUTUM,RESP,147,80,147
+MIMIC_primary_adapted,H90_covered,CRPA,SWAB,OTHER,43,30,47
+MIMIC_primary_adapted,H90_covered,CRPA,TISSUE,OTHER,9,8,9
+MIMIC_primary_adapted,H90_covered,CRPA,URINE,URINE,44,31,44
+MIMIC_primary_adapted,D18_new_2pct,CRAB,SPUTUM,RESP,2,2,2
+MIMIC_primary_adapted,D18_new_2pct,CRE,BRONCHOALVEOLAR LAVAGE,RESP,1,1,1
+MIMIC_primary_adapted,D18_new_2pct,CRE,SPUTUM,RESP,5,5,5
+MIMIC_primary_adapted,D18_new_2pct,CRE,URINE,URINE,4,4,4
+MIMIC_primary_adapted,D18_new_2pct,CRPA,BRONCHIAL WASHINGS,RESP,3,3,3
+MIMIC_primary_adapted,D18_new_2pct,CRPA,BRONCHOALVEOLAR LAVAGE,RESP,8,8,8
+MIMIC_primary_adapted,D18_new_2pct,CRPA,Mini-BAL,RESP,3,3,3
+MIMIC_primary_adapted,D18_new_2pct,CRPA,SPUTUM,RESP,49,40,49
+MIMIC_primary_adapted,D18_new_2pct,CRPA,URINE,URINE,2,2,2

@@ -1,0 +1,15 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+
+# Outputs of the example and analysis commands
+runs/
+
+# Editor and operating-system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

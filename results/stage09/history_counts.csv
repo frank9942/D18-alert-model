@@ -1,0 +1,9 @@
+﻿cohort,history_group,events,patients,positive_events,unknown_events,H90_alerts,H90_positive_patients
+development_nested,calendar_after90,19962,12217,1181,540,1430,238
+development_nested,calendar_first90,5388,3664,307,309,303,57
+hospital_2025,long,6917,4692,183,230,203,35
+hospital_2025,short,13392,8615,584,490,554,105
+hospital_2026,long,5540,3781,151,182,226,30
+hospital_2026,short,10249,6357,498,396,525,91
+MIMIC_primary_adapted,long,168673,41427,826,43083,1800,123
+MIMIC_primary_adapted,short,142304,61233,355,35136,421,47

@@ -1,0 +1,10 @@
+﻿cohort,budget_percent,comparator,observed_patient_difference,patient_difference_lower,patient_difference_upper,observed_positive_event_difference,positive_event_difference_lower,positive_event_difference_upper,bounds_type,unknown_positive_assignments_to_null,tipping_status,adverse_assignable_unknown_events,unknown_events,model_selected_unknown_events,icu_expected_unknown_events,h90_unknown_events
+hospital_2026,1,original_LR,12.0,7.0,14.0,21.0,15.0,24.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,1,icu_los,15.0,5.0,17.0,25.0,13.0,28.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,1,icu_expected,14.047739912127552,5.408332306805445,18.34909134072231,26.845656565656572,18.365252525252533,31.601616161616167,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,128.0,578.0,5.0,8.724444444444444,34.0
+hospital_2026,2,original_LR,23.0,18.0,25.0,34.0,28.0,36.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,2,icu_los,31.0,18.0,35.0,40.0,25.0,46.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,2,icu_expected,35.306935550442084,18.29484736182098,41.77865288547389,52.785050505050506,36.002020202020205,60.1769696969697,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,129.0,578.0,8.0,17.391111111111112,34.0
+hospital_2026,5,original_LR,11.0,3.0,22.0,16.0,6.0,27.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,5,icu_los,28.0,4.0,40.0,37.0,11.0,49.0,sharp_identification_bounds_not_CI,,,,,,,
+hospital_2026,5,icu_expected,44.91285322945229,7.26560804126653,59.78223712499625,70.50949494949495,32.83353535353535,86.73656565656566,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,120.0,578.0,22.0,43.44888888888889,34.0

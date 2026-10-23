@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:55:04.396675+00:00",
+  "links_checked": 100,
+  "broken_links": 0,
+  "models": 12,
+  "figures_png": 3,
+  "figures_pdf": 3,
+  "syntax_checks": true,
+  "visual_inspection": true,
+  "main_D18_unchanged": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "original_D17_unchanged": "be4efa7c0045582939b667cbe55c1b8bd1120af848ae458c9ad547afd6ef6c0f",
+  "previous_supplement_all_files_verified": true,
+  "paper_copy": {
+    "path": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\manuscript\\supplementary_results_D18_history_and_ICU_LOS_ablation_20261015.txt",
+    "sha256": "b6f22ddb7f500e1004929b849d21f1e71b66ad529d439cb432d64b33711e437c"
+  },
+  "root_navigation_sha256": "163e83a7248528672d107c984cf954126b21c9060f8ad4f1def273878b1e16af",
+  "root_state_sha256": "5908a4360b6f874d2a81ed4a164cef00b3740faab74535bab58c1654afd4c034"
+}

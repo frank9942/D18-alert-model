@@ -1,0 +1,9 @@
+﻿year,source,adult_returning_events,matched_events,unmatched_events,interpretation
+2025,current_v7_event_label,2802,0,2802,current compatible source coverage
+2025,current_v7_analysis_matrix,2802,0,2802,current compatible source coverage
+2025,audited_proxy_extension,2802,0,2802,current compatible source coverage
+2025,existing_v7_history_pair_event,2802,0,2802,no history-pair row is not evidence of true H90 absence
+2026,current_v7_event_label,3295,0,3295,current compatible source coverage
+2026,current_v7_analysis_matrix,3295,0,3295,current compatible source coverage
+2026,audited_proxy_extension,3295,0,3295,current compatible source coverage
+2026,existing_v7_history_pair_event,3295,0,3295,no history-pair row is not evidence of true H90 absence

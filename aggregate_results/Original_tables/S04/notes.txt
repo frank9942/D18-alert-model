@@ -1,0 +1,7 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S4 D18 penalty tuning
+
+ 
+
+Five outer folds each use four inner folds. Final tuning uses five development folds. Every stage selected C = 0.1; there were 106 fits including the final and five outer models. Tuning used no evaluation outcomes.

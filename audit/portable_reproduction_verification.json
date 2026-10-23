@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "portable_refit": [
+    {
+      "fold": null,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    },
+    {
+      "fold": 0,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    },
+    {
+      "fold": 1,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    },
+    {
+      "fold": 2,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    },
+    {
+      "fold": 3,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    },
+    {
+      "fold": 4,
+      "max_coefficient_error": 0.0,
+      "C": 0.1
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "max_score_error": 5.551115123125783e-17,
+      "clinical_rows": 15,
+      "performance_populations": 2,
+      "workflow_settings": 24
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "max_score_error": 0.0,
+      "clinical_rows": 15,
+      "performance_populations": 2,
+      "workflow_settings": 24
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "max_score_error": 0.0,
+      "clinical_rows": 15,
+      "performance_populations": 2,
+      "workflow_settings": 24
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "max_score_error": 5.551115123125783e-17,
+      "clinical_rows": 15,
+      "performance_populations": 2,
+      "workflow_settings": 24
+    }
+  ],
+  "independent_formula_max_error": 0.0,
+  "clinical_intervals_replayed_2026": 129,
+  "performance_intervals_replayed_2026": 8,
+  "main_hash": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "total_scores_replayed": 372425,
+  "original_data_not_in_package": true,
+  "calibration_CI": "source files hash verified and bundled; not independently rerun during packaging",
+  "all_sensitivity_bootstraps": "original outputs/source hashes verified; packaging did not rerun every sensitivity experiment"
+}

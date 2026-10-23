@@ -1,0 +1,14 @@
+﻿Section,Item,Topic,Where reported or remaining limitation
+Methods,12g,How predictions were calculated (E),"Supplementary Methods S2–S3 and Tables S2–S3: coefficients, domains, transformations and prediction formula."
+Methods,13,Class imbalance,"Methods: Model development. Equal event weights; no class weighting, SMOTE or outcome resampling."
+Methods,14,Fairness,No sociodemographic fairness analysis; stated in Discussion.
+Methods,15,Model output and thresholds,Methods: local ranking budgets; Supplementary Methods S6 and Table S21: fixed development workload thresholds. These are not validated absolute-risk thresholds.
+Methods,16,Differences between development and evaluation data,Methods: External cohort; Table 1 and Supplementary Tables S2 and S4.
+Methods,17,Ethical approval and consent,Methods: Study design and setting. Ethics approval and consent-waiver details require author completion.
+Open science,18a,Funding,"Acknowledgements: funding sources and grant numbers, or confirmation of no funding, remain pending."
+Open science,18b,Conflicts of interest,Competing interests: author declaration remains pending.
+Open science,18c,Protocol,Supplementary Methods S3 and S8 report development and freezing before first validation access. Later exploratory analyses did not modify D18. No prospective protocol is documented.
+Open science,18d,Registration,Not prospectively registered (main Discussion).
+Open science,18e,Data sharing,"Data availability: MIMIC-IV access identified; hospital restrictions, responsible contact and application route require completion."
+Open science,18f,Code sharing,Code availability; Supplementary Tables S3 and S22. Complete code-access route and release packaging require author completion.
+Patient and public involvement,19,Patient and public involvement,Patient and public involvement is not documented in the supplied materials; author confirmation required.

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T08:59:56.273060+00:00",
+  "hashes": {
+    "private/scores_D18_availability_only_development_nested.csv": "8e4872e109b4523260e6198759f077ce51a305f2c05a3a8367edd2735bd9562e",
+    "private/scores_D18_availability_only_hospital_2025.csv": "07824843a6a3b1e9388f30274b3ec3399b803327b12d863f0efbc8dd57f3f466",
+    "private/scores_D18_availability_only_hospital_2026.csv": "ef6fcea20cd4e318b5ce09949916813ba960200beca107adccecc1b48d86bc7c",
+    "private/scores_D18_availability_only_MIMIC_primary_adapted.csv": "cc337998d882e66e858182a80a791caa784dc5b2d09021e9b8306fc48309754d"
+  }
+}

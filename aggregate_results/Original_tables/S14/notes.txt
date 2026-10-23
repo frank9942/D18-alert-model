@@ -1,0 +1,21 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S14 Specimen categories and unknown outcomes at the 2 percent budget
+
+Development
+
+ 
+
+Hospital 2025
+
+ 
+
+Hospital 2026
+
+ 
+
+MIMIC-IV
+
+ 
+
+Categories refer to co-earliest requests. The profile describes the distribution of unknown outcomes, not their causes, infection status or resistant pathogen composition. ICU-priority counts are expectations. No unknown event is implicitly treated as non-positive in the observed analysis.

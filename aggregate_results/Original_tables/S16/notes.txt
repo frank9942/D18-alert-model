@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S16 Analysis sequence and artifact identities
+
+ 
+
+The study phases are summarised above. Algorithm selection and finalisation of D18 preceded first access to the validation cohorts. Supplementary analyses followed the primary evaluations and did not change the formal D18 model. The SHA-256 identifiers below support verification of the saved model and analysis artifacts.
+
+SHA 256 identifiers
+
+ 
+
+Development scores come from the five nested outer models, whereas later cohorts use the single final model. The saved D18 model was reused without refitting or recalibration in the sensitivity analyses. The saved artifact identifier D18_H3_Adult_T0spec_candidate_v1 is retained for matching archived files. Source file and score hashes remain in the protected analysis manifests.

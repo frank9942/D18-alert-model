@@ -1,0 +1,29 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S20 Microbiology-history and ICU/length-of-stay ablations at all ranking budgets
+
+Counts describe additional alerts and patients beyond unchanged H90. First capture is the earliest known-positive event, not proven clinical lead time. Δ is the ablation minus full D18 unless a rule is specified. All intervals are pointwise 95% paired patient-cluster intervals with fixed fitted scores; no multiplicity or model-selection adjustment.
+
+Development
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 

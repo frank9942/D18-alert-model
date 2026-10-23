@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "weighted_cases": 18,
+  "max_metric_abs_error": 2.220446049250313e-16,
+  "max_calibration_abs_error": 1.4929043112843488e-08,
+  "zero_weights_tied_scores_repeated_patients": true,
+  "independent_calibration_solver": "scipy trust-exact + offset brentq"
+}

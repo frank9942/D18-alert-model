@@ -1,0 +1,200 @@
+{
+  "D18": {
+    "file": "models/main/D18.joblib",
+    "sha256": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+    "role": "Current manuscript reporting model; exploratory; not deployed",
+    "definition": "models/main/D18_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/main/D18_outer0.joblib",
+        "sha256": "c8df8c8e1523c0f42d370828e3626c3e185e07ec8bfa3195a63a6a52d181132b"
+      },
+      {
+        "fold": 1,
+        "file": "models/main/D18_outer1.joblib",
+        "sha256": "88299bcc97e556e6154d4b8e1f975825cb42275f1c6d406b7660cf04e481eb4c"
+      },
+      {
+        "fold": 2,
+        "file": "models/main/D18_outer2.joblib",
+        "sha256": "23d813ecc509d61035cc7b795d9933eedd6379c24ca2f771bafe3eb195562a7b"
+      },
+      {
+        "fold": 3,
+        "file": "models/main/D18_outer3.joblib",
+        "sha256": "ddcec747187dd68dd89b1df2c0e70251d4101fb86ecd22c021d80896f05846bb"
+      },
+      {
+        "fold": 4,
+        "file": "models/main/D18_outer4.joblib",
+        "sha256": "fe89f2bab8dd750f2e40f285f02bbec42413f61baf03d10cdc89bc64ea215613"
+      }
+    ]
+  },
+  "D18_no_labs": {
+    "file": "models/sensitivity/D18_no_labs.joblib",
+    "sha256": "cfbd6c7bd8c109a924caf6b8d6187e0573a2286371e916c64fa631052a23de9b",
+    "role": "D18 sensitivity model; not replacement main model",
+    "definition": "models/sensitivity/D18_no_labs_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/sensitivity/D18_no_labs_outer0.joblib",
+        "sha256": "722716e0c1d94607120f9264fc13e1a78f1d94a6495cf45b0dba83d0129540f7"
+      },
+      {
+        "fold": 1,
+        "file": "models/sensitivity/D18_no_labs_outer1.joblib",
+        "sha256": "18b7a266bc60483c320e2c0d5200560a6db06ccf8ce6ebd02f7c599f3a309edb"
+      },
+      {
+        "fold": 2,
+        "file": "models/sensitivity/D18_no_labs_outer2.joblib",
+        "sha256": "436fac66fada4c34873942474981ca9922edfa68c88bcb0d66dd859a77c22ca8"
+      },
+      {
+        "fold": 3,
+        "file": "models/sensitivity/D18_no_labs_outer3.joblib",
+        "sha256": "b386a58f1be5375d82fcc845d2181e1066b5c839d40f515172d6b0184c78dbbe"
+      },
+      {
+        "fold": 4,
+        "file": "models/sensitivity/D18_no_labs_outer4.joblib",
+        "sha256": "d12b6170fa6f411d5d4f3d8b89f3b008720cb4b49603bf5631b534a9c6ead791"
+      }
+    ]
+  },
+  "D18_availability_only": {
+    "file": "models/sensitivity/D18_availability_only.joblib",
+    "sha256": "b4bc70ca037fc4365b012f1a9df9ffb9b4471557565a7bd35da40ea36dbd8440",
+    "role": "D18 sensitivity model; not replacement main model",
+    "definition": "models/sensitivity/D18_availability_only_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/sensitivity/D18_availability_only_outer0.joblib",
+        "sha256": "72c5335abab6d942b7e0fe8f32815ee0d0923651647e1449af64dd14a23a671f"
+      },
+      {
+        "fold": 1,
+        "file": "models/sensitivity/D18_availability_only_outer1.joblib",
+        "sha256": "8399b37bbd8cd4bd3de33b8abfca9ca2d0574a4ce121b07dc6c9455c9ca396f0"
+      },
+      {
+        "fold": 2,
+        "file": "models/sensitivity/D18_availability_only_outer2.joblib",
+        "sha256": "7c388115a601d2673ba49835bca592f74639a02cc3b421f3884b19a2762c6f8e"
+      },
+      {
+        "fold": 3,
+        "file": "models/sensitivity/D18_availability_only_outer3.joblib",
+        "sha256": "44dd57adfa5acd76020b671bd5dc6c8d91f626285d06431130b2354b36e33c7a"
+      },
+      {
+        "fold": 4,
+        "file": "models/sensitivity/D18_availability_only_outer4.joblib",
+        "sha256": "4bce7e641a533bdca4b813199f660bfcce24e3acb25293a0c1b8568517710e96"
+      }
+    ]
+  },
+  "D18_after90": {
+    "file": "models/sensitivity/D18_after90.joblib",
+    "sha256": "7dcf0eca658f35916af7c4b8a94149b2a1f48b4e09d9f3a54c8813af4a25f3d1",
+    "role": "D18 sensitivity model; not replacement main model",
+    "definition": "models/sensitivity/D18_after90_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/sensitivity/D18_after90_outer0.joblib",
+        "sha256": "7cb339beb01f2cf6aef7f70440bb90e9f06476bec214e4dc9009a859edb0c309"
+      },
+      {
+        "fold": 1,
+        "file": "models/sensitivity/D18_after90_outer1.joblib",
+        "sha256": "0e83d07747758a5a38912015065b90357ffa8a24a0e487218c5659f98fb72802"
+      },
+      {
+        "fold": 2,
+        "file": "models/sensitivity/D18_after90_outer2.joblib",
+        "sha256": "4b87a17d43a7785e1ce9b48580c078da76d37756442e16cddc605470cec30d84"
+      },
+      {
+        "fold": 3,
+        "file": "models/sensitivity/D18_after90_outer3.joblib",
+        "sha256": "0d5fd4dc151b868c18723ac6c4a596854de2e34f0490449270bb2ef9d6c5b02c"
+      },
+      {
+        "fold": 4,
+        "file": "models/sensitivity/D18_after90_outer4.joblib",
+        "sha256": "e19127305c41eded390cee45b5467877569a6b8559e3cde4aee5a834eaf8f02d"
+      }
+    ]
+  },
+  "D18_no_micro_history": {
+    "file": "models/sensitivity/D18_no_micro_history.joblib",
+    "sha256": "6cb45c253b15d6db28f37a70576b45e8d49a6284340d3ceb30ce573aa5245350",
+    "role": "D18 group ablation; first layer H90 unchanged",
+    "definition": "models/sensitivity/D18_no_micro_history_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/sensitivity/D18_no_micro_history_outer0.joblib",
+        "sha256": "3b0a4fbfec78fbc250170fd193e6a271acefd80ed452e49b081e31b7c1a35683"
+      },
+      {
+        "fold": 1,
+        "file": "models/sensitivity/D18_no_micro_history_outer1.joblib",
+        "sha256": "8bd18d453499fafc969d21088f6077f8bc308a5d465fa916bf9e4a14cf3ec4ea"
+      },
+      {
+        "fold": 2,
+        "file": "models/sensitivity/D18_no_micro_history_outer2.joblib",
+        "sha256": "0f6d156904714f50160b3638de820455c0ba0a95102e0872a22fa07fd619bf98"
+      },
+      {
+        "fold": 3,
+        "file": "models/sensitivity/D18_no_micro_history_outer3.joblib",
+        "sha256": "ac33359827396f3ac77e020eb070e110d7330299f3b354b4e3d54a9cf6a39ac7"
+      },
+      {
+        "fold": 4,
+        "file": "models/sensitivity/D18_no_micro_history_outer4.joblib",
+        "sha256": "d905dca7cddadfc7cace6de008ac00dd7ca265619cc8ae327e5a12af8f2d2387"
+      }
+    ]
+  },
+  "D18_no_ICU_LOS": {
+    "file": "models/sensitivity/D18_no_ICU_LOS.joblib",
+    "sha256": "26c2bc8cd3b2e9a7a0a338db81bcb1ded64542262544c2eee8ad497e5c52ad3d",
+    "role": "D18 group ablation; first layer H90 unchanged",
+    "definition": "models/sensitivity/D18_no_ICU_LOS_original_definition.json",
+    "outer_models": [
+      {
+        "fold": 0,
+        "file": "models/sensitivity/D18_no_ICU_LOS_outer0.joblib",
+        "sha256": "6222987989131a97a33a042cc6fb5d583c58186fa7c1ea1b15dd7b8bdf937a4e"
+      },
+      {
+        "fold": 1,
+        "file": "models/sensitivity/D18_no_ICU_LOS_outer1.joblib",
+        "sha256": "4eec066e6569e73a3ad2a5b22ed35e60aef5e74f929a8619f2482b43a9d29ca9"
+      },
+      {
+        "fold": 2,
+        "file": "models/sensitivity/D18_no_ICU_LOS_outer2.joblib",
+        "sha256": "7402e4e6857fdd1314bca58d1429124160787157928f060eead09741c772181d"
+      },
+      {
+        "fold": 3,
+        "file": "models/sensitivity/D18_no_ICU_LOS_outer3.joblib",
+        "sha256": "81ef56a9040cb2ce3d29b7010bf92335bb0ff1d59387421fc12c27adfe1831de"
+      },
+      {
+        "fold": 4,
+        "file": "models/sensitivity/D18_no_ICU_LOS_outer4.joblib",
+        "sha256": "f9044d2b191da2838031e85b104d82d4ab135dad6590142c74fa7c424e7dc9c8"
+      }
+    ]
+  }
+}

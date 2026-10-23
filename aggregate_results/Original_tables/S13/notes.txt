@@ -1,0 +1,21 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S13 Sharp identification bounds for unknown outcomes
+
+Development
+
+ 
+
+Hospital 2025
+
+ 
+
+Hospital 2026
+
+ 
+
+MIMIC-IV
+
+ 
+
+Differences are D18 minus comparator. Brackets are sharp bounds for fixed-sample identification, not 95% confidence intervals. One common unknown-label vector applies to both strategies. Positive bounds do not establish significance under every assignment or an effect in a new population.

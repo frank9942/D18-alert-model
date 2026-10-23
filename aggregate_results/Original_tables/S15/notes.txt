@@ -1,0 +1,31 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S15 D18 discrimination and alert coverage summaries
+
+This table summarises complete D18 performance and alert coverage. The initial D18 evaluation supplies this table, while the paired sensitivity run supplies Tables S8–S13. Interval endpoints may differ slightly between runs while point estimates agree. The final penalty was C = 0.1.
+
+Development
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 
+
+Discrimination is shown in the H90-unflagged population. Calibration diagnostics are point estimates. Coverage and first capture remain distinct endpoints; intervals hold the fitted scores fixed.

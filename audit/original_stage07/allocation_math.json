@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "inherited_exhaustive_checks": {
+    "status": "PASS",
+    "exhaustive_random_expectation_checks": 20,
+    "explicit_patient_copy_deterministic_checks": 20,
+    "scipy_hypergeometric_reference_cases": 5,
+    "covered_cases": [
+      "unknown-only patient",
+      "baseline-covered patient",
+      "repeated positive events",
+      "patient resampled twice",
+      "mixed ICU strata",
+      "K=0",
+      "K=N",
+      "missing LOS",
+      "score ties"
+    ]
+  },
+  "optimized_vs_reference_checks": 216
+}

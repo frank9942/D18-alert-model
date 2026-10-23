@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "selected": [
+    {
+      "outer": 0,
+      "C": 0.1,
+      "sha256": "7cb339beb01f2cf6aef7f70440bb90e9f06476bec214e4dc9009a859edb0c309"
+    },
+    {
+      "outer": 1,
+      "C": 0.1,
+      "sha256": "0e83d07747758a5a38912015065b90357ffa8a24a0e487218c5659f98fb72802"
+    },
+    {
+      "outer": 2,
+      "C": 0.1,
+      "sha256": "4b87a17d43a7785e1ce9b48580c078da76d37756442e16cddc605470cec30d84"
+    },
+    {
+      "outer": 3,
+      "C": 0.1,
+      "sha256": "0d5fd4dc151b868c18723ac6c4a596854de2e34f0490449270bb2ef9d6c5b02c"
+    },
+    {
+      "outer": 4,
+      "C": 0.1,
+      "sha256": "e19127305c41eded390cee45b5467877569a6b8559e3cde4aee5a834eaf8f02d"
+    },
+    {
+      "outer": "final",
+      "C": 0.1,
+      "sha256": "7dcf0eca658f35916af7c4b8a94149b2a1f48b4e09d9f3a54c8813af4a25f3d1"
+    }
+  ],
+  "fits": 106,
+  "events": 19962,
+  "known_events": 19422,
+  "nested": true,
+  "evaluation_used": false,
+  "completed_utc": "2026-10-15T08:59:37.809930+00:00",
+  "seconds": 7.577999999979511,
+  "hashes": {
+    "models\\D18_after90.joblib": "7dcf0eca658f35916af7c4b8a94149b2a1f48b4e09d9f3a54c8813af4a25f3d1",
+    "models\\D18_after90_definition.json": "034888bc5d1f5846cda4325d8bb4598545e907264a40ed87c060ac4f25f1d282",
+    "models\\D18_after90_outer0.joblib": "7cb339beb01f2cf6aef7f70440bb90e9f06476bec214e4dc9009a859edb0c309",
+    "models\\D18_after90_outer1.joblib": "0e83d07747758a5a38912015065b90357ffa8a24a0e487218c5659f98fb72802",
+    "models\\D18_after90_outer2.joblib": "4b87a17d43a7785e1ce9b48580c078da76d37756442e16cddc605470cec30d84",
+    "models\\D18_after90_outer3.joblib": "0d5fd4dc151b868c18723ac6c4a596854de2e34f0490449270bb2ef9d6c5b02c",
+    "models\\D18_after90_outer4.joblib": "e19127305c41eded390cee45b5467877569a6b8559e3cde4aee5a834eaf8f02d",
+    "private\\oof_D18_after90.csv": "fe654f5c588ce75f500a46302d110f40d88de2ccbffd0960ab0cd3cd2292a110"
+  }
+}

@@ -1,0 +1,13 @@
+﻿cohort,endpoint,events,patients,positive_events,positive_patients,unknown_events,co_earliest_tie_events,tie_outcome_disagreement,events_with_later_units
+development_nested,full_24h,25350,15280,1488,658,849,3729,254,4427
+development_nested,at_t0_all,25350,15280,1246,603,744,3729,254,4427
+development_nested,at_t0_one,25350,15280,1167,584,680,3729,254,4427
+hospital_2025,full_24h,20309,12994,767,424,720,2214,124,3706
+hospital_2025,at_t0_all,20309,12994,628,375,609,2214,124,3706
+hospital_2025,at_t0_one,20309,12994,596,361,575,2214,124,3706
+hospital_2026,full_24h,15789,9990,649,367,578,1482,84,3112
+hospital_2026,at_t0_all,15789,9990,542,323,496,1482,84,3112
+hospital_2026,at_t0_one,15789,9990,526,319,460,1482,84,3112
+MIMIC_primary_adapted,full_24h,310977,89648,1181,610,78219,24156,2227,161938
+MIMIC_primary_adapted,at_t0_all,310977,89648,724,443,56142,24156,2227,161938
+MIMIC_primary_adapted,at_t0_one,310977,89648,689,430,55003,24156,2227,161938

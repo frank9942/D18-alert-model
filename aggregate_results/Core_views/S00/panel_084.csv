@@ -1,0 +1,17 @@
+﻿Section,Item,Topic,Where reported or remaining limitation
+Title,1,"Study type, population, predicted outcome","Title identifies prediction at culture ordering to supplement history alerts; Abstract states the development/validation design, adult population and laboratory outcome."
+Abstract,2,"Structured abstract
+(TRIPOD+AI for Abstracts)","Abstract summarises the study design, principal estimates and limitations; unstructured journal format."
+Introduction,3a,"Health-care context, rationale, existing models",Introduction: clinical context and previous work.
+Introduction,3b,"Target population, intended use and users",Introduction: history-alert supplement objective.
+Introduction,3c,Known health inequalities,No sociodemographic inequality or fairness analysis was performed; stated in Discussion.
+Introduction,4,"Objectives
+(development and/or evaluation)","Introduction: development comparison of three algorithms, selection and independent validation of the final D18-L2 model, with supplementary analyses."
+Methods,5a,"Data sources and representativeness
+(D, E)",Methods: Study design and setting; External cohort; Supplementary Methods S1.
+Methods,5b,Dates of data collection,Methods: Cohorts and prediction time; Fig. 2; Supplementary Tables S1 and S22.
+Methods,6a,"Setting, number and location of centres","Methods: Study design and setting; two hospital campuses treated as one centre, plus adapted MIMIC-IV."
+Methods,6b,Eligibility criteria,Methods: Cohorts and prediction time. Age ≥18 at T0; study-specific event and patient-period rules.
+Methods,6c,Treatments received,No treatment intervention was assigned. Pre-T0 antimicrobial orders are predictor proxies (Table S2).
+Methods,7,Data preparation and quality checking,Methods: Predictors and data quality; Supplementary Methods S1–S3 and Table S1.
+Methods,8a,"Outcome definition, timing and assessment",Methods: Outcome; Supplementary Methods S1. Final report-extraction date requires completion.

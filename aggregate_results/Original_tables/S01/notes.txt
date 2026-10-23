@@ -1,0 +1,7 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S1 Cohort derivation and entry reconciliation
+
+Hospital study entry comprised 128,959 culture requests identified through 79 catalogue items in the laboratory information system. Reconciliation compares this entry with requests reconstructed from source-system snapshots; requests absent from the reconstruction are a difference between extracts of the same source. Age filtering retains the study event windows and patient-period exclusions. Requests and included events have different denominators.
+
+Request entry reconciliation

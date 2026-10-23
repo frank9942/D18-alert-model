@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "different_working_directory": true,
+  "PYTHONPATH_cleared": true,
+  "source_project_not_required_by_portable_entrypoints": true,
+  "synthetic_scoring_rows": 60,
+  "tests": [
+    {
+      "script": "selftest.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"frozen_model_files\": 37,\n  \"synthetic_examples\": 60,\n  \"prediction_max_abs_error\": {\n    \"D18\": 0.0,\n    \"D18_no_labs\": 0.0,\n    \"D18_availability_only\": 0.0,\n    \"D18_after90\": 0.0,\n    \"D18_no_micro_history\": 0.0,\n    \"D18_no_ICU_LOS\": 0.0,\n    \"D17_reference\": 0.0\n  },\n  \"math_checks\": true,\n  \"input_boundary_checks\": true,\n  \"package_files_verified\": 0\n}"
+    },
+    {
+      "script": "predict.py",
+      "exit_code": 0,
+      "stdout": "SCORED 60 D18 <PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\data_preparation\\private\\D18_package_validation_20261015\\relocated_demo_scores.csv"
+    },
+    {
+      "script": "evaluate.py",
+      "exit_code": 0,
+      "stdout": "EVALUATED hospital_2026 60 0"
+    },
+    {
+      "script": "simulate_alerts.py",
+      "exit_code": 0,
+      "stdout": "SIMULATED 60 extra alerts 1 H90 alerts 9"
+    },
+    {
+      "script": "attach_specimens.py",
+      "exit_code": 0,
+      "stdout": "ATTACHED 25350 frozen T0 categories; original numeric tokens preserved"
+    }
+  ],
+  "original_token_join_identical": true
+}

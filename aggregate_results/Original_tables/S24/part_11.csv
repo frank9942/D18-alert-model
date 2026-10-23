@@ -1,0 +1,7 @@
+﻿Stratum,Budget,Alerts,Positive,Known non-positive,Unknown,Added patients (95% CI),Δ vs ICU+LOS (95% CI)
+Contact span ≥90 days,1%,"1,669",58,880,731,38.0 (28.0 to 50.0),23.0 (12.0 to 36.0)
+Contact span ≥90 days,2%,"3,338",87,"1,931","1,320",50.0 (39.0 to 64.0),30.0 (17.0 to 45.0)
+Contact span ≥90 days,5%,"8,344",157,"5,306","2,881",83.0 (68.0 to 101.0),38.0 (23.0 to 55.0)
+Contact span <90 days,1%,"1,419",26,734,659,14.0 (8.0 to 23.0),4.0 (−2.0 to 13.0)
+Contact span <90 days,2%,"2,838",43,"1,567","1,228",24.0 (15.0 to 34.0),7.0 (−3.0 to 17.0)
+Contact span <90 days,5%,"7,095",70,"4,405","2,620",42.0 (29.0 to 54.0),11.0 (0.0 to 20.0)

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "selected": [
+    {
+      "outer": 0,
+      "C": 0.1,
+      "sha256": "6222987989131a97a33a042cc6fb5d583c58186fa7c1ea1b15dd7b8bdf937a4e"
+    },
+    {
+      "outer": 1,
+      "C": 0.1,
+      "sha256": "4eec066e6569e73a3ad2a5b22ed35e60aef5e74f929a8619f2482b43a9d29ca9"
+    },
+    {
+      "outer": 2,
+      "C": 0.1,
+      "sha256": "7402e4e6857fdd1314bca58d1429124160787157928f060eead09741c772181d"
+    },
+    {
+      "outer": 3,
+      "C": 0.1,
+      "sha256": "81ef56a9040cb2ce3d29b7010bf92335bb0ff1d59387421fc12c27adfe1831de"
+    },
+    {
+      "outer": 4,
+      "C": 0.1,
+      "sha256": "f9044d2b191da2838031e85b104d82d4ab135dad6590142c74fa7c424e7dc9c8"
+    },
+    {
+      "outer": "final",
+      "C": 0.1,
+      "sha256": "26c2bc8cd3b2e9a7a0a338db81bcb1ded64542262544c2eee8ad497e5c52ad3d"
+    }
+  ],
+  "fits": 106,
+  "events": 25350,
+  "known_events": 24501,
+  "nested": true,
+  "evaluation_used": false,
+  "completed_utc": "2026-10-15T09:42:47.141347+00:00",
+  "seconds": 7.922000000020489,
+  "hashes": {
+    "models\\D18_no_ICU_LOS.joblib": "26c2bc8cd3b2e9a7a0a338db81bcb1ded64542262544c2eee8ad497e5c52ad3d",
+    "models\\D18_no_ICU_LOS_definition.json": "8406dff7c5e5401fabd2b80825c65fa77ed128a2233b4bdfdab78c2d18c64013",
+    "models\\D18_no_ICU_LOS_outer0.joblib": "6222987989131a97a33a042cc6fb5d583c58186fa7c1ea1b15dd7b8bdf937a4e",
+    "models\\D18_no_ICU_LOS_outer1.joblib": "4eec066e6569e73a3ad2a5b22ed35e60aef5e74f929a8619f2482b43a9d29ca9",
+    "models\\D18_no_ICU_LOS_outer2.joblib": "7402e4e6857fdd1314bca58d1429124160787157928f060eead09741c772181d",
+    "models\\D18_no_ICU_LOS_outer3.joblib": "81ef56a9040cb2ce3d29b7010bf92335bb0ff1d59387421fc12c27adfe1831de",
+    "models\\D18_no_ICU_LOS_outer4.joblib": "f9044d2b191da2838031e85b104d82d4ab135dad6590142c74fa7c424e7dc9c8",
+    "private\\oof_D18_no_ICU_LOS.csv": "abf7a932ffe98fd0530d7a85478af414a022dcb49f0572b53678593cff5dc08f"
+  }
+}

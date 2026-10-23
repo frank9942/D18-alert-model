@@ -1,0 +1,5 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S7 H90 baseline coverage
+
+H90 is a simulated rule; clinical practice consisted of manual report review. Cumulative coverage is distinct from capture of the earliest known-positive event. First H90 capture was 1, 0, 0 and 17 in development, 2025, 2026 and MIMIC-IV.

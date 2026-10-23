@@ -1,0 +1,10 @@
+﻿cohort,population,events,patients,positive_specimens,budget,denominator
+hospital_2025,all_positive,767,424,877,0,distinct selected positive evidence events/patients
+hospital_2025,H90_covered,256,134,297,0,distinct selected positive evidence events/patients
+hospital_2025,D18_new_2pct,72,61,74,2,distinct selected positive evidence events/patients
+hospital_2026,all_positive,649,367,728,0,distinct selected positive evidence events/patients
+hospital_2026,H90_covered,224,115,249,0,distinct selected positive evidence events/patients
+hospital_2026,D18_new_2pct,56,53,56,2,distinct selected positive evidence events/patients
+MIMIC_primary_adapted,all_positive,1181,610,1262,0,distinct selected positive evidence events/patients
+MIMIC_primary_adapted,H90_covered,360,162,386,0,distinct selected positive evidence events/patients
+MIMIC_primary_adapted,D18_new_2pct,77,67,77,2,distinct selected positive evidence events/patients

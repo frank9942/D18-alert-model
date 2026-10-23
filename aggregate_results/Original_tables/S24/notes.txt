@@ -1,0 +1,37 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S24 Coverage within observable-history strata
+
+Ranking and quotas are recomputed within each stratum. A patient may contribute to different strata over time; patient counts must not be summed. A ≥90-day contact span does not establish continuous observation. Development calendar strata and evaluation contact-span strata answer different questions. There were no unresolved-span strata. No interaction test was performed; a difference in whether intervals include zero does not establish a difference between strata.
+
+Development
+
+ 
+
+ 
+
+ 
+
+Hospital 2025
+
+ 
+
+ 
+
+ 
+
+Hospital 2026
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV
+
+ 
+
+ 
+
+ 

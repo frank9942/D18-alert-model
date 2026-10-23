@@ -1,0 +1,5 @@
+﻿mapping,population,n_events,n_patients,n_positive,n_nonpositive,n_unknown,metrics_match_sklearn
+original_v7,all_known,232758,75162,1181,231577,0,True
+original_v7,H90_unflagged_known,231004,75155,821,230183,0,True
+flora_hypothesis_resp_v2,all_known,242479,76706,1181,241298,0,True
+flora_hypothesis_resp_v2,H90_unflagged_known,240698,76699,821,239877,0,True

@@ -1,0 +1,9 @@
+﻿cohort,scenario,events,patients,positive_events,positive_patients,unknown_events,H90_covered_positive_patients,first_H90
+development_nested,observed,25350,15280,1488,658,849,283,1
+development_nested,all_unknown_positive,25350,15280,2337,1355,0,296,1
+hospital_2025,observed,20309,12994,767,424,720,134,0
+hospital_2025,all_unknown_positive,20309,12994,1487,1048,0,146,0
+hospital_2026,observed,15789,9990,649,367,578,115,0
+hospital_2026,all_unknown_positive,15789,9990,1227,863,0,130,0
+MIMIC_primary_adapted,observed,310977,89648,1181,610,78219,162,17
+MIMIC_primary_adapted,all_unknown_positive,310977,89648,79400,43357,0,261,8

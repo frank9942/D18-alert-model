@@ -1,0 +1,12 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S49 Conditional sharp identification bounds in MIMIC-IV
+
+O = original mapping, 78,219 unknown events; F = restricted flora hypothesis, 9721 locked assumed non-positive events and 68,498 remaining unknown events. Ranges are sharp identification bounds in the fixed sample, not 95% intervals. Both strategies share each completed label vector. The F bounds lie within their corresponding O bounds. ICU priority values are exact expectations and may be fractional.
+
+D18 − ICU+LOS
+
+
+
+D18 − ICU priority
+

@@ -1,0 +1,250 @@
+{
+  "A/A1_development_specimen_order.csv": {
+    "sha256": "030de8c28f5d8fcf3fc62e846481c7b77e15b4541bde788c275379ce4c04cc23",
+    "bytes": 2495
+  },
+  "A/A2_A3_clinical_intervals.csv": {
+    "sha256": "3319d14f2c30513e9224e39cbe395558693be970d04ce5b07f16206db2f60a4a",
+    "bytes": 214826
+  },
+  "A/A2_A3_clinical_points.csv": {
+    "sha256": "4d58b758b0eba56c5a5d4e52e0fd314df797939e683942bbabe3d5569deb5109",
+    "bytes": 19502
+  },
+  "A/A4_specimen_global_selection.csv": {
+    "sha256": "63ad45a78424a77b9cad48700b04772deb6b465905279867c509f93f7b06dd12",
+    "bytes": 29804
+  },
+  "A/A4_specimen_performance.csv": {
+    "sha256": "d56d189016de497e66b730d524a9160ed70f76176fda64f410bda3bb25bb68a6",
+    "bytes": 9225
+  },
+  "B/B1_flow.csv": {
+    "sha256": "62a6e629a65eb09c7c6723cff15030365db96977d27b1eb23f6f82df684ea16a",
+    "bytes": 623
+  },
+  "B/B1_patient_groups.csv": {
+    "sha256": "dc20d3a2337707faa5ca030e76d9ed7390f5604c525b3079e7e059f1bb8f3883",
+    "bytes": 311
+  },
+  "B/B1_source_gaps.csv": {
+    "sha256": "74f7ac2124e65301ca29299f3c851c7eb7d8f0acd17be66dbe51d3ecabaec66e",
+    "bytes": 762
+  },
+  "B/B2_original_calibration_intervals.csv": {
+    "sha256": "b3136e626433916d410305efddc0e618d00092135a1194f7b748a98d86d6b0d2",
+    "bytes": 3477
+  },
+  "B/B2_original_calibration_points.csv": {
+    "sha256": "fd6760bc5e83e24e298ac9c3fd31bf6789345328a6738a014d8681b2ced4819a",
+    "bytes": 872
+  },
+  "B/B2_original_strategy_reference.csv": {
+    "sha256": "abe235c380ebf60e86697e9f6891a3be87039ddbb400667137ab0c852c613dc4",
+    "bytes": 50703
+  },
+  "B/B3_original_H90_first_capture.csv": {
+    "sha256": "712e8a69567f849bc4b633784d1152cee92451e793790ca9fae80e537814cbc5",
+    "bytes": 946
+  },
+  "B/B4_history_source.csv": {
+    "sha256": "d2fb5fb915e1dd346ac44544dc6434939e3263e490b26cae2b9a52ba9dc1c59c",
+    "bytes": 456
+  },
+  "B/B4_time_logic_checks.csv": {
+    "sha256": "2aef26334cb87c752e2d0d004cd7431e059e5308c13375b5c0b8eacc5537a694",
+    "bytes": 238
+  },
+  "B/B_pending_fields.csv": {
+    "sha256": "8762b5897827a63a04e721cde5c512731186de603a77cdb354bf6806017bf916",
+    "bytes": 886
+  },
+  "C/C1_mapping_dictionary.csv": {
+    "sha256": "56fc2676041be0ffe62dead68c51ca0b85cc58853b1bed7b947faa48bb9f32ea",
+    "bytes": 4160
+  },
+  "C/C2_assumed_specimens.csv": {
+    "sha256": "0c5a6fbf2904256405283fee5cf17f4c69040bdd53840f03e916cd0789670e08",
+    "bytes": 484
+  },
+  "C/C2_label_migration.csv": {
+    "sha256": "ed53d72241a781e336354cbc777124a0f9354e144b6dcb14c556d41d677c6a0a",
+    "bytes": 6754
+  },
+  "C/C2_rule_eligibility.csv": {
+    "sha256": "bad1a96d80784b157ce9261fa531813bd48d572c920fa516e262b9dc29d86691",
+    "bytes": 3104
+  },
+  "C/C3_performance_intervals.csv": {
+    "sha256": "b379aa5820a8881829108d998b604fcb1668f3227a3aa617ecbb29044f021e04",
+    "bytes": 6337
+  },
+  "C/C3_performance_points.csv": {
+    "sha256": "03ba427f166e32047de7f660e2474e26911be7f967db0395943c5e4b0764139d",
+    "bytes": 1375
+  },
+  "C/C3_population_counts.csv": {
+    "sha256": "e7defde3c719242aa395a097e9b571648ed6460df98d4119fa76cf3cd2153d2c",
+    "bytes": 364
+  },
+  "C/C4_strategy_intervals.csv": {
+    "sha256": "898106ba8424d41818e9ed61316fe6e671d45f75e158faf61b0336b40ace5024",
+    "bytes": 40552
+  },
+  "C/C4_strategy_points.csv": {
+    "sha256": "aa2d95dd91d044ee7c12d3963d6684f2a69eaf76fab124b929051dacaade634e",
+    "bytes": 3229
+  },
+  "D/D1_D2_joint_counts.csv": {
+    "sha256": "881a92f99c51af868850e9b0d6e7f4d6cec3b95d71e0846ba02b46c9e5b3f553",
+    "bytes": 8359
+  },
+  "D/D1_D2_raw_specimen_counts.csv": {
+    "sha256": "06407c08f28d975fb0c249cb7167a950ddb8594bde638cf13b0e836b9c2aa864",
+    "bytes": 11017
+  },
+  "D/D2_population_denominators.csv": {
+    "sha256": "08f70b375805405b7731d5889d0cddc9adc6a236999e09dda686840a1902285e",
+    "bytes": 936
+  },
+  "D/D3_T0_vs_actual_specimen.csv": {
+    "sha256": "4670494cef567bf56c0a29c7dc05be25b295ae2040507521a501608c97cbe3e5",
+    "bytes": 12639
+  },
+  "D/specimen_dictionary.csv": {
+    "sha256": "999ea8dd7c1cab9d8c4bd9909e58a69ba4f1a812e2e41219f87f4cb6c027ff7c",
+    "bytes": 2174
+  },
+  "E/E1_coefficients.csv": {
+    "sha256": "b060f94846294bc80b16a577bfa9805adc24e6f29c5a9a387eb643fe96a23c17",
+    "bytes": 2561
+  },
+  "E/E1_numeric_preprocessing.csv": {
+    "sha256": "da921dc67706cc1b85b97c40c8e1895861d7a98264bb0d516326daa07c4ccdb0",
+    "bytes": 227
+  },
+  "E/E1_training_folds.csv": {
+    "sha256": "28652493df6cadbf57845f967f9af2b4e19134d0484adf3ae8ecfcefbcefdca4",
+    "bytes": 203
+  },
+  "E/E2_performance_intervals.csv": {
+    "sha256": "4ef4709f1e0e27e1b9d165d349f562fba741ef69adafb8dccee90d7dafcb1238",
+    "bytes": 12339
+  },
+  "E/E2_performance_points.csv": {
+    "sha256": "c25d16ed807577af60ac4ae3d111af8dd411e4c0e2c016a8e7c3e106942aa1bb",
+    "bytes": 2397
+  },
+  "E/E3_clinical_intervals.csv": {
+    "sha256": "3a5f05e7318b497c7a65a9d85c343f7883c9994893840f5da5fa91b25e47366d",
+    "bytes": 98577
+  },
+  "E/E3_clinical_points.csv": {
+    "sha256": "55d649ae59e100dbddd296339f8884aba093916df6422639dcc49f3b4630e420",
+    "bytes": 8023
+  },
+  "E/model_definition.json": {
+    "sha256": "f172ef5dadb9c5676566eba47a5b288a234e2b8e0ebde83bcd843478e65d0821",
+    "bytes": 3677
+  },
+  "E/saved_model_hashes.csv": {
+    "sha256": "4407f7e91c1cf01fbdae55fb7cc95f839d6fac69abe525d7975dc1e43f1cd130",
+    "bytes": 595
+  },
+  "C/C1_mapping_scope_English.csv": {
+    "sha256": "e29e9887cc9d1f385727f6884aad4d0df5205d6ea31b4905f6d533eb2d630119",
+    "bytes": 1958
+  },
+  "B/B_pending_fields_English.csv": {
+    "sha256": "22eee31072deaa20a051545e3a16da75686ce3b3748dca3a46b6840a1af1f4eb",
+    "bytes": 726
+  },
+  "bootstrap_validity_and_failure_reasons.csv": {
+    "sha256": "87191a4eee68c4ed55997475a5fbc270e0e7c66af1afae234d1b1a5eb3a06e99",
+    "bytes": 11420
+  },
+  "README.txt": {
+    "sha256": "7c917f63e78d5638d2215bdd4ef3138568c8ed4fe3c90d8d99a22e7b6936ed10",
+    "bytes": 6166
+  },
+  "Round2/A2_rules/A2_clinical_intervals.csv": {
+    "sha256": "534144f881c96def5bda7732af1028af9fbcf7669eb3be4d4ad655eb135818cf",
+    "bytes": 209715
+  },
+  "Round2/A2_rules/A2_clinical_points.csv": {
+    "sha256": "52fe36d6b79ca463d22a1eaf52ad908b93a640fad7086094ca9cb3e2a929bc72",
+    "bytes": 21759
+  },
+  "Round2/A2_rules/A2_paired_differences.csv": {
+    "sha256": "aec216ae318cb7c42eaa91020b3e25a36667018a5de38f465b7aadc5c2300e96",
+    "bytes": 114123
+  },
+  "Round2/A2_rules/A2_specimen_allocation.csv": {
+    "sha256": "76ddaa0b545e090d52b9dca8f083f48de0b380630d7938a6099ed44db357c81e",
+    "bytes": 22182
+  },
+  "Round2/B2_returning/B2_case_mix.csv": {
+    "sha256": "e676b15e93efa83a6ca87ee1cffe8f99ce593e1cee418332642c8a3ded625701",
+    "bytes": 31893
+  },
+  "Round2/B2_returning/B2_clinical_intervals.csv": {
+    "sha256": "8a88386bffcca0dea8320306d2a65b7bc2fa85e4848ca788e8344029b1ed6f1f",
+    "bytes": 241939
+  },
+  "Round2/B2_returning/B2_clinical_points.csv": {
+    "sha256": "9cc0aadb2445999a43933ef2a0d46c8606958df45ac4dde4330ff2b8a652931e",
+    "bytes": 24744
+  },
+  "Round2/B2_returning/B2_expanded_allocation_by_membership.csv": {
+    "sha256": "2f01c7396e8f6ff0e3117c2bf2686ec72e37b61edb0e10c98b00edb942ff3884",
+    "bytes": 4623
+  },
+  "Round2/B2_returning/B2_flow.csv": {
+    "sha256": "de45a1e9c6887a1721990f40dfdac4bdac04a4a639f09d28ad53a4e53fa7dd93",
+    "bytes": 561
+  },
+  "Round2/B2_returning/B2_history_audit.csv": {
+    "sha256": "6ac35b80d632d822a6b0cbe551c7eb4f9f918290fe3e7781fbec85af8b447f00",
+    "bytes": 2099
+  },
+  "Round2/B2_returning/B2_paired_differences.csv": {
+    "sha256": "79bcceddcd69697c1e6ccf89dc95bfd89d671d2bea6d03441f4f90eba66bdfa0",
+    "bytes": 135133
+  },
+  "Round2/B2_returning/B2_patient_overlap.csv": {
+    "sha256": "730bbabe35b507c8b74dab9ed64752ca5a86244d8cf49140e8a778e667eeb476",
+    "bytes": 598
+  },
+  "Round2/B2_returning/B2_performance.csv": {
+    "sha256": "e4aaf004c3dbdb0f6f30f92af3f3573ec106c1317234da9be9723e838848306c",
+    "bytes": 13729
+  },
+  "Round2/B2_returning/B2_performance_points.csv": {
+    "sha256": "7cda5afda765796b608eb057d589562bd6805c84b80728931ba4bd15d20f818c",
+    "bytes": 3464
+  },
+  "Round2/B2_returning/B2_source_completeness.csv": {
+    "sha256": "43a3442565c725c24588ceef0af3783b7a566e81fcebb4f766f3ed7856cd5283",
+    "bytes": 454
+  },
+  "Round2/C2_bounds/C2_bounds_comparison.csv": {
+    "sha256": "0cca67b7b08dd9bf9cc40cf46aa0880090c189700e5053cc8e53fe5fa10ccb24",
+    "bytes": 1663
+  },
+  "Round2/C2_bounds/C2_label_counts.csv": {
+    "sha256": "cf630f46fb485f8a1d7deb3ed8adbd3277382f47af9e9016a03b83d16a4f50cc",
+    "bytes": 632
+  },
+  "Round2/C2_bounds/C2_scenario_intervals.csv": {
+    "sha256": "5607b4021fb2f31bec4b52ad60ec7805ee32f683135a1a2a223c58d6a22992b1",
+    "bytes": 109240
+  },
+  "Round2/C2_bounds/C2_scenario_points.csv": {
+    "sha256": "862cb9eaf505f99e1c6aaba6a3d5a769726e84b659663245d770be591eb6530b",
+    "bytes": 18592
+  },
+  "Round2/C2_bounds/C2_sharp_bounds.csv": {
+    "sha256": "0a63435380efdec444efa5059e16970425d8f6b10cb80ce11accc4c46bbf25d8",
+    "bytes": 3052
+  }
+}

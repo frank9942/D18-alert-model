@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "causality": "No infection, treatment benefit or causal lab contribution claimed.",
+    "selection": "Conditional on culture orders and adult cohort; later cohorts already viewed.",
+    "collider_and_history_conditioning": "H90-negative analysis is conditional; no etiologic inference.",
+    "base_rate": "Report AP, event prevalence, known nonpositive and unknown alerts separately.",
+    "missingness": "Known-outcome calibration does not resolve missing outcomes; S8 uncertainty remains.",
+    "multiple_comparisons": "Pointwise intervals, no multiplicity correction or confirmatory claim.",
+    "winner_selection": "D18 chosen after exploratory model comparisons; frozen supplement plan cannot reverse prior access.",
+    "subgroup_heterogeneity": "Stratum CI crossing patterns do not constitute an interaction test.",
+    "time_and_information": "T0 metadata proxies and first-positive capture do not establish earlier clinical detection.",
+    "workload": "Fixed-threshold workloads differ; no same-cost superiority claim from workflow figure.",
+    "equivalence": "Ablation and after90 intervals containing zero do not establish equivalence."
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "release": "D18_public_release_20261022",
+  "created_utc": "2026-10-23T01:26:42.426412+00:00",
+  "derived_from": {
+    "package": "D18_code_model_package_20261015_v1",
+    "created_utc": "2026-10-15T12:21:42.984281+00:00",
+    "files": 572
+  },
+  "aggregate_results_source": {
+    "archive": "Supplementary_Data_1_D18_v4.zip",
+    "sha256": "b0d17c072c1827409c1e73b5beec68e27d2aae3145e5fc0ae55f267fec873ec5"
+  },
+  "rules": [
+    "Local project paths replaced with <PROJECT_ROOT> or <MANUSCRIPT_MATERIALS>; Chinese folder and file names in records translated; hashes refer to the original files.",
+    "Chinese kept only where it is source data: sex labels (男/女/未知) in the model category domain, hospital specimen names in results/stage07/t0_specimen_mapping.csv, the archived original scripts, and source vocabularies inside aggregate_results/Original_v3.",
+    "The earlier 17-predictor reference model (D17) and its stage results were removed; it is not part of the article."
+  ],
+  "removed_files_by_rule": [
+    {
+      "pattern": "00_*.html",
+      "reason": "Chinese overview page; replaced by README.md",
+      "files": 1
+    },
+    {
+      "pattern": "PACKAGE_MANIFEST.json",
+      "reason": "regenerated for this release",
+      "files": 1
+    },
+    {
+      "pattern": "README.txt",
+      "reason": "replaced by README.md",
+      "files": 1
+    },
+    {
+      "pattern": "audit/before_package_navigation/*",
+      "reason": "Chinese navigation page and private project status with local paths",
+      "files": 2
+    },
+    {
+      "pattern": "audit/original_stage*/original_completion_manifest.json",
+      "reason": "file list of the private stage folder",
+      "files": 4
+    },
+    {
+      "pattern": "audit/original_stage*/root_st*",
+      "reason": "snapshot of the private project directory",
+      "files": 4
+    },
+    {
+      "pattern": "audit/original_stage07/*H90_unflagged*",
+      "reason": "other stage 07 candidate, not D18",
+      "files": 6
+    },
+    {
+      "pattern": "audit/original_stage07/*LOS_log1p*",
+      "reason": "other stage 07 candidate, not D18",
+      "files": 6
+    },
+    {
+      "pattern": "audit/original_stage07/statistical_interpretation.json",
+      "reason": "Chinese interpretation notes for the stage 07 comparison",
+      "files": 1
+    },
+    {
+      "pattern": "audit/original_stage07/workflow*",
+      "reason": "stage 07 workflow of the D17 reference model",
+      "files": 2
+    },
+    {
+      "pattern": "audit/original_stage07/zero_workload_ratio_definition.json",
+      "reason": "stage 07 workflow of the D17 reference model",
+      "files": 1
+    },
+    {
+      "pattern": "audit/packaging_source/*",
+      "reason": "scripts that built the original Chinese package",
+      "files": 8
+    },
+    {
+      "pattern": "audit/source_archive_manifest.json",
+      "reason": "hash list of the original source archive, most of which is not released",
+      "files": 1
+    },
+    {
+      "pattern": "audit/source_current_state.json",
+      "reason": "private project status with local paths",
+      "files": 1
+    },
+    {
+      "pattern": "audit/source_required_inputs.json",
+      "reason": "list of private input files with local paths",
+      "files": 1
+    },
+    {
+      "pattern": "code/__pycache__/*",
+      "reason": "compiled cache",
+      "files": 1
+    },
+    {
+      "pattern": "documentation/*",
+      "reason": "Chinese documents and draft text; replaced by English documentation/*.md",
+      "files": 12
+    },
+    {
+      "pattern": "documentation/cohort/adult_baseline_table_notes.txt",
+      "reason": "translated into documentation/cohort/README.md",
+      "files": 1
+    },
+    {
+      "pattern": "figures/stage07/*",
+      "reason": "stage 07 figures of the D17 comparison and workflow",
+      "files": 6
+    },
+    {
+      "pattern": "models/reference/*",
+      "reason": "earlier D17 reference model; not part of the article",
+      "files": 2
+    },
+    {
+      "pattern": "results/stage07/*",
+      "reason": "stage 07 comparison and workflow results of the D17 reference model and other candidates",
+      "files": 43
+    },
+    {
+      "pattern": "results/stage09/D18_D17_patient_exchange.csv",
+      "reason": "D18 versus D17 patient exchange; D17 is not part of the article",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/*",
+      "reason": "earlier-stage, D17-only or pre-adult scripts",
+      "files": 36
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/07_adult_model_targeted_improvement_and_repeat_alerts_20261015/finalize.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/07_adult_model_targeted_improvement_and_repeat_alerts_20261015/fix_zero_workload_ratios.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/07_adult_model_targeted_improvement_and_repeat_alerts_20261015/plan.json",
+      "reason": "frozen plan with private paths",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/07_adult_model_targeted_improvement_and_repeat_alerts_20261015/report.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/08_specimen_candidate_freeze_and_unknown_outcome_sensitivity_20261015/finalize.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/08_specimen_candidate_freeze_and_unknown_outcome_sensitivity_20261015/plan.json",
+      "reason": "frozen plan with private paths",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/08_specimen_candidate_freeze_and_unknown_outcome_sensitivity_20261015/report.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/09_D18_supplementary_analyses_20261015/finalize.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/09_D18_supplementary_analyses_20261015/plan.json",
+      "reason": "frozen plan with private paths",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/09_D18_supplementary_analyses_20261015/report.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/10_D18_history_and_ICU_LOS_ablation_20261015/finalize.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/10_D18_history_and_ICU_LOS_ablation_20261015/plan.json",
+      "reason": "frozen plan with private paths",
+      "files": 1
+    },
+    {
+      "pattern": "source_archive/adult_study_D17_H3_Adult_v1_20261014/10_D18_history_and_ICU_LOS_ablation_20261015/report.py",
+      "reason": "report, delivery or one-off fix script",
+      "files": 1
+    }
+  ],
+  "changed_files": [
+    {
+      "path": "aggregate_results/README.txt",
+      "change": "first line made neutral (was \"Supplementary Data 1, version 4 ...\")"
+    },
+    {
+      "path": "aggregate_results/payload_manifest_v4.json",
+      "change": "README.txt hash updated"
+    },
+    {
+      "path": "audit/build_stage1.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/original_stage07/T0_specimen_definition_before_metadata_cleanup.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/original_stage09/delivery_checks.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/original_stage09/environment.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/original_stage10/delivery_checks.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/original_stage10/environment.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/portable_kernel_origins.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "audit/relocation_and_cli_verification.json",
+      "change": "local paths replaced; Chinese names translated"
+    },
+    {
+      "path": "code/runtime.py",
+      "change": "D17 reference variant removed; English sex input values (male/female/unknown) mapped to the source labels in the frozen models"
+    },
+    {
+      "path": "code/selftest.py",
+      "change": "added a check that English sex labels give identical predictions for every model"
+    },
+    {
+      "path": "code/train.py",
+      "change": "D17 reference variant removed"
+    },
+    {
+      "path": "configuration/current_D18_definition.json",
+      "change": "local paths replaced; folder names translated"
+    },
+    {
+      "path": "configuration/input_schema.csv",
+      "change": "Chinese description column translated"
+    },
+    {
+      "path": "configuration/model_registry.json",
+      "change": "D17 reference model entry removed"
+    },
+    {
+      "path": "documentation/adult_cohort_frozen_plan.json",
+      "change": "Chinese text translated"
+    },
+    {
+      "path": "examples/expected_scores.csv",
+      "change": "D17_reference column removed"
+    },
+    {
+      "path": "models/main/D18_original_definition.json",
+      "change": "local paths replaced; folder names translated"
+    },
+    {
+      "path": "results/stage07/t0_specimen_mapping.csv",
+      "change": "English glosses and category codes added"
+    }
+  ],
+  "renamed_files": {
+    "note": "translated from the original Chinese file names",
+    "new_names": [
+      "documentation/cohort/adult_17_predictor_missingness.csv",
+      "documentation/cohort/adult_baseline_characteristics_event_level.csv",
+      "documentation/cohort/adult_categorical_predictor_distribution.csv",
+      "documentation/cohort/adult_frozen_cohort_size.csv"
+    ]
+  },
+  "archived_scripts": [
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/analyze.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "37d6cf964704fc87968056d89ce1da54c2d6193c645542161da512339d55f6a5"
+    },
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/common.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "8cf2d78a7cc173ab7fe0aeaab5a1eb8495b8fe5c855c0aa87c90cd0fd1ce8224"
+    },
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/prepare.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "f0064719141007d59eb09e6a78f272b7960007e24abbc48751c3756079037e56"
+    },
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/train.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "2f4cdbae3e25c029efd6a3147ff9b00e7be4dfc35af11305207aa245d64fb6e8"
+    },
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/verify.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "cfd8fd3de81b0f43280c59562abdfe4df79c18809b8d05b167a463af772e2b23"
+    },
+    {
+      "path": "original_scripts/stage07_specimen_candidate_development/workflow.py",
+      "original_stage_folder": "stage07_specimen_candidate_development",
+      "sha256": "5edf11be79298ef1c3d72417b65e6205dd849b6dcf9786e98b48a4a2578646a2"
+    },
+    {
+      "path": "original_scripts/stage08_D18_freeze_and_unknown_outcomes/analyze.py",
+      "original_stage_folder": "stage08_D18_freeze_and_unknown_outcomes",
+      "sha256": "b6e0f24ff7f58f505254fb4aa714e80b27bf61221fc01e030213bf6cdf04d910"
+    },
+    {
+      "path": "original_scripts/stage08_D18_freeze_and_unknown_outcomes/common.py",
+      "original_stage_folder": "stage08_D18_freeze_and_unknown_outcomes",
+      "sha256": "f893beb0d4ad20405eec4f2d6fa51a209ef10c341b2a8ffbd3c29390d7f31432"
+    },
+    {
+      "path": "original_scripts/stage08_D18_freeze_and_unknown_outcomes/verify.py",
+      "original_stage_folder": "stage08_D18_freeze_and_unknown_outcomes",
+      "sha256": "0dcf9e51a82cb5bb9860999690517250f77ad03403e99cadc3a85496fdeda229"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/analyze.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "7312a495e83411c45a1da86b9dde1cb95bfa77fb103041c5099e615a8149728f"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/calibration.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "9683266fd4a2f012f21e49aabfc7a5a93fe063b34f2e740d366769815233e048"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/common.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "661779d9a6976ef6a53559ce412a3a7eed1c5e4f3a6478716b368b29a0d31227"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/pathogens.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "3df56e71d085be6eacc7f1f362e77d6f94ac05c87f6994ab9b1ef1f65cf6b487"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/train.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "9fd8395be17207d94f758f42fd7697bbe0240834095fd150fc4b118698d60457"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/verify.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "d7cd3fbde2ecf4d01c636a47eb765ad1811d55cb6c8a1a370eeba0db2d038ece"
+    },
+    {
+      "path": "original_scripts/stage09_D18_supplementary_analyses/workflow.py",
+      "original_stage_folder": "stage09_D18_supplementary_analyses",
+      "sha256": "751d8c1361991e38bd386c639826045f37cd99c77cbec5b7aba012207423320f"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/analyze.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "57203a9eada065d0cbc59f205321c3ae63a639fbf2304b31ec8a3029d82760a0"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/common.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "b0d93f9512a1fead47acf116c124ea00d6734c48adb065728699c55e18e3ea4c"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/prepare_scripts.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "26dc1141dfa72c81eb4bfaaf4f5acc3eace3dee394a2f54e2f481e6505db0c38"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/prepare_verify.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "af0d057cb5aaa4c733a2f60f5e38d174fb0094b2a7667d543cd6477c78a7625c"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/train.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "35485f7ba17c819b429f98b0541368b8554dbbc315faac9b5cc66b2feda8db97"
+    },
+    {
+      "path": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/verify.py",
+      "original_stage_folder": "stage10_D18_history_and_ICU_LOS_ablation",
+      "sha256": "5f3af2cb93460be7ab610391bac32321b2605c29fd28ff5ef9d7ab2e0b3ccecf"
+    }
+  ],
+  "archived_train_script_hash_checks": [
+    {
+      "log": "audit/original_stage07/before_fit_T0_specimen.json",
+      "script": "original_scripts/stage07_specimen_candidate_development/train.py",
+      "code_sha256_matches": false
+    },
+    {
+      "log": "audit/original_stage09/before_fit_D18_after90.json",
+      "script": "original_scripts/stage09_D18_supplementary_analyses/train.py",
+      "code_sha256_matches": true
+    },
+    {
+      "log": "audit/original_stage09/before_fit_D18_availability_only.json",
+      "script": "original_scripts/stage09_D18_supplementary_analyses/train.py",
+      "code_sha256_matches": true
+    },
+    {
+      "log": "audit/original_stage09/before_fit_D18_no_labs.json",
+      "script": "original_scripts/stage09_D18_supplementary_analyses/train.py",
+      "code_sha256_matches": true
+    },
+    {
+      "log": "audit/original_stage10/before_fit_D18_no_ICU_LOS.json",
+      "script": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/train.py",
+      "code_sha256_matches": true
+    },
+    {
+      "log": "audit/original_stage10/before_fit_D18_no_micro_history.json",
+      "script": "original_scripts/stage10_D18_history_and_ICU_LOS_ablation/train.py",
+      "code_sha256_matches": true
+    }
+  ],
+  "archived_train_script_note": "Stage 07 scripts were edited after the stage 07 fits (see audit/original_stage07/id_type_repair.json and model_metadata_cleanup.json); the archive holds the versions present when the code package was built, so the stage 07 hash differs. The D18 model file is unchanged and the portable refit reproduces its coefficients (audit/portable_reproduction_verification.json).",
+  "selftest": {
+    "run_utc": "2026-10-23T01:26:53.803234+00:00",
+    "result": {
+      "status": "PASS",
+      "frozen_model_files": 36,
+      "synthetic_examples": 60,
+      "prediction_max_abs_error": {
+        "D18": 0.0,
+        "D18_no_labs": 0.0,
+        "D18_availability_only": 0.0,
+        "D18_after90": 0.0,
+        "D18_no_micro_history": 0.0,
+        "D18_no_ICU_LOS": 0.0
+      },
+      "math_checks": true,
+      "input_boundary_checks": true,
+      "english_sex_label_check": true,
+      "package_files_verified": 879
+    },
+    "note": "run in a fresh Python 3.11 environment installed from requirements-lock.txt, before this record was added; the manifest was then rebuilt and the self-test run again"
+  }
+}

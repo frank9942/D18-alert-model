@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:03:30.916918+00:00",
+  "summary": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "patients": 15280,
+      "H90_alerts": 1733,
+      "H90_positive_patients": 283,
+      "first_H90": 1,
+      "settings": 24,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "patients": 12994,
+      "H90_alerts": 757,
+      "H90_positive_patients": 134,
+      "first_H90": 0,
+      "settings": 24,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "patients": 9990,
+      "H90_alerts": 751,
+      "H90_positive_patients": 115,
+      "first_H90": 0,
+      "settings": 24,
+      "replicates": 1000
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "patients": 89648,
+      "H90_alerts": 2221,
+      "H90_positive_patients": 162,
+      "first_H90": 17,
+      "settings": 24,
+      "replicates": 1000
+    }
+  ],
+  "conditional_uncertainty": "thresholds and fitted scores fixed; each patient timeline is resampled as a cluster",
+  "realized_workload_not_matched": true,
+  "no_future_refill": true
+}

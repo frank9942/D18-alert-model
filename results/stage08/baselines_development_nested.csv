@@ -1,0 +1,3 @@
+﻿cohort,scenario,events,patients,positive_events,positive_patients,unknown_events,H90_covered_positive_patients,first_H90
+development_nested,observed,25350,15280,1488,658,849,283,1
+development_nested,all_unknown_positive,25350,15280,2337,1355,0,296,1

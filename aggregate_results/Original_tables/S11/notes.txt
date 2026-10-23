@@ -1,0 +1,21 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S11 Unknown outcome scenarios for cumulative coverage
+
+Development
+
+ 
+
+Hospital 2025
+
+ 
+
+Hospital 2026
+
+ 
+
+MIMIC-IV
+
+ 
+
+Scores, H90 flags, ranks and quotas remain fixed. Positive-patient baselines and earliest positive events are recomputed under each label scenario. Hypothetical labels do not update later history. Uniform assignments need not attain the sharp bounds in Table S13.

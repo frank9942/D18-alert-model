@@ -1,0 +1,16 @@
+﻿Budget,Strategy,"Additional patients
+95% CI","First capture added
+95% CI","Alerts per additional patient
+95% CI"
+1%,D18,34 (23 to 45.02),49 (37 to 62),5.76 (4.31 to 8.52)
+1%,ICU+LOS,24 (15 to 32),38 (27 to 47),8.17 (6.09 to 13.07)
+1%,Specimen+ICU+LOS,20 (11 to 28),26 (16 to 34),9.8 (7.04 to 17.64)
+1%,Specimen only,13 (7 to 20),16 (9 to 24),15.08 (9.85 to 28.15)
+2%,D18,61 (46 to 75),90 (74 to 107),6.43 (5.25 to 8.41)
+2%,ICU+LOS,45 (32 to 56),61 (49 to 75),8.71 (6.96 to 12.25)
+2%,Specimen+ICU+LOS,36 (24 to 47),51 (37 to 64),10.89 (8.3 to 16.21)
+2%,Specimen only,23 (15 to 32),31 (21 to 41),17.04 (12.15 to 26.33)
+5%,D18,121 (102 to 140),181 (159 to 203.02),8.08 (7 to 9.61)
+5%,ICU+LOS,85 (66 to 99),133 (112 to 150),11.51 (9.83 to 14.71)
+5%,Specimen+ICU+LOS,101 (82 to 119.02),149 (127 to 169.02),9.68 (8.23 to 11.93)
+5%,Specimen only,54 (40 to 69),68 (52.98 to 84),18.11 (14.36 to 24.25)

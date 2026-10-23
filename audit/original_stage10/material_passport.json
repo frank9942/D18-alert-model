@@ -1,0 +1,16 @@
+{
+  "origin_skill": "academic-research-suite",
+  "origin_mode": "experiment-agent/run",
+  "version_label": "D18_group_ablation_20261015",
+  "verification_status": "VERIFIED",
+  "models": [
+    "D18_no_micro_history",
+    "D18_no_ICU_LOS"
+  ],
+  "first_layer_H90": "unchanged",
+  "main_model_sha256": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "patient_score_rows_replayed": 744850,
+  "previous_supplement_files_unchanged": true,
+  "whole_Word_manuscript_overwritten": false,
+  "live_database_access": false
+}

@@ -1,0 +1,9 @@
+﻿year,cohort,population,endpoint,patients,H90_flagged_patients,valid_resistant_history_patients,flag_evidence_mismatches,status
+2025,hospital_2025,original,first_known_positive,424.0,0.0,0.0,0.0,VERIFIED_FROM_PRE_T0_EVIDENCE
+2025,hospital_2025,original,first_candidate_event,12994.0,0.0,0.0,0.0,VERIFIED_FROM_PRE_T0_EVIDENCE
+2025,hospital_2025,expanded,first_known_positive,,,,,NOT_COMPUTABLE_MISSING_CURRENT_LABELS_AND_HISTORY
+2025,hospital_2025,expanded,first_candidate_event,,,,,NOT_COMPUTABLE_MISSING_CURRENT_LABELS_AND_HISTORY
+2026,hospital_2026,original,first_known_positive,367.0,0.0,0.0,0.0,VERIFIED_FROM_PRE_T0_EVIDENCE
+2026,hospital_2026,original,first_candidate_event,9990.0,0.0,0.0,0.0,VERIFIED_FROM_PRE_T0_EVIDENCE
+2026,hospital_2026,expanded,first_known_positive,,,,,NOT_COMPUTABLE_MISSING_CURRENT_LABELS_AND_HISTORY
+2026,hospital_2026,expanded,first_candidate_event,,,,,NOT_COMPUTABLE_MISSING_CURRENT_LABELS_AND_HISTORY

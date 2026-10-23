@@ -1,0 +1,8 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S27 Development algorithm comparison configurations
+
+The same 18 predictors and training-fold preprocessing were used for all algorithms. Parameter grids were declared before their corresponding fits; within-algorithm tuning minimised mean log loss. Original fold identifiers 0–4 are retained.
+
+
+

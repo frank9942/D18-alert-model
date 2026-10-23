@@ -1,0 +1,32 @@
+{
+  "time": "2026-10-15T08:59:30.588440+00:00",
+  "plan_sha256": "23d3e33093edcc3449c91b7a6435068dfbd09ba997a4d3d17a511c4678391ca7",
+  "code_sha256": "9fd8395be17207d94f758f42fd7697bbe0240834095fd150fc4b118698d60457",
+  "input_sha256": "1503d2c8b2bb48701795536dfe8a615a79c44c69e7133adb3638dd254779bfdc",
+  "python": "3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]",
+  "sklearn": "1.7.2",
+  "variant": "D18_after90",
+  "features": [
+    "age",
+    "sex",
+    "length_of_stay",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d",
+    "t0_specimen"
+  ],
+  "events": 19962,
+  "known_events": 19422,
+  "evaluation_used": false
+}

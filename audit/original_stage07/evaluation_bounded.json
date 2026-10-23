@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T06:52:12.306987+00:00",
+  "seconds": 272.8279999999795,
+  "replicates_per_cohort": 1000,
+  "cohorts": [
+    "development_nested",
+    "hospital_2025",
+    "hospital_2026",
+    "MIMIC_primary_adapted"
+  ],
+  "models_fixed": true,
+  "endpoint_sensitivity_changes_labels_only": false,
+  "calibration": "point diagnostic only; no recalibration"
+}

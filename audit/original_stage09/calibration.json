@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:11:20.587257+00:00",
+  "point_values_reproduce_S7": true,
+  "replicates": 1000,
+  "diagnostic_models_fitted_in_each_resample": true,
+  "predictive_model_refit": false,
+  "probabilities_recalibrated": false,
+  "bin_intervals": "pointwise patient-bootstrap intervals with original-score bins fixed",
+  "validity": [
+    {
+      "cohort": "development_nested",
+      "population": "all_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "development_nested",
+      "population": "H90_unflagged_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2025",
+      "population": "all_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2025",
+      "population": "H90_unflagged_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2026",
+      "population": "all_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "hospital_2026",
+      "population": "H90_unflagged_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "population": "all_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "population": "H90_unflagged_known",
+      "invalid_calibration_replicates": 0,
+      "replicates": 1000
+    }
+  ]
+}

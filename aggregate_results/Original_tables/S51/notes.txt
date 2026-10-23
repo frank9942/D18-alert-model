@@ -1,0 +1,5 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S51 Development-derived thresholds and repeat-alert suppression
+
+Cells show extra alerts / additional positive patients. Each strategy used its own threshold derived from the development 2% workload target: D18 score 0.25359903645222276; ICU+LOS boundary ICU = 1 and pre-T0 LOS = 13.803518518519 days, with the frozen boundary hash (Supplementary Table S26). Suppression intervals start after an emitted extra alert; suppressed candidates do not reset them, and unused slots are not refilled. H90 remains active. These retrospective scenarios have unequal realised workloads. Supplementary Table S23 gives intervals and all development targets.

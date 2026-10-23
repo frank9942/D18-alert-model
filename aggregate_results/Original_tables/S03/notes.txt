@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S3 Full D18 model specification
+
+ 
+
+All encoded coefficients are used with the intercept. Sex levels in the saved schema are 男 (male), 女 (female), 未知 (unknown) and MISSING. The six specimen levels are listed in Table S2. No coefficient or missing level is omitted.
+
+Numerical preprocessing
+
+ 
+
+These values were recomputed from the frozen 24,501 known-outcome development rows using the documented median-imputation and population-standard-deviation transforms. The D18 model includes the categorical T0 specimen field. The intercept is −0.34610177992029917; final C = 0.1.

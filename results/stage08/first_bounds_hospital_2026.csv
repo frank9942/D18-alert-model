@@ -1,0 +1,10 @@
+﻿cohort,budget_percent,comparator,observed_first_difference,first_difference_lower,first_difference_upper,patients_with_earlier_or_only_unknown,bounds_type
+hospital_2026,1,original_LR,14.0,4.0,19.0,522,sharp_identification_bounds_not_CI
+hospital_2026,1,icu_los,19.0,1.0,24.0,522,sharp_identification_bounds_not_CI
+hospital_2026,1,icu_expected,20.042020202020204,3.9038383838383877,24.858989898989904,522,sharp_identification_bounds_not_CI
+hospital_2026,2,original_LR,30.0,23.0,33.0,522,sharp_identification_bounds_not_CI
+hospital_2026,2,icu_los,35.0,15.0,44.0,522,sharp_identification_bounds_not_CI
+hospital_2026,2,icu_expected,46.16323232323232,23.05575757575757,52.67676767676768,522,sharp_identification_bounds_not_CI
+hospital_2026,5,original_LR,14.0,7.0,27.0,522,sharp_identification_bounds_not_CI
+hospital_2026,5,icu_los,32.0,7.0,48.0,522,sharp_identification_bounds_not_CI
+hospital_2026,5,icu_expected,60.44767676767677,20.240808080808083,73.890101010101,522,sharp_identification_bounds_not_CI

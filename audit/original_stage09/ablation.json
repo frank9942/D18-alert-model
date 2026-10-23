@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:09:21.651060+00:00",
+  "seconds": 247.4529999999795,
+  "model_fixed": true,
+  "label_only": false,
+  "cohorts": [
+    "development_nested",
+    "hospital_2025",
+    "hospital_2026",
+    "MIMIC_primary_adapted"
+  ],
+  "bootstrap": 1000
+}

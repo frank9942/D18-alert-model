@@ -1,0 +1,28 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S34 T0 specimen strata and globally selected alerts
+
+Stratum performance uses all known outcomes, including H90-flagged events. Counts include unknown outcomes. Missing-specimen strata are empty; NA means not estimable, not zero. All non-empty-stratum AUROC/AP intervals used 1000 valid patient-cluster replicates. Selection summaries below use the 2% global quota; Supplementary Data 1 contains every 1%, 2% and 5% selection stratum. Patients can occur in multiple specimen groups.
+
+Development
+
+
+
+
+
+Hospital 2025
+
+
+
+
+
+Hospital 2026
+
+
+
+
+
+MIMIC-IV
+
+
+

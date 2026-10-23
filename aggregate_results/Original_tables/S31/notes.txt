@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S31 Paired development differences in prediction performance
+
+All known outcomes
+
+
+
+H90-unflagged known outcomes
+
+
+
+Positive differences favour the first-named algorithm for AUROC and AP; negative differences favour it for Brier score and log loss. Intervals are pointwise and unadjusted for multiplicity. A bound printed as −0.0000 is retained at the precision of the source summary and must not be interpreted as an exact zero or as an equivalence margin.

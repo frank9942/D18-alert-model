@@ -1,0 +1,53 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S23 Development-derived thresholds and repeat-alert suppression
+
+The target percentages refer to development workload, not local ranking quotas or risk thresholds. Thresholds are in Table S26. Suppression applies only to extra alerts; H90 remains active, only an emitted extra alert resets the interval, and suppressed slots are not refilled. Outcome counts refer to events. All intervals are pointwise fixed-score patient-cluster 95% intervals. Comparisons with no suppression are within the same strategy and threshold; realised alert costs differ across strategies and cohorts.
+
+Development — D18
+
+ 
+
+ 
+
+Development — ICU+LOS
+
+ 
+
+ 
+
+Hospital 2025 — D18
+
+ 
+
+ 
+
+Hospital 2025 — ICU+LOS
+
+ 
+
+ 
+
+Hospital 2026 — D18
+
+ 
+
+ 
+
+Hospital 2026 — ICU+LOS
+
+ 
+
+ 
+
+MIMIC-IV — D18
+
+ 
+
+ 
+
+MIMIC-IV — ICU+LOS
+
+ 
+
+ 

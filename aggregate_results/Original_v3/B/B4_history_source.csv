@@ -1,0 +1,3 @@
+﻿year,source_category,history_result_links,distinct_history_reports,recipient_events,recipient_patients,source_category_rule
+2025,same_year_included_earlier_event,1902,588,757,242,prior year first; otherwise included earlier event vs outside selected events; recipient counts can overlap
+2026,same_year_included_earlier_event,1605,496,751,223,prior year first; otherwise included earlier event vs outside selected events; recipient counts can overlap

@@ -1,0 +1,21 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S8 D18 and simple rules at all alert budgets
+
+Development
+
+ 
+
+Hospital 2025
+
+ 
+
+Hospital 2026
+
+ 
+
+MIMIC-IV
+
+ 
+
+Event outcome columns describe additional alerts. Combined patients include H90. Unknown outcomes consume capacity and remain separately labelled. ICU-priority counts are expectations. The ratios include repeated alerts and do not measure clinical acceptability.

@@ -1,0 +1,10 @@
+﻿Budget,Strategy,Extra alerts,Positive,Non-positive,Unknown
+1%,D18,237,83,142,12
+1%,Restricted training,237,85,142,10
+1%,ICU+LOS,237,54,168,15
+2%,D18,473,148,307,18
+2%,Restricted training,473,160,295,18
+2%,ICU+LOS,473,100,349,24
+5%,D18,"1,181",326,813,42
+5%,Restricted training,"1,181",321,817,43
+5%,ICU+LOS,"1,181",228,909,44

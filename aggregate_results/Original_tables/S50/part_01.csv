@@ -1,0 +1,9 @@
+﻿Mapping,Scenario,Comparison,Cumulative difference [95% CI],First-capture difference [95% CI]
+O,Remaining non-positive,D18 − ICU+LOS,"30 [14, 47]","36 [18, 55]"
+O,Remaining non-positive,D18 − ICU priority,"48.24 [34.49, 62.98]","68.07 [51.56, 85.76]"
+O,Remaining positive,D18 − ICU+LOS,"689 [622, 761]","274 [229, 316]"
+O,Remaining positive,D18 − ICU priority,"41.99 [−16.53, 104.92]","−367.33 [−411.68, −326.38]"
+F,Remaining non-positive,D18 − ICU+LOS,"30 [14, 47]","36 [18, 55]"
+F,Remaining non-positive,D18 − ICU priority,"48.24 [34.49, 62.98]","68.07 [51.56, 85.76]"
+F,Remaining positive,D18 − ICU+LOS,"541 [483, 607]","254 [210, 296]"
+F,Remaining positive,D18 − ICU priority,"182.56 [132.35, 236.70]","−160.09 [−203.17, −121.57]"

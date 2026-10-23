@@ -1,0 +1,12 @@
+﻿Budget,Paired comparison,"Additional-patient difference
+95% CI","First-capture difference
+95% CI"
+1%,D18 − ICU+LOS,15 (3 to 25),19 (6 to 30)
+1%,D18 − Specimen+ICU+LOS,17 (5 to 28),17 (4.98 to 31)
+1%,D18 − Specimen only,18 (6 to 29),19 (7 to 32)
+2%,D18 − ICU+LOS,31 (18 to 44),35 (18.98 to 49)
+2%,D18 − Specimen+ICU+LOS,35 (22 to 48),36 (20 to 50)
+2%,D18 − Specimen only,47 (34 to 61),52 (35 to 66)
+5%,D18 − ICU+LOS,28 (12 to 44),32 (13 to 50)
+5%,D18 − Specimen+ICU+LOS,22 (8 to 35),20 (3 to 35)
+5%,D18 − Specimen only,69 (50 to 84),87 (67 to 105)

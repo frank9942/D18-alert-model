@@ -1,0 +1,6 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S50 Uniform label-completion scenarios at 2% in MIMIC-IV
+
+These uniform assignments need not attain the sharp bounds. Non-positive/positive refers only to remaining unknown events; the 9721 flora-hypothesis events stay locked under F. Positive-patient H90 baselines and earliest positive events are recomputed. Pointwise 95% intervals use 5000 paired patient-cluster replicates. All budgets and absolute clinical metrics are supplied in Supplementary Data 1.
+

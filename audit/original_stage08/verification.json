@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:31:14.381388+00:00",
+  "independent_set_based_and_difference_checks": 1296,
+  "scenario_points": 468,
+  "scenario_interval_rows": 3960,
+  "bounds_rows": 72,
+  "all_bootstrap_groups_1000": true,
+  "source_observed_values_reproduced": 1404000,
+  "main_model_sha256": "be4efa7c0045582939b667cbe55c1b8bd1120af848ae458c9ad547afd6ef6c0f",
+  "candidate_model_sha256": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+  "candidate_copied_byte_identical": true,
+  "parent_S7_all_files_hash_unchanged": true,
+  "inherited_source_inputs_hash_unchanged": true,
+  "full_score_replay_reference": "audit/source_verification.json; all S7 original inputs/scores/model bytes protected",
+  "new_model_fits": 0
+}

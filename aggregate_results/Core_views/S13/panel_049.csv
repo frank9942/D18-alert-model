@@ -1,0 +1,13 @@
+﻿Cohort,Patient group,Budget,CRE only,CRPA only,CRAB only,Multiple groups,Total
+Development,All positive,—,150,77,267,164,658
+Development,H90-covered,—,64,22,99,98,283
+Development,D18 added,2%,16,7,49,6,78
+Hospital 2025,All positive,—,82,61,209,72,424
+Hospital 2025,H90-covered,—,27,20,60,27,134
+Hospital 2025,D18 added,2%,11,7,37,6,61
+Hospital 2026,All positive,—,72,63,178,54,367
+Hospital 2026,H90-covered,—,13,29,50,23,115
+Hospital 2026,D18 added,2%,10,11,27,5,53
+MIMIC-IV,All positive,—,103,479,12,16,610
+MIMIC-IV,H90-covered,—,10,146,2,4,162
+MIMIC-IV,D18 added,2%,10,55,2,0,67

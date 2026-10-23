@@ -1,0 +1,69 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S21 Discrimination and probability loss in the four predictor ablations
+
+Absolute estimates and paired ablation-minus-D18 differences have pointwise 95% intervals. Both known-outcome populations are reported. First-layer H90 remains unchanged. AUROC and AP: larger is better; Brier score and log loss: smaller is better. Intervals crossing zero do not establish equivalence. The two ablation runs share the full-D18 baseline points. Calibration values for derived models are diagnostic point estimates, without recalibration.
+
+Development — All known
+
+ 
+
+ 
+
+ 
+
+Development — H90-unflagged known
+
+ 
+
+ 
+
+ 
+
+Hospital 2025 — All known
+
+ 
+
+ 
+
+ 
+
+Hospital 2025 — H90-unflagged known
+
+ 
+
+ 
+
+ 
+
+Hospital 2026 — All known
+
+ 
+
+ 
+
+ 
+
+Hospital 2026 — H90-unflagged known
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV — All known
+
+ 
+
+ 
+
+ 
+
+MIMIC-IV — H90-unflagged known
+
+ 
+
+ 
+
+ 

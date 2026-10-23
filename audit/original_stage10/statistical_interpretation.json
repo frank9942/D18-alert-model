@@ -1,0 +1,23 @@
+{
+  "status": "ASSESSED_11_OF_11",
+  "time": "2026-10-15T09:55:01.243366+00:00",
+  "fallacy_checks": {
+    "Simpson_paradox": "Overall vs H90-unflagged performance reported separately; no pooling across cohorts; difference in significance is not an interaction test.",
+    "ecological_fallacy": "Distinct patients and repeated event counts explicitly separated; no individual treatment conclusion from group figures.",
+    "Berkson_selection": "All results conditional on adult culture-order cohort; no general-population claim.",
+    "collider_bias": "H90-unflagged conditional prediction is not etiologic estimation; H90 retained identically.",
+    "base_rate_neglect": "Events, positive events, AP, known nonpositive and unknown alert counts reported.",
+    "regression_to_mean": "No post-hoc winner selected from evaluation outcomes; paired within-cohort comparisons; no automatic main-model change.",
+    "survivorship_missingness": "Performance based on known outcomes only, while unknown events consume clinical quota; prior unknown sensitivity remains relevant.",
+    "look_elsewhere": "All two variants, four cohorts, three budgets and two performance populations retained; pointwise CIs unadjusted.",
+    "forking_paths": "Plan frozen before these two fits; prior exploratory selection and prior access to evaluation cohorts disclosed.",
+    "correlation_causation": "Drop-group predictive differences do not demonstrate causality, mechanism, clinical irrelevance or equivalent models.",
+    "reverse_causality": "T0 available data used as frozen source; lab/specimen/history timing limitations inherited; no earlier-treatment claim."
+  },
+  "limitations": [
+    "conditional fixed-model intervals exclude training/model-selection uncertainty",
+    "no equivalence design",
+    "no probability recalibration",
+    "no deployment test"
+  ]
+}

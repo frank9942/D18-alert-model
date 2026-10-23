@@ -1,0 +1,12 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S35 Returning-patient candidates and original-cohort history audit
+
+This table retains the initial candidate-recovery stage; restored and expanded rows are candidate counts, not final scored counts. The later completed extension evaluated 6096 of 6097 adult returning candidates, excluding one 2026 T0 mismatch. Its flow and evaluation appear in Tables S46–S48. NA in this initial-stage table does not denote a negative or zero outcome.
+
+
+
+
+
+*Counts respectively indicate availability not strictly before T0, outside 90 days, request after availability, and history drawn from the current event. Every flag matched saved evidence. All observed links originated from earlier included events in the same year. There was no explicit first-event zero override. This audit does not exclude history outside the retained evidence and does not prove a universal structural zero.
+

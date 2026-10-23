@@ -1,0 +1,229 @@
+{
+  "numeric_features": [
+    "age",
+    "length_of_stay"
+  ],
+  "numeric_imputation_medians": [
+    64.0,
+    1.2664930555555556
+  ],
+  "missing_indicator_indices": [],
+  "standard_scaler_mean": [
+    61.736418921676666,
+    6.421700523939356
+  ],
+  "standard_scaler_scale": [
+    15.101703825940787,
+    16.94289009224012
+  ],
+  "categorical_features": [
+    "sex",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d",
+    "t0_specimen"
+  ],
+  "categories": {
+    "sex": [
+      "男",
+      "女",
+      "未知",
+      "MISSING"
+    ],
+    "icu_status": [
+      "0",
+      "1",
+      "MISSING"
+    ],
+    "wbc_category": [
+      "low",
+      "normal",
+      "high",
+      "MISSING"
+    ],
+    "albumin_category": [
+      "low",
+      "normal",
+      "high",
+      "MISSING"
+    ],
+    "creatinine_category": [
+      "low",
+      "normal",
+      "high",
+      "MISSING"
+    ],
+    "crp_category": [
+      "low",
+      "normal",
+      "high",
+      "MISSING"
+    ],
+    "pct_category": [
+      "low",
+      "normal",
+      "high",
+      "MISSING"
+    ],
+    "carbapenem_exposure_90d": [
+      "1",
+      "MISSING"
+    ],
+    "cephalosporin_exposure_90d": [
+      "1",
+      "MISSING"
+    ],
+    "invasive_ventilation_90d": [
+      "1",
+      "MISSING"
+    ],
+    "noninvasive_ventilation_90d": [
+      "1",
+      "MISSING"
+    ],
+    "central_venous_catheter_90d": [
+      "1",
+      "MISSING"
+    ],
+    "urinary_catheter_90d": [
+      "1",
+      "MISSING"
+    ],
+    "prior_target_reported_90d": [
+      "1",
+      "MISSING"
+    ],
+    "prior_crgn_reported_90d": [
+      "1",
+      "MISSING"
+    ],
+    "t0_specimen": [
+      "RESP",
+      "BLOOD",
+      "URINE",
+      "OTHER",
+      "MULTIPLE",
+      "MISSING"
+    ]
+  },
+  "encoded_features": [
+    "numeric__age",
+    "numeric__length_of_stay",
+    "category__sex_男",
+    "category__sex_女",
+    "category__sex_未知",
+    "category__sex_MISSING",
+    "category__icu_status_0",
+    "category__icu_status_1",
+    "category__icu_status_MISSING",
+    "category__wbc_category_low",
+    "category__wbc_category_normal",
+    "category__wbc_category_high",
+    "category__wbc_category_MISSING",
+    "category__albumin_category_low",
+    "category__albumin_category_normal",
+    "category__albumin_category_high",
+    "category__albumin_category_MISSING",
+    "category__creatinine_category_low",
+    "category__creatinine_category_normal",
+    "category__creatinine_category_high",
+    "category__creatinine_category_MISSING",
+    "category__crp_category_low",
+    "category__crp_category_normal",
+    "category__crp_category_high",
+    "category__crp_category_MISSING",
+    "category__pct_category_low",
+    "category__pct_category_normal",
+    "category__pct_category_high",
+    "category__pct_category_MISSING",
+    "category__carbapenem_exposure_90d_1",
+    "category__carbapenem_exposure_90d_MISSING",
+    "category__cephalosporin_exposure_90d_1",
+    "category__cephalosporin_exposure_90d_MISSING",
+    "category__invasive_ventilation_90d_1",
+    "category__invasive_ventilation_90d_MISSING",
+    "category__noninvasive_ventilation_90d_1",
+    "category__noninvasive_ventilation_90d_MISSING",
+    "category__central_venous_catheter_90d_1",
+    "category__central_venous_catheter_90d_MISSING",
+    "category__urinary_catheter_90d_1",
+    "category__urinary_catheter_90d_MISSING",
+    "category__prior_target_reported_90d_1",
+    "category__prior_target_reported_90d_MISSING",
+    "category__prior_crgn_reported_90d_1",
+    "category__prior_crgn_reported_90d_MISSING",
+    "category__t0_specimen_RESP",
+    "category__t0_specimen_BLOOD",
+    "category__t0_specimen_URINE",
+    "category__t0_specimen_OTHER",
+    "category__t0_specimen_MULTIPLE",
+    "category__t0_specimen_MISSING"
+  ],
+  "intercept": -0.34610177992029917,
+  "coefficient": [
+    -0.04577465837153586,
+    0.04863860977357605,
+    -0.09077697833478635,
+    -0.2553248015855711,
+    0.0,
+    0.0,
+    -0.28059420425453435,
+    0.01132559847430913,
+    -0.07683317414068869,
+    -0.3595789294648455,
+    -0.010160890517235245,
+    -0.08346865376418776,
+    0.1071066938257258,
+    0.02163658548066628,
+    -0.2780114653100547,
+    -0.0037626927672973977,
+    -0.08596420732406948,
+    -0.09728376188389433,
+    -0.12560633055473244,
+    -0.2777936289369173,
+    0.1545819414549446,
+    0.0,
+    -0.20410134245395872,
+    0.1566759178253067,
+    -0.298676355292032,
+    -0.2447256104205077,
+    0.21791767851884333,
+    0.002254665156091734,
+    -0.3215485131752047,
+    0.046736619215386924,
+    -0.39283839913601554,
+    -0.11775848162613871,
+    -0.22834329829464772,
+    0.15046208373042563,
+    -0.49656386365108546,
+    -0.07707352340089725,
+    -0.2690282565200282,
+    0.07001513229338895,
+    -0.4161169122140035,
+    0.12825187021547824,
+    -0.47435365013591785,
+    0.07996347837997178,
+    -0.42606525830088365,
+    0.37157878642189945,
+    -0.7176805663425827,
+    0.6890837333851516,
+    -0.48322293255678644,
+    -0.4208410119568448,
+    -0.8302815787844989,
+    0.6991600099922898,
+    0.0
+  ],
+  "formula": "logit = intercept + sum(standardized_or_onehot_x * coefficient); probability = expit(logit)",
+  "H90_outside_model": true
+}

@@ -1,0 +1,7 @@
+﻿year,population,n_events,n_patients,n_positive,n_nonpositive,n_unknown,age_eligible_candidates,unscored_T0_mismatch_events,H90_events,H90_positive_patients,first_H90,positive_patients
+2025,original,20309,12994,767,18822,720,20309,0,757,134,0,424
+2025,returning,2802,1380,168,2526,108,2802,0,246,34,14,82
+2025,expanded,23111,14374,935,21348,828,23111,0,1003,168,14,506
+2026,original,15789,9990,649,14562,578,15789,0,751,115,0,367
+2026,returning,3294,1647,199,2964,131,3295,1,413,42,19,84
+2026,expanded,19083,11637,848,17526,709,19084,1,1164,157,19,451

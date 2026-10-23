@@ -1,0 +1,8 @@
+﻿Phase,Model / analysis,Location
+Development,"Nested L2, random-forest and XGBoost comparison; development-only selection and final tuning",Methods S3; Tables S5–S7
+Formal model,"D18: 18 raw inputs, 51 encoded coefficients plus intercept; final C = 0.1",Tables S2–S3; Original_tables/S03/
+Validation,"Frozen D18, patient-separated hospital cohorts and adapted MIMIC-IV; no refit/recalibration",Table S8; Table S11
+Post-primary,Ablations and early-period refit are separately fitted sensitivities; D18 remains unchanged,Tables S15–S16; Original_tables/S26/part_01.csv
+Post-primary,"Restricted training: 17 inputs, 49 coefficients plus intercept; final C = 10",Table S17; Original_v3/E/
+Post-primary,"Strong rules, returning patients, flora hypothesis and conditional bounds",Tables S10–S11 and S18–S20
+Workflow,Fixed development thresholds and suppression; unequal realised workloads,Table S21; Original_tables/S23/ and S26/

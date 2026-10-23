@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:04:29.944191+00:00",
+  "source_components_reused": true,
+  "D18_selection_recomputed": true,
+  "three_budgets": true,
+  "all_positive_masks_reconciled": true,
+  "groups_overlap": true,
+  "exclusive_groups_sum_to_total": true,
+  "evidence": "only selected positive events; OR per patient, multi-group may span events",
+  "no_new_infection_or_treatment_claim": true
+}

@@ -1,0 +1,4 @@
+﻿Algorithm,Search grid,Configurations,Fixed settings
+L2 logistic,"C: 0.01, 0.1, 1, 10",4,L2 penalty; liblinear; equal event weights
+Random forest,max_depth: 8 or unlimited; min_samples_leaf: 5 or 20; max_features: sqrt or 0.7,8,500 trees; bootstrap; no class weighting; seed 20261014
+XGBoost,"max_depth: 2, 4 or 6; min_child_weight: 1 or 10; n_estimators: 200 or 500",12,binary:logistic; hist; learning_rate 0.05; subsample 0.8; colsample_bytree 0.8; reg_lambda 1; reg_alpha 0; seed 20261014

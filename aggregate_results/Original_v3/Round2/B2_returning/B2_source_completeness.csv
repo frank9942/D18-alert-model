@@ -1,0 +1,4 @@
+﻿year,status,events,source,missing_source_tables
+2025,COMPLETE_CURRENT_LABEL_18_INPUTS_HISTORY_SCORE,2802,stage14 verified reconstruction; frozen base nine reused with provenance,0.0
+2026,COMPLETE_CURRENT_LABEL_18_INPUTS_HISTORY_SCORE,3294,stage14 verified reconstruction; frozen base nine reused with provenance,0.0
+2026,UNSCORED_ANCHOR_MISMATCH,1,frozen base-feature T0 differs from first request by 32 seconds; retain in flow and private queue,

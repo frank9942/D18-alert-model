@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T07:40:02.408875+00:00",
+  "local_links_checked": 87,
+  "plots_PNG_and_PDF": 3,
+  "all_scripts_compile": true,
+  "aggregate_scenario_points": 468,
+  "interval_rows": 3960,
+  "sharp_bound_rows": 72,
+  "paired_bootstrap_repeats_per_cohort": 1000,
+  "independent_check_count": 1296,
+  "patient_level_data_not_copied_to_public_report": true,
+  "source_S7_unchanged": true,
+  "primary_model_unchanged": true
+}

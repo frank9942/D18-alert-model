@@ -1,0 +1,13 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S28 Development discrimination and calibration by algorithm
+
+All known outcomes: 24501 events, including 1488 positive events.
+
+
+
+H90-unflagged known outcomes: 22826 events, including 805 positive events.
+
+
+
+All estimates use nested out-of-fold predictions. Intervals are pointwise patient-cluster bootstrap intervals with fixed scores; calibration diagnostics were refitted in each replicate without changing prediction scores.

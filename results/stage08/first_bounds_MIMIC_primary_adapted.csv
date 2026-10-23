@@ -1,0 +1,10 @@
+﻿cohort,budget_percent,comparator,observed_first_difference,first_difference_lower,first_difference_upper,patients_with_earlier_or_only_unknown,bounds_type
+MIMIC_primary_adapted,1,original_LR,13.0,-259.0,678.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,1,icu_los,36.0,-340.0,797.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,1,icu_expected,52.535293891121015,-486.7403180878785,865.0995982182972,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,2,original_LR,11.0,-438.0,1151.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,2,icu_los,36.0,-627.0,1338.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,2,icu_expected,68.07058778224203,-957.2286304763616,1470.4753988934958,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,5,original_LR,31.0,-786.0,2152.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,5,icu_los,65.0,-1305.0,2523.0,43171,sharp_identification_bounds_not_CI
+MIMIC_primary_adapted,5,icu_expected,104.68324711500198,-2242.040986868285,2820.246717071229,43171,sharp_identification_bounds_not_CI

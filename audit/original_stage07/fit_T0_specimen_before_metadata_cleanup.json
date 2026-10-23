@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "selected": [
+    {
+      "outer": 0,
+      "C": 0.1,
+      "sha256": "c8df8c8e1523c0f42d370828e3626c3e185e07ec8bfa3195a63a6a52d181132b"
+    },
+    {
+      "outer": 1,
+      "C": 0.1,
+      "sha256": "88299bcc97e556e6154d4b8e1f975825cb42275f1c6d406b7660cf04e481eb4c"
+    },
+    {
+      "outer": 2,
+      "C": 0.1,
+      "sha256": "23d813ecc509d61035cc7b795d9933eedd6379c24ca2f771bafe3eb195562a7b"
+    },
+    {
+      "outer": 3,
+      "C": 0.1,
+      "sha256": "ddcec747187dd68dd89b1df2c0e70251d4101fb86ecd22c021d80896f05846bb"
+    },
+    {
+      "outer": 4,
+      "C": 0.1,
+      "sha256": "fe89f2bab8dd750f2e40f285f02bbec42413f61baf03d10cdc89bc64ea215613"
+    },
+    {
+      "outer": "final",
+      "C": 0.1,
+      "sha256": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09"
+    }
+  ],
+  "fits": 106,
+  "events": 25350,
+  "known_events": 24501,
+  "nested": true,
+  "evaluation_used": false,
+  "completed_utc": "2026-10-15T06:44:49.434355+00:00",
+  "seconds": 9.952999999979511,
+  "hashes": {
+    "models\\T0_specimen.joblib": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+    "models\\T0_specimen_definition.json": "35f051a3fd2fd5e187bc01fccba94be879296d0f91a4ce140f98e65d305c34df",
+    "models\\T0_specimen_outer0.joblib": "c8df8c8e1523c0f42d370828e3626c3e185e07ec8bfa3195a63a6a52d181132b",
+    "models\\T0_specimen_outer1.joblib": "88299bcc97e556e6154d4b8e1f975825cb42275f1c6d406b7660cf04e481eb4c",
+    "models\\T0_specimen_outer2.joblib": "23d813ecc509d61035cc7b795d9933eedd6379c24ca2f771bafe3eb195562a7b",
+    "models\\T0_specimen_outer3.joblib": "ddcec747187dd68dd89b1df2c0e70251d4101fb86ecd22c021d80896f05846bb",
+    "models\\T0_specimen_outer4.joblib": "fe89f2bab8dd750f2e40f285f02bbec42413f61baf03d10cdc89bc64ea215613",
+    "private\\oof_T0_specimen.csv": "5934bbab8b0284e529fa90bc72dd6e55424529a7281e5bb8d00f5efb635682d4"
+  }
+}

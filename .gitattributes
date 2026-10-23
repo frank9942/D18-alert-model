@@ -1,0 +1,2 @@
+# Keep every file byte-identical on checkout, so that the SHA-256 checks in code/selftest.py pass on all platforms.
+* -text

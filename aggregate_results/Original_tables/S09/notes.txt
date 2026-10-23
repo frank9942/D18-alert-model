@@ -1,0 +1,7 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S9 Paired cumulative differences from comparators
+
+ 
+
+Paired patient resampling; positive values favour D18. Intervals use fixed model scores and do not account for model fitting or tuning uncertainty.

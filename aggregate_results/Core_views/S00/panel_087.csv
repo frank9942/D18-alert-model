@@ -1,0 +1,14 @@
+﻿Section,Item,Topic,Where reported or remaining limitation
+Results,20a,Participant flow and outcome numbers,Results: Study cohorts; Fig. 2; main Table 1 and Supplementary Table S1.
+Results,20b,Characteristics of each data source,"Main Table 1 and Supplementary Tables S1, S4 and S12. Whole-event and T0 specimen descriptions are distinguished."
+Results,20c,Comparison with development data (E),Main Table 1 and Supplementary Tables S2 and S4.
+Results,21,Participants and events in each analysis,Methods: Model development; main Tables 1–2; Supplementary Tables S1 and S8–S21 and complete aggregate exports in Supplementary Data 1.
+Results,22,Full model specification,"Supplementary Methods S2–S3 and Tables S2–S3: all 51 coefficients, intercept, domains, scaling and formula."
+Results,23a,Performance with confidence intervals,"Main Tables 2–3 and Figures 3–4; Supplementary Figures S1–S2, Tables S8–S21 and Supplementary Data 1 version 4. Intervals condition on fixed scores and exclude fitting and algorithm-selection uncertainty."
+Results,23b,Heterogeneity across clusters,Cohort-specific results in main Tables 2–3 and Supplementary Tables S8–S21.
+Results,24,Model updating results,"D18 performance (Table S8), four ablations (Table S15), early-period refit (Table S16), and restricted training (Table S17). No evaluation-cohort recalibration or replacement of formal D18."
+Discussion,25,Interpretation,"Discussion: hospital coverage, uncertain 2025 gains over stronger rules, symmetric interpretation of transparency, and limited external transportability."
+Discussion,26,Limitations,"Limitations include single-centre sampling, development overlap in the returning extension, one unresolved T0 event, unavailable private reconstruction evidence, no infection adjudication, unknown outcomes and retrospective workflow simulation."
+Discussion,27a,Handling of poor-quality or missing inputs in use,"Methods: Predictors and data quality; Discussion: local calibration, incomplete inputs and prospective assessment. No deployed missing-input workflow was tested."
+Discussion,27b,User interaction and expertise,Discussion: prospective evaluation should specify alert recipients and expected responses; user interaction was not tested.
+Discussion,27c,Next steps,Discussion: prospective silent evaluation and clinical implementation assessment.

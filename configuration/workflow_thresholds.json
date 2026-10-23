@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-15T09:02:58.101220+00:00",
+  "selection": "development only; nested OOF scores for D18; no outcomes used to choose cutoffs",
+  "thresholds": [
+    {
+      "strategy": "D18",
+      "development_target_percent": 1,
+      "development_eligible_events": 23617,
+      "development_alerts": 237,
+      "tie_cutoff": 1217549045367807,
+      "score_cutoff": 0.3106975837638298
+    },
+    {
+      "strategy": "icu_los",
+      "development_target_percent": 1,
+      "development_eligible_events": 23617,
+      "development_alerts": 237,
+      "tie_cutoff": 2400690207120640,
+      "icu_cutoff": 1,
+      "los_cutoff": 19.28960648148148
+    },
+    {
+      "strategy": "D18",
+      "development_target_percent": 2,
+      "development_eligible_events": 23617,
+      "development_alerts": 473,
+      "tie_cutoff": 2050396121546105,
+      "score_cutoff": 0.25359903645222276
+    },
+    {
+      "strategy": "icu_los",
+      "development_target_percent": 2,
+      "development_eligible_events": 23617,
+      "development_alerts": 473,
+      "tie_cutoff": 2267692891138233,
+      "icu_cutoff": 1,
+      "los_cutoff": 13.80351851851852
+    },
+    {
+      "strategy": "D18",
+      "development_target_percent": 5,
+      "development_eligible_events": 23617,
+      "development_alerts": 1181,
+      "tie_cutoff": 881119431457271,
+      "score_cutoff": 0.17552671516710946
+    },
+    {
+      "strategy": "icu_los",
+      "development_target_percent": 5,
+      "development_eligible_events": 23617,
+      "development_alerts": 1181,
+      "tie_cutoff": 1056342146855939,
+      "icu_cutoff": 1,
+      "los_cutoff": 6.858564814814815
+    }
+  ],
+  "source_sha256": "5934bbab8b0284e529fa90bc72dd6e55424529a7281e5bb8d00f5efb635682d4"
+}

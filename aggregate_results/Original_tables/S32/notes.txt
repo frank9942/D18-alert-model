@@ -1,0 +1,8 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S32 Development-derived specimen priorities
+
+The ordering sample contains H90-unflagged development events. Positivity uses known outcomes; unknown events are displayed but excluded from that denominator. Lower rank means higher priority. Empty groups are placed last.
+
+
+

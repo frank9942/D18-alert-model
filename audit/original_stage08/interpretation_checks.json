@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_EXPLICIT_LIMITATIONS",
+  "unknown_extremes_not_worst_case": true,
+  "sharp_bounds_not_CI": true,
+  "first_positive_recomputed": true,
+  "H90_features_and_scores_fixed": true,
+  "candidate_selection_posthoc_disclosed": true,
+  "no_multiplicity_adjustment_disclosed": true,
+  "no_deployment_or_causal_claim": true,
+  "known_nonpositive_not_all_false_alerts": true,
+  "external_first_capture_reversal_reported": true,
+  "hospital_conditionally_positive_bounds_not_population_proof": true,
+  "original_primary_retained": true,
+  "source_time_revision_limits_disclosed": true
+}

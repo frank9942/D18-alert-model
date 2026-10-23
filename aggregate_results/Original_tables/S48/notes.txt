@@ -1,0 +1,16 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S48 Returning-patient strategy evaluation
+
+Quotas and H90 patient baselines were recomputed within each scope. Expanded results use one global ranking over original and returning events; they are not sums of independently allocated subsets. R1/R2 selected identical events. This table reports 2% composition and all-budget paired coverage differences; complete all-budget clinical metrics, first capture and membership allocations are in Supplementary Data 1.
+
+2025
+
+
+
+
+
+2026
+
+
+

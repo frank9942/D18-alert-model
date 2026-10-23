@@ -1,0 +1,10 @@
+﻿cohort,budget_percent,comparator,observed_first_difference,first_difference_lower,first_difference_upper,patients_with_earlier_or_only_unknown,bounds_type
+development_nested,1,original_LR,15.0,9.0,21.0,731,sharp_identification_bounds_not_CI
+development_nested,1,icu_los,21.0,9.0,32.0,731,sharp_identification_bounds_not_CI
+development_nested,1,icu_expected,34.816326530612244,23.747252747252745,45.19623233908948,731,sharp_identification_bounds_not_CI
+development_nested,2,original_LR,34.0,24.0,40.0,731,sharp_identification_bounds_not_CI
+development_nested,2,icu_los,41.0,23.0,52.0,731,sharp_identification_bounds_not_CI
+development_nested,2,icu_expected,67.73469387755104,47.75013082155941,81.24960753532183,731,sharp_identification_bounds_not_CI
+development_nested,5,original_LR,72.0,53.0,93.0,731,sharp_identification_bounds_not_CI
+development_nested,5,icu_los,89.0,57.0,113.0,731,sharp_identification_bounds_not_CI
+development_nested,5,icu_expected,141.48979591836732,98.58974358974359,168.45578231292512,731,sharp_identification_bounds_not_CI

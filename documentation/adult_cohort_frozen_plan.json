@@ -1,0 +1,145 @@
+{
+  "material_passport": {
+    "origin_skill": "academic-research-suite",
+    "origin_mode": "experiment-agent/plan",
+    "origin_date": "2026-10-14",
+    "verification_status": "WORKSPACE_CREATED_METADATA_CHECKED_NOT_TRAINED",
+    "version_label": "D17_H3_Adult_v1"
+  },
+  "status": "ADULT_HOSPITAL_INPUTS_FROZEN_READY_FOR_DEVELOPMENT",
+  "adult_model_fitted": false,
+  "parent_model_version": "D17_H3_v7",
+  "label_rules_parent_version": "v7",
+  "research_question": "At culture ordering for adult inpatients, retain the 90-day resistance-history alert and quantify the additional positive-patient coverage and additional review burden of model-based supplementary alerts.",
+  "adult_eligibility": {
+    "threshold_years": 18,
+    "timepoint": "first culture request T0 of fixed 24h event",
+    "confirmed": true,
+    "wards": "All adult inpatient wards in scope, ICU and non-ICU; ward names are not used as a substitute for age",
+    "missing_age": "Classed as age not determinable; eligibility is not obtained by model imputation",
+    "current_age_column_provenance": "VERIFIED_AGAINST_LINKED_BIRTH_DATE_AND_T0_72079_EVENTS",
+    "birthday_history": "Reports from the 90 days before the 18th birthday that meet the time-availability rule may still be used for history variables of adult events"
+  },
+  "cohort_periods": {
+    "development": [
+      "2023-12-01",
+      "2024-12-31"
+    ],
+    "temporal_evaluation_2025": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "temporal_evaluation_2026": [
+      "2026-01-01",
+      "2026-09-15"
+    ],
+    "external": "Existing adapted MIMIC cohort; all adults under the existing mapping"
+  },
+  "membership": "Keep the current frozen candidate entry, 24-h event grouping, T0, cross-period patient exclusion and five-fold mapping, and restrict each existing cohort to adults; removing paediatric records does not reassign patients or restore excluded returning patients. Any later change requires a new version and new counts.",
+  "outcome": "As in v7: formal Status 3/4 reports; IsNotReport, Reported and CancelFlag are not used as thresholds; CRE/CRPA/CRAB target organisms with linkable susceptibility results or a confirmed formal resistance conclusion; negative and unknown outcomes are separated under the current rules.",
+  "external_mapping": "The first version keeps the current MIMIC adaptation rules and unknown categories; any refinement such as flora or low-count rules is frozen and evaluated separately and is not automatically treated as negative.",
+  "history": "Keep the verified v7 history-evidence threshold: formal reports available in [T0-90d, T0), excluding requests within the current 24-h event; no qualifying record does not mean a known absence of history; the adult restriction does not truncate eligible history sources.",
+  "features": [
+    "age",
+    "sex",
+    "length_of_stay",
+    "icu_status",
+    "wbc_category",
+    "albumin_category",
+    "creatinine_category",
+    "crp_category",
+    "pct_category",
+    "carbapenem_exposure_90d",
+    "cephalosporin_exposure_90d",
+    "invasive_ventilation_90d",
+    "noninvasive_ventilation_90d",
+    "central_venous_catheter_90d",
+    "urinary_catheter_90d",
+    "prior_target_reported_90d",
+    "prior_crgn_reported_90d"
+  ],
+  "primary_model": {
+    "algorithm": "L2 logistic regression",
+    "C_grid": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "select": "development mean held-fold log loss; ties smaller C",
+    "preprocess": "Existing category domains and missing codes; numerical imputation and standardisation fitted separately in each training fold",
+    "weighting": "Each culture event weighted equally; no SMOTE or class resampling"
+  },
+  "development_evaluation": "Patient-level nested CV with 5 outer and 4 inner folds, as in the most recent comparison workflow; the final C for the full adult development data is selected by 5-fold CV. All adult within-fold models are refitted; all-age models are not reused. The non-nested OOF scores of the original v7 are not used as nested results for this version.",
+  "supplementary_algorithms": "Reuse the fixed RF/XGBoost grids recorded on 2026-10-14 as a supplementary comparison; the main model is not changed and tuning does not continue on the basis of 2025/2026/MIMIC results.",
+  "freeze_sequence": [
+    "Verify the age source and its consistency with T0",
+    "Freeze the adult protocol, entry, outcome, features and fold mapping, with hashes",
+    "Fit and tune on adult development events with known outcomes only",
+    "Save the final model, preprocessing, coefficients and fitting log, with hashes",
+    "Then score and evaluate 2025, 2026 and MIMIC"
+  ],
+  "strategy": {
+    "H90": "Keep all history alerts available at the time",
+    "addon_pool": "Adult candidate events without an H90 alert, including unknown outcomes",
+    "budgets_percent": [
+      1,
+      2,
+      5
+    ],
+    "emphasis_percent": 2,
+    "K": "ceil(percent * adult_H90_unflagged_events / 100)",
+    "comparators": [
+      "ICU priority; expected result with the budget allocated uniformly within strata",
+      "ICU priority, then descending length of stay before ordering, as a supplementary benchmark"
+    ]
+  },
+  "endpoints": [
+    "Additional positive patients covered over the whole evaluation period, deduplicated across selected positive events",
+    "Known-positive, known non-positive and unknown events among additional alerts counted separately",
+    "Additional alerts per additional positive patient covered; no finite ratio is reported when the denominator is 0",
+    "Whether the first known positive event is alerted; a separate sensitivity analysis covers earlier unknown outcomes"
+  ],
+  "performance": [
+    "AUROC",
+    "AP",
+    "Brier",
+    "log loss",
+    "CITL",
+    "calibration slope",
+    "calibration plot",
+    "paired incremental coverage",
+    "review burden"
+  ],
+  "uncertainty": {
+    "bootstrap_repeats": 1000,
+    "unit": "paired patient cluster; keep all events of sampled patient copies",
+    "interval": "pointwise95%percentile",
+    "rerank_and_recalculate_budget": true,
+    "model_refit_per_draw": false,
+    "minimum_valid": 950,
+    "limitation": "Fixed-score intervals do not include all training and design-choice uncertainty; multiple budgets are not independent validations"
+  },
+  "sensitivity_reruns": [
+    "Unknown-outcome scenarios and paired bounds",
+    "First known positive event and earlier unknown events",
+    "H90 observation span and exclusion of the first 90 development days, with refit",
+    "Outcome of the first request in the 24-h event and the at-T0 definition",
+    "Laboratory-variable ablation",
+    "CRE/CRPA/CRAB composition and incremental coverage"
+  ],
+  "claims": [
+    "Limited to adult inpatient culture events; no generalisation to paediatrics",
+    "The 2025/2026 source data had already been accessed by programs; rebuilding the adult cohort does not make them new, unseen validation data",
+    "The investigator stated that earlier 2026 results were not consulted; program access is not described as analysis by the author",
+    "Retrospective coverage is not described as earlier diagnosis or treatment benefit",
+    "No clinically acceptable cost was prespecified; no claim of proven acceptability is made"
+  ],
+  "pending_user_decisions_required_for_setup": [],
+  "optional_user_input": "If a different workflow is wanted, state whether to change periods, ward scope or patient splits; a clinically acceptable alert burden may be added when real evidence is available.",
+  "frozen_utc": "2026-10-14T14:40:34.573813+00:00",
+  "author_response_sha256": "35889d3392e47a3f8f52317a5a2da10e65af2cd055bbc5b036855e1b28de2ee9",
+  "microbiology_source_sha256": "79816efadecb124909752cb7afc412e0066cf1d56ac8600e3f7bbc74c6022eb2",
+  "new_microbiology_information": "Supplement to the methods description; the frozen outcome is not changed. External expert mapping is handled as a separate sensitivity-analysis version. Questions remain about historical interpretation versions and switch-over times.",
+  "bootstrap_seed": 2026101401
+}

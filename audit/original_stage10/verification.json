@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:47:39.501995+00:00",
+  "point_count_checks": 684,
+  "baseline_points_and_interval_checks": 2000,
+  "independent_sklearn_performance_checks": 96,
+  "weighted_reference_checks": 1296,
+  "H90_and_original_comparator_fields_unchanged": true,
+  "cohort_checks": [
+    {
+      "cohort": "development_nested",
+      "events": 25350,
+      "patients": 15280,
+      "H90_events": 1733,
+      "unknown": 849,
+      "retained_original_fields": true
+    },
+    {
+      "cohort": "hospital_2025",
+      "events": 20309,
+      "patients": 12994,
+      "H90_events": 757,
+      "unknown": 720,
+      "retained_original_fields": true
+    },
+    {
+      "cohort": "hospital_2026",
+      "events": 15789,
+      "patients": 9990,
+      "H90_events": 751,
+      "unknown": 578,
+      "retained_original_fields": true
+    },
+    {
+      "cohort": "MIMIC_primary_adapted",
+      "events": 310977,
+      "patients": 89648,
+      "H90_events": 2221,
+      "unknown": 78219,
+      "retained_original_fields": true
+    }
+  ],
+  "all_bootstrap_differences_verified": true,
+  "model_verification": {
+    "status": "PASS",
+    "time": "2026-10-15T09:45:58.707309+00:00",
+    "models": [
+      {
+        "variant": "D18_no_micro_history",
+        "features": [
+          "age",
+          "sex",
+          "length_of_stay",
+          "icu_status",
+          "wbc_category",
+          "albumin_category",
+          "creatinine_category",
+          "crp_category",
+          "pct_category",
+          "carbapenem_exposure_90d",
+          "cephalosporin_exposure_90d",
+          "invasive_ventilation_90d",
+          "noninvasive_ventilation_90d",
+          "central_venous_catheter_90d",
+          "urinary_catheter_90d",
+          "t0_specimen"
+        ],
+        "n_features": 16,
+        "C": 0.1,
+        "fit_events": 24501,
+        "retained_development_events": 25350,
+        "exact_final_refit": true,
+        "outer_fold_replay": true
+      },
+      {
+        "variant": "D18_no_ICU_LOS",
+        "features": [
+          "age",
+          "sex",
+          "wbc_category",
+          "albumin_category",
+          "creatinine_category",
+          "crp_category",
+          "pct_category",
+          "carbapenem_exposure_90d",
+          "cephalosporin_exposure_90d",
+          "invasive_ventilation_90d",
+          "noninvasive_ventilation_90d",
+          "central_venous_catheter_90d",
+          "urinary_catheter_90d",
+          "prior_target_reported_90d",
+          "prior_crgn_reported_90d",
+          "t0_specimen"
+        ],
+        "n_features": 16,
+        "C": 0.1,
+        "fit_events": 24501,
+        "retained_development_events": 25350,
+        "exact_final_refit": true,
+        "outer_fold_replay": true
+      }
+    ],
+    "score_replay_events": 744850,
+    "max_score_error": 0.0,
+    "main_D18_unchanged": "8f27b6f6bf656fa760f532624da3e12f8a2dde8f2c09ec5d08474d5a80db9d09",
+    "D17_unchanged": "be4efa7c0045582939b667cbe55c1b8bd1120af848ae458c9ad547afd6ef6c0f"
+  },
+  "exploratory": true
+}

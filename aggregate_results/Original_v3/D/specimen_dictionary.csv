@@ -1,0 +1,76 @@
+﻿source,raw_name,group
+hospital,乳汁,其他
+hospital,伤口分泌物,其他
+hospital,全血,血液
+hospital,关节腔积液,其他
+hospital,其他,其他
+hospital,其它,其他
+hospital,分泌物,其他
+hospital,前列腺液,其他
+hospital,咽拭子,呼吸道
+hospital,导管头,其他
+hospital,尿导管头,其他
+hospital,尿液,尿液
+hospital,尿道分泌物,其他
+hospital,引流液,其他
+hospital,痰,呼吸道
+hospital,痰液,呼吸道
+hospital,穿刺液,其他
+hospital,精液,其他
+hospital,组织,其他
+hospital,肺泡灌洗液,呼吸道
+hospital,胆汁,其他
+hospital,胸水,其他
+hospital,胸腹水,其他
+hospital,脑脊液,其他
+hospital,腹水,其他
+hospital,腹透液,其他
+hospital,血透管,其他
+hospital,阴道分泌物,其他
+hospital,静脉导管头,其他
+hospital,骨髓,其他
+mimic,ABSCESS,其他
+mimic,ASPIRATE,其他
+mimic,BILE,其他
+mimic,BIOPSY,其他
+mimic,BLOOD,血液
+mimic,BLOOD BAG FLUID,其他
+mimic,BLOOD CULTURE,血液
+mimic,BLOOD CULTURE ( MYCO/F LYTIC BOTTLE),血液
+mimic,BLOOD CULTURE - NEONATE,血液
+mimic,BONE MARROW,其他
+mimic,BRONCHIAL BRUSH,呼吸道
+mimic,BRONCHIAL BRUSH - PROTECTED,呼吸道
+mimic,BRONCHIAL WASHINGS,呼吸道
+mimic,BRONCHOALVEOLAR LAVAGE,呼吸道
+mimic,CATHETER TIP-IV,其他
+mimic,CORNEAL EYE SCRAPINGS,其他
+mimic,CSF;SPINAL FLUID,其他
+mimic,DIALYSIS FLUID,其他
+mimic,EAR,其他
+mimic,EYE,其他
+mimic,FLUID RECEIVED IN BLOOD CULTURE BOTTLES,其他
+mimic,FLUID WOUND,其他
+mimic,"FLUID,OTHER",其他
+mimic,FOOT CULTURE,其他
+mimic,FOREIGN BODY,其他
+mimic,JOINT FLUID,其他
+mimic,Mini-BAL,呼吸道
+mimic,NAIL SCRAPINGS,其他
+mimic,PERITONEAL FLUID,其他
+mimic,PLEURAL FLUID,其他
+mimic,PROSTHETIC JOINT FLUID,其他
+mimic,SEROLOGY/BLOOD,血液
+mimic,SKIN SCRAPINGS,其他
+mimic,SPUTUM,呼吸道
+mimic,STOOL,其他
+mimic,SWAB,其他
+mimic,Swab,其他
+mimic,THROAT CULTURE,呼吸道
+mimic,THROAT FOR STREP,呼吸道
+mimic,TISSUE,其他
+mimic,TRACHEAL ASPIRATE,呼吸道
+mimic,URINE,尿液
+mimic,"URINE,KIDNEY",尿液
+mimic,"URINE,PROSTATIC MASSAGE",尿液
+mimic,"URINE,SUPRAPUBIC ASPIRATE",尿液

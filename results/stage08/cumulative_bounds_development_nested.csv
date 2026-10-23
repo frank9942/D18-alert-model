@@ -1,0 +1,10 @@
+﻿cohort,budget_percent,comparator,observed_patient_difference,patient_difference_lower,patient_difference_upper,observed_positive_event_difference,positive_event_difference_lower,positive_event_difference_upper,bounds_type,unknown_positive_assignments_to_null,tipping_status,adverse_assignable_unknown_events,unknown_events,model_selected_unknown_events,icu_expected_unknown_events,h90_unknown_events
+development_nested,1,original_LR,11.0,8.0,16.0,25.0,20.0,30.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,1,icu_los,20.0,9.0,28.0,29.0,18.0,37.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,1,icu_expected,27.679738678108162,15.88785880607652,37.55188989399886,52.61538461538461,43.87205651491365,63.871271585557295,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,136.0,849.0,12.0,9.487441130298272,58.0
+development_nested,2,original_LR,20.0,15.0,24.0,35.0,27.0,39.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,2,icu_los,36.0,22.0,46.0,48.0,32.0,58.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,2,icu_expected,49.66662944132153,29.946240934335616,62.92408627020693,87.35897435897436,70.5279958137101,103.25510204081633,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,132.0,849.0,18.0,18.93485086342229,58.0
+development_nested,5,original_LR,35.0,22.0,50.0,82.0,62.0,101.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,5,icu_los,48.0,26.0,68.0,98.0,70.0,124.0,sharp_identification_bounds_not_CI,,,,,,,
+development_nested,5,icu_expected,78.99544611344061,40.20241736937864,104.19743460114337,174.58974358974356,138.12768184196753,205.77472527472526,sharp_identification_bounds_of_expected_difference_not_CI,,not_attainable,121.0,849.0,42.0,47.27708006279435,58.0

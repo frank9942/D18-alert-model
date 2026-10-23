@@ -1,0 +1,19 @@
+﻿field,description,type,accepted_values,predictor
+age,Age at ordering (years),numeric,>=18; must not be missing,True
+sex,"Sex: male, female or unknown (case-insensitive), or the source labels 男 (male), 女 (female), 未知 (unknown)",category,male | female | unknown | 男 | 女 | 未知 | MISSING,True
+length_of_stay,Days in hospital up to ordering,numeric,">=0, or blank/MISSING",True
+icu_status,In an ICU at ordering,category,0 | 1 | MISSING,True
+wbc_category,White cell count category,category,low | normal | high | MISSING,True
+albumin_category,Albumin category,category,low | normal | high | MISSING,True
+creatinine_category,Creatinine category,category,low | normal | high | MISSING,True
+crp_category,C-reactive protein category,category,low | normal | high | MISSING,True
+pct_category,Procalcitonin category,category,low | normal | high | MISSING,True
+carbapenem_exposure_90d,Carbapenem exposure record in the previous 90 days,category,1 | MISSING,True
+cephalosporin_exposure_90d,Cephalosporin exposure record in the previous 90 days,category,1 | MISSING,True
+invasive_ventilation_90d,Invasive ventilation record in the previous 90 days,category,1 | MISSING,True
+noninvasive_ventilation_90d,Non-invasive ventilation record in the previous 90 days,category,1 | MISSING,True
+central_venous_catheter_90d,Central venous catheter record in the previous 90 days,category,1 | MISSING,True
+urinary_catheter_90d,Urinary catheter record in the previous 90 days,category,1 | MISSING,True
+prior_target_reported_90d,Formal report of a target organism in the previous 90 days,category,1 | MISSING,True
+prior_crgn_reported_90d,Formal report of a target resistant organism in the previous 90 days (H90),category,1 | MISSING,True
+t0_specimen,Specimen category at the first time point T0,category,RESP | BLOOD | URINE | OTHER | MULTIPLE | MISSING,True

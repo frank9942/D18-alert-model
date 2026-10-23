@@ -1,0 +1,9 @@
+﻿cohort,population,invalid_calibration_replicates,replicates
+development_nested,all_known,0,1000
+development_nested,H90_unflagged_known,0,1000
+hospital_2025,all_known,0,1000
+hospital_2025,H90_unflagged_known,0,1000
+hospital_2026,all_known,0,1000
+hospital_2026,H90_unflagged_known,0,1000
+MIMIC_primary_adapted,all_known,0,1000
+MIMIC_primary_adapted,H90_unflagged_known,0,1000

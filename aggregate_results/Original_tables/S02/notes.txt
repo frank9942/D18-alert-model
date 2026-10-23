@@ -1,0 +1,5 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S2 Predictor definitions
+
+The 18 raw predictors expand to 51 encoded coefficients. Missing domains are retained even if no observation has that category in the final fitting data. Valid pre-T0 history before age 18 remains available. See Table S3 for numerical transformations.

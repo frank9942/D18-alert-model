@@ -1,0 +1,47 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S43 Restricted-training coverage and paired differences at all budgets
+
+First-layer H90 is retained in every strategy. Additional cumulative coverage, first known-positive capture and alert burden remain distinct. Intervals are pointwise and unadjusted for multiplicity; they do not establish equivalence. A small nonzero bound is retained at three decimals to avoid rounding it to zero.
+
+Development: event composition.
+
+
+
+Development: patient endpoints.
+
+
+
+
+
+Hospital 2025: event composition.
+
+
+
+Hospital 2025: patient endpoints.
+
+
+
+
+
+Hospital 2026: event composition.
+
+
+
+Hospital 2026: patient endpoints.
+
+
+
+
+
+MIMIC-IV: event composition.
+
+
+
+MIMIC-IV: patient endpoints.
+
+
+
+
+
+Supplementary Data 1 (version 3) contains the complete aggregate numerical CSVs for both supplementary rounds, including all budgets, specimen allocations, pathogen cross-tabulations, returning-patient evaluation and conditional identification bounds, together with the restricted-model specification. It contains no patient identifiers. Infection/colonisation adjudication was not undertaken. Earlier 1000-replicate and later 5000-replicate analyses are explicitly separated; original primary results are retained.

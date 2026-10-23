@@ -1,0 +1,12 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S47 D18 performance in the returning-patient extension
+
+Known outcomes only. H90-unflagged results are directly relevant to supplemental ranking. Diagnostic calibration fits do not update D18. All intervals are pointwise and conditional on frozen scores, using 5000 patient-cluster replicates. The complete nine metrics are in Supplementary Data 1.
+
+H90-unflagged known outcomes
+
+
+
+All known outcomes
+

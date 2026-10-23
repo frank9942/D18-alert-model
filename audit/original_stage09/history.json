@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "time": "2026-10-15T09:12:32.394223+00:00",
+  "groups": [
+    "history_development_nested_calendar_after90",
+    "history_development_nested_calendar_first90",
+    "history_hospital_2025_long",
+    "history_hospital_2025_short",
+    "history_hospital_2026_long",
+    "history_hospital_2026_short",
+    "history_MIMIC_primary_adapted_long",
+    "history_MIMIC_primary_adapted_short"
+  ],
+  "span_not_continuous_observation": true,
+  "strata_reranked_independently": true
+}

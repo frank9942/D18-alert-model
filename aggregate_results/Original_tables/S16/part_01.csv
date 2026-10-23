@@ -1,0 +1,12 @@
+﻿Phase,Analysis step,Purpose or output
+Development,Three-algorithm comparison,"L2 logistic regression, random forest and XGBoost were compared on the December 2023–December 2024 cohort using the same 18 predictors and nested patient-grouped cross-validation."
+Development,Selection of L2,"L2 was retained for its transparent structure, auditability and reproducibility, while gains in the core 2% additional-coverage endpoint remained uncertain."
+Finalisation,Final development tuning and fitting,Development-only tuning selected C = 0.1 for L2; the final D18 model was fitted using the development data.
+Finalisation,Complete D18 model fixed,"Predictors, preprocessing, coefficients and penalty parameter were fixed before first access to the 2025, 2026 and MIMIC-IV validation cohorts."
+Analysis specification,Primary strategy endpoint and comparator rules,"The endpoint, 1%, 2% and 5% extra alert budgets, and comparator rules were specified after development review and before first access to the 2025 and 2026 hospital cohorts."
+Validation,2025 and 2026 hospital cohorts,The frozen D18 model underwent temporal validation; these results did not change the formal model.
+Validation,MIMIC-IV transportability assessment,The finalised D18 model was evaluated in the adapted MIMIC-IV cohort; these results did not change the formal model.
+Supplementary analyses,Sensitivity analyses,Sensitivity analyses followed the primary evaluations. Results were verified and the formal D18 model remained unchanged.
+Supplementary analyses,Specimen recheck,Frozen-trace reconstruction passed; no historical field revision log was available.
+Supplementary analyses,D18-specific analyses,"Outcome windows, laboratory ablation, pathogens, workflow, history and calibration were examined. These analyses did not select a replacement for D18."
+Supplementary analyses,Grouped ablations,Two second-layer predictor removals were evaluated while retaining first-layer H90; the complete D18 model remained the reference.

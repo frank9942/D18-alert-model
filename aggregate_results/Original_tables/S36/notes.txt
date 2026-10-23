@@ -1,0 +1,6 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S36 Scope of the MIMIC-IV mapping sensitivity
+
+Only the normal-respiratory-flora hypothesis changes labels. All other listed differences remain. The assumption does not confirm that a specimen or patient is negative or free of infection.
+

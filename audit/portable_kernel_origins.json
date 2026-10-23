@@ -1,0 +1,135 @@
+[
+  {
+    "name": "ratio",
+    "source": "<PROJECT_ROOT>\\outputs\\history_first_small_budget_20261005_v1\\analyze_small_budget.py",
+    "source_sha256": "546a77e20f0aeaba055f4951c29f530d0775c50e13eddc3d06c6667f1a5832ec",
+    "start_line": 30,
+    "definition_sha256": "8977ec4c66f7510a25654a780fbddff0b5a7e52d946aa10ebb86f8767eb2ef90"
+  },
+  {
+    "name": "no_hit",
+    "source": "<PROJECT_ROOT>\\outputs\\history_first_small_budget_20261005_v1\\analyze_small_budget.py",
+    "source_sha256": "546a77e20f0aeaba055f4951c29f530d0775c50e13eddc3d06c6667f1a5832ec",
+    "start_line": 33,
+    "definition_sha256": "942cea866d26a68093b9d31c7cec9df29cc38d1fb8bbfc24a4eae2e62559ea33"
+  },
+  {
+    "name": "Cohort",
+    "source": "<PROJECT_ROOT>\\outputs\\history_first_small_budget_20261005_v1\\analyze_small_budget.py",
+    "source_sha256": "546a77e20f0aeaba055f4951c29f530d0775c50e13eddc3d06c6667f1a5832ec",
+    "start_line": 46,
+    "definition_sha256": "4d727b78477ed6ee09ce8275b12d5e8d04520419bf37dfe606404591a5b831de"
+  },
+  {
+    "name": "literal_counts",
+    "source": "<PROJECT_ROOT>\\outputs\\history_first_small_budget_20261005_v1\\analyze_small_budget.py",
+    "source_sha256": "546a77e20f0aeaba055f4951c29f530d0775c50e13eddc3d06c6667f1a5832ec",
+    "start_line": 165,
+    "definition_sha256": "e9c6e1d81a50fa9f5dcba51f4790ae6bea5ba2104dd5af726860b644df581136"
+  },
+  {
+    "name": "verify_math",
+    "source": "<PROJECT_ROOT>\\outputs\\history_first_small_budget_20261005_v1\\analyze_small_budget.py",
+    "source_sha256": "546a77e20f0aeaba055f4951c29f530d0775c50e13eddc3d06c6667f1a5832ec",
+    "start_line": 175,
+    "definition_sha256": "d6392be03b6948900525a1f2f9b29decbc461c8ff6b149587ff3dfb0c46e2b9d"
+  },
+  {
+    "name": "calibration",
+    "source": "<PROJECT_ROOT>\\outputs\\v7_predictive_performance_20261007_v1\\analyze.py",
+    "source_sha256": "03027376c11891f9a237760240db7587d9c2bf647d5e05154b24281963bae5e1",
+    "start_line": 27,
+    "definition_sha256": "24980966782dccbe192a177d9dcf8eed2bb35cc2f4d104fa7e89950f8649e2c5"
+  },
+  {
+    "name": "Evaluator",
+    "source": "<PROJECT_ROOT>\\outputs\\v7_predictive_performance_20261007_v1\\analyze.py",
+    "source_sha256": "03027376c11891f9a237760240db7587d9c2bf647d5e05154b24281963bae5e1",
+    "start_line": 58,
+    "definition_sha256": "207e3400fd6de4416d4e44bc04a7d899c6d2580fdc4cfc2ac72f64a5755f83e9"
+  },
+  {
+    "name": "verify_math",
+    "source": "<PROJECT_ROOT>\\outputs\\v7_predictive_performance_20261007_v1\\analyze.py",
+    "source_sha256": "03027376c11891f9a237760240db7587d9c2bf647d5e05154b24281963bae5e1",
+    "start_line": 103,
+    "definition_sha256": "6e45be2e035b9dcc37e562cef4f138b3d57e3077a9add9581ff0221d6a320569"
+  },
+  {
+    "name": "first_mask",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\05_full_comparison_and_adult_sensitivity_20261014\\common.py",
+    "source_sha256": "82aa06d39bf90453ef3f4d55911946453455db5c60af9ab0143f6c78e5441f6a",
+    "start_line": 53,
+    "definition_sha256": "d3003628e414f3b267092c34393c0a00d9959f50cdc43ebaafd0565502a6dca8"
+  },
+  {
+    "name": "summarize",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\05_full_comparison_and_adult_sensitivity_20261014\\common.py",
+    "source_sha256": "82aa06d39bf90453ef3f4d55911946453455db5c60af9ab0143f6c78e5441f6a",
+    "start_line": 98,
+    "definition_sha256": "e40726b290f208a574611169f2a9908ba484d5ca7b3d3df328db885d7f45fd38"
+  },
+  {
+    "name": "context",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\analyze.py",
+    "source_sha256": "37d6cf964704fc87968056d89ce1da54c2d6193c645542161da512339d55f6a5",
+    "start_line": 5,
+    "definition_sha256": "a04f06c1c2857518931cd8c659c86499eab377a800f4fc95bc66bb3b2c2fbf48"
+  },
+  {
+    "name": "choose_prefix",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\analyze.py",
+    "source_sha256": "37d6cf964704fc87968056d89ce1da54c2d6193c645542161da512339d55f6a5",
+    "start_line": 7,
+    "definition_sha256": "8d270773fd8b4d57d844af6052cf69ad0cb427333649d424e8df14a27afdb473"
+  },
+  {
+    "name": "fast_value",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\analyze.py",
+    "source_sha256": "37d6cf964704fc87968056d89ce1da54c2d6193c645542161da512339d55f6a5",
+    "start_line": 11,
+    "definition_sha256": "a1e353b4849dff00b5c7932b9a38c885910dcb94d26f05e33ef7a8677288162d"
+  },
+  {
+    "name": "calculate",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\07_adult_model_targeted_improvement_and_repeat_alerts_20261015\\analyze.py",
+    "source_sha256": "37d6cf964704fc87968056d89ce1da54c2d6193c645542161da512339d55f6a5",
+    "start_line": 27,
+    "definition_sha256": "1543e8b75ff422aa8d82702503c9087dc481c635ca68608b34b6dc9d9d99be76"
+  },
+  {
+    "name": "pipeline",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\historical_sources\\parent_model_library_reference_only.py",
+    "source_sha256": "cbd067efb34e5672f9de17364f27665551cefd347d541e4cf9bfeb07e6d99737",
+    "start_line": 82,
+    "definition_sha256": "39c7158db7ca95af67b5d19040e1018af2e2dd94dc54ba7d28da5b59c7e78498"
+  },
+  {
+    "name": "uniform_ties",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\09_D18_supplementary_analyses_20261015\\workflow.py",
+    "source_sha256": "751d8c1361991e38bd386c639826045f37cd99c77cbec5b7aba012207423320f",
+    "start_line": 6,
+    "definition_sha256": "91b806388b4d6ad3ab86246e6741845b66fb5a42e24a83331daffc4babbecbda"
+  },
+  {
+    "name": "candidate",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\09_D18_supplementary_analyses_20261015\\workflow.py",
+    "source_sha256": "751d8c1361991e38bd386c639826045f37cd99c77cbec5b7aba012207423320f",
+    "start_line": 19,
+    "definition_sha256": "b16d2941378afb4dc882625e4089536be88ebec5acc4ba166d037fae8e2d41f0"
+  },
+  {
+    "name": "cooldown",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\09_D18_supplementary_analyses_20261015\\workflow.py",
+    "source_sha256": "751d8c1361991e38bd386c639826045f37cd99c77cbec5b7aba012207423320f",
+    "start_line": 25,
+    "definition_sha256": "46ebacdd229d279c5aedffb67ac6207fc6d9b1f5e052d46440b7a2d98a729dc5"
+  },
+  {
+    "name": "patient_counts",
+    "source": "<PROJECT_ROOT>\\adult_study_D17_H3_Adult_v1_20261014\\09_D18_supplementary_analyses_20261015\\workflow.py",
+    "source_sha256": "751d8c1361991e38bd386c639826045f37cd99c77cbec5b7aba012207423320f",
+    "start_line": 34,
+    "definition_sha256": "3ad1d772688f82255b9b76d5185635a99298eaf3f6c0e95b68f62c364059660b"
+  }
+]

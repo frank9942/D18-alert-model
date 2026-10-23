@@ -1,0 +1,7 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S44 Fixed specimen-rule definitions and selection overlap
+
+
+
+MULTIPLE need not contain respiratory specimens. R1 and R2 selected identical events at all 12 cohort/budget combinations, as each quota lay within the ICU-and-S stratum. They remain separately specified; identical estimates are shown once as R1/R2 below. No rule parameters were fitted to validation outcomes, although the rule design was informed by validation findings (Methods S22).

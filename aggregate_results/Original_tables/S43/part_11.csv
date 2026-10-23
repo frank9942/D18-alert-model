@@ -1,0 +1,13 @@
+﻿Budget,Strategy,"Additional patients
+95% CI","First capture added
+95% CI","Alerts per additional patient
+95% CI"
+1%,D18,51 (37 to 65),63 (47 to 78),60.55 (47.69 to 83.55)
+1%,Restricted training,36 (25 to 48),51 (37.98 to 64.02),85.78 (64.73 to 121.77)
+1%,ICU+LOS,25 (16 to 35),27 (17 to 38),123.52 (87.91 to 193.44)
+2%,D18,67 (52 to 83),89 (72 to 107),92.18 (74.48 to 119.14)
+2%,Restricted training,58 (44 to 72),80 (65 to 97),106.48 (85.71 to 140.6)
+2%,ICU+LOS,37 (25 to 50),53 (39 to 67),166.92 (124.14 to 246.65)
+5%,D18,122 (102 to 142),157 (134 to 179),126.54 (108.71 to 152.23)
+5%,Restricted training,117 (97 to 137),157 (133 to 179),131.95 (112.64 to 159.26)
+5%,ICU+LOS,67 (51 to 83.02),92 (73 to 111),230.42 (185.2 to 300.33)

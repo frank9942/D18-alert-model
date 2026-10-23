@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "inherited_expected_bounds_and_allocation": {
+    "status": "PASS",
+    "exhaustive_toy_cases": 220,
+    "unknown_assignments_with_ICU_allocation_enumeration": 1007,
+    "sharp_expected_patient_bounds_and_minimum_tipping_verified": true,
+    "allocation_math": {
+      "status": "PASS",
+      "exhaustive_random_expectation_checks": 20,
+      "explicit_patient_copy_deterministic_checks": 20,
+      "scipy_hypergeometric_reference_cases": 5,
+      "covered_cases": [
+        "unknown-only patient",
+        "baseline-covered patient",
+        "repeated positive events",
+        "patient resampled twice",
+        "mixed ICU strata",
+        "K=0",
+        "K=N",
+        "missing LOS",
+        "score ties"
+      ]
+    }
+  },
+  "additional_cases": 60,
+  "additional_exhaustive_assignments": 383,
+  "comparators": [
+    "original_LR",
+    "icu_los",
+    "icu_expected"
+  ],
+  "first_positive_recomputed": true
+}

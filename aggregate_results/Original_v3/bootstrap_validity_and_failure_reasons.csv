@@ -1,0 +1,97 @@
+﻿group,source_file,stratum,metric,requested,valid,failed,failure_reasons,mapping,population,strategy
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,BLOOD,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,BLOOD,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,MISSING,AUROC,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,MISSING,AP,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,MULTIPLE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,MULTIPLE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,OTHER,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,OTHER,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,RESP,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,RESP,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,URINE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_development_nested.csv,URINE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,BLOOD,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,BLOOD,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,MISSING,AUROC,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,MISSING,AP,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,MULTIPLE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,MULTIPLE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,OTHER,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,OTHER,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,RESP,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,RESP,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,URINE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2025.csv,URINE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,BLOOD,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,BLOOD,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,MISSING,AUROC,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,MISSING,AP,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,MULTIPLE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,MULTIPLE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,OTHER,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,OTHER,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,RESP,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,RESP,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,URINE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_hospital_2026.csv,URINE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,BLOOD,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,BLOOD,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,MISSING,AUROC,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,MISSING,AP,1000,0,1000,"{""empty population or only one known outcome class"": 1000}",,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,MULTIPLE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,MULTIPLE,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,OTHER,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,OTHER,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,RESP,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,RESP,AP,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,URINE,AUROC,1000,1000,0,{},,,
+A_标本透明规则与分层,bootstrap_stratum_performance_MIMIC_primary_adapted.csv,URINE,AP,1000,1000,0,{},,,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AUROC,1000,1000,0,{},flora_hypothesis_resp_v2,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AP,1000,1000,0,{},flora_hypothesis_resp_v2,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_in_the_large,1000,1000,0,{},flora_hypothesis_resp_v2,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_slope,1000,1000,0,{},flora_hypothesis_resp_v2,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AUROC,1000,1000,0,{},flora_hypothesis_resp_v2,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AP,1000,1000,0,{},flora_hypothesis_resp_v2,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_in_the_large,1000,1000,0,{},flora_hypothesis_resp_v2,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_slope,1000,1000,0,{},flora_hypothesis_resp_v2,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AUROC,1000,1000,0,{},original_v7,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AP,1000,1000,0,{},original_v7,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_in_the_large,1000,1000,0,{},original_v7,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_slope,1000,1000,0,{},original_v7,H90_unflagged_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AUROC,1000,1000,0,{},original_v7,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,AP,1000,1000,0,{},original_v7,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_in_the_large,1000,1000,0,{},original_v7,all_known,
+C_MIMIC结局映射敏感性,bootstrap_performance.csv,,calibration_slope,1000,1000,0,{},original_v7,all_known,
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,AUROC,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,AP,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,calibration_in_the_large,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,calibration_slope,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,AUROC,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,AP,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,calibration_in_the_large,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_development_nested.csv,,calibration_slope,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,AUROC,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,AP,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,calibration_in_the_large,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,calibration_slope,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,AUROC,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,AP,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,calibration_in_the_large,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2025.csv,,calibration_slope,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,AUROC,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,AP,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,calibration_in_the_large,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,calibration_slope,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,AUROC,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,AP,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,calibration_in_the_large,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_hospital_2026.csv,,calibration_slope,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,AUROC,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,AP,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,calibration_in_the_large,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,calibration_slope,1000,1000,0,{},,,D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,AUROC,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,AP,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,calibration_in_the_large,1000,1000,0,{},,,restricted_D18
+E_H90未标记专用模型,bootstrap_performance_MIMIC_primary_adapted.csv,,calibration_slope,1000,1000,0,{},,,restricted_D18

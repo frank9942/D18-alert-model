@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-15T12:21:42.558498+00:00",
+  "original_source_files_verified": 71,
+  "model_files_verified": 37,
+  "python_sources_parsed": 80,
+  "entry_document_links_checked": 19,
+  "aggregate_csv_patient_identifiers": false,
+  "credential_literal_scan_candidates": 0,
+  "patient_datasets_included": false,
+  "raw_database_query_performed": false,
+  "main_D18_replaced": false,
+  "clinical_results_changed": false,
+  "verification_scope": "portable fitting/scoring/evaluation and simulation, source identity and source result delivery; no repeat of every old sensitivity bootstrap",
+  "replication_report": "portable_reproduction_verification.json",
+  "relocation_report": "relocation_and_cli_verification.json",
+  "excluded_generated_files": [
+    "__pycache__",
+    "*.pyc"
+  ]
+}

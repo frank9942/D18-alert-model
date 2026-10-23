@@ -1,0 +1,16 @@
+ORIGINAL NUMBERING — see table_crosswalk.csv for current numbering.
+
+Table S40 T0 category versus actual positive specimen in additional coverage
+
+Only non-empty cells among D18 additionally covered patients at 2% are shown. The complete cross-tabulation for all positive and H90-covered patients, and the raw actual-specimen categories, are supplied in Supplementary Data 1. Counts overlap across cells; this is not clinical infection/colonisation adjudication.
+
+Hospital 2025
+
+
+
+Hospital 2026
+
+
+
+MIMIC-IV
+
